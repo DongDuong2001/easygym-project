@@ -58,7 +58,7 @@
 		<div class="info">
 			<p class="tag">{p.tag}</p>
 			<h1>{p.name}</h1>
-			<p class="stars" aria-label={`${p.reviews} đánh giá`}>
+			<p class="stars" role="img" aria-label={`${p.reviews} đánh giá`}>
 				{#each [1, 2, 3, 4, 5] as _}<Icon name="star" size={15} fill="currentColor" />{/each}
 				<span aria-hidden="true">{p.reviews} đánh giá</span>
 			</p>
