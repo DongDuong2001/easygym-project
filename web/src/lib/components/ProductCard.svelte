@@ -21,7 +21,7 @@
 	</div>
 
 	<h3><a href={`/san-pham/${p.slug}`}>{p.name}</a></h3>
-	<p class="stars" aria-label={`${p.reviews} đánh giá`}>
+	<p class="stars" role="img" aria-label={`${p.reviews} đánh giá`}>
 		{#each [1, 2, 3, 4, 5] as _}<Icon name="star" size={13} fill="currentColor" />{/each}
 		<span aria-hidden="true">({p.reviews})</span>
 	</p>

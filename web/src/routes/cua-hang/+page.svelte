@@ -59,6 +59,7 @@
 	</div>
 
 	{#if results.length}
+		<h2 class="sr-only">Danh sách sản phẩm</h2>
 		<div class="grid">
 			{#each results as p (p.slug)}<ProductCard product={p} />{/each}
 		</div>

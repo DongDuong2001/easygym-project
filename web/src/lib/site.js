@@ -56,7 +56,9 @@ export const nav = [
 export const library = [
 	{ href: '/hinh-anh', label: 'Hình ảnh hoạt động' },
 	{ href: '/video', label: 'Video' },
-	{ href: '/faq', label: 'FAQ' }
+	{ href: '/faq', label: 'FAQ' },
+	// the header heart is hidden on phones, so the footer is their way in
+	{ href: '/yeu-thich', label: 'Sản phẩm yêu thích' }
 ];
 
 export const social = [

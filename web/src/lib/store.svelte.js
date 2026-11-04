@@ -1,4 +1,6 @@
 // Cart and wishlist live in this browser's localStorage; orders and sign-ups go to the API.
+import { tick } from 'svelte';
+
 const KEY = 'easygym:v1';
 const SAVED = ['cart', 'wishes'];
 
@@ -62,6 +64,12 @@ export function toggleWish(slug) {
 	store.wishes = on ? [...store.wishes, slug] : store.wishes.filter((s) => s !== slug);
 	save();
 	say(on ? 'Đã thêm vào yêu thích' : 'Đã bỏ khỏi yêu thích');
+}
+
+/** After a failed submit, move to the first invalid field so its error is seen and read out (it may be off-screen on phones). */
+export async function focusError(form) {
+	await tick();
+	form.querySelector('[aria-invalid="true"]')?.focus();
 }
 
 /** POSTs JSON to the API (proxied by hooks.server.js). Throws an Error whose message can be shown to the visitor. */

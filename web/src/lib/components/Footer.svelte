@@ -2,19 +2,22 @@
 	import BrandIcon from './BrandIcon.svelte';
 	import { catalog } from '#lib/catalog.js';
 	import { brand, library, logo, nav, social } from '#lib/site.js';
-	import { addLead, say } from '#lib/store.svelte.js';
+	import { addLead, focusError, say } from '#lib/store.svelte.js';
 
 	const courses = $derived(catalog().courses);
 
 	let email = $state('');
 	let error = $state('');
+	let sending = $state(false);
 
 	async function subscribe(e) {
 		e.preventDefault();
 		if (!/^\S+@\S+\.\S+$/.test(email)) {
 			error = 'Email chưa đúng định dạng';
-			return;
+			return focusError(e.currentTarget);
 		}
+		if (sending) return;
+		sending = true;
 		try {
 			await addLead({ kind: 'newsletter', email, source: 'tin-moi' });
 			email = '';
@@ -22,6 +25,8 @@
 			say('Đã đăng ký nhận tin');
 		} catch (err) {
 			error = err.message;
+		} finally {
+			sending = false;
 		}
 	}
 </script>
@@ -68,10 +73,10 @@
 			<p class="hint">Để lại email để nhận thông tin về các khóa học và bài tập cùng nhiều ưu đãi hấp dẫn khác</p>
 			<form onsubmit={subscribe} novalidate>
 				<label class="sr-only" for="email-tin">Email</label>
-				<input id="email-tin" type="email" autocomplete="email" placeholder="Email của bạn" bind:value={email} aria-describedby="email-loi" />
-				<button class="btn light">Gửi</button>
+				<input id="email-tin" type="email" autocomplete="email" placeholder="Email của bạn" bind:value={email} aria-invalid={Boolean(error)} aria-describedby="email-loi" />
+				<button class="btn light" disabled={sending}>Gửi</button>
 			</form>
-			<p class="err" id="email-loi">{error}</p>
+			<p class="err" id="email-loi" aria-live="polite">{error}</p>
 		</div>
 	</div>
 
