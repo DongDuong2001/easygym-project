@@ -17,6 +17,7 @@
 	<h1 class="heading">Sản phẩm yêu thích</h1>
 
 	{#if list.length}
+		<h2 class="sr-only">Danh sách sản phẩm</h2>
 		<div class="grid">
 			{#each list as p (p.slug)}<ProductCard product={p} />{/each}
 		</div>
