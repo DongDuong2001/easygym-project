@@ -1,0 +1,920 @@
+{
+ "categories": [
+  {
+   "slug": "kefir",
+   "label": "Goat Kefir"
+  },
+  {
+   "slug": "banh",
+   "label": "Bánh Bông Lean"
+  },
+  {
+   "slug": "khoe",
+   "label": "Sản phẩm khỏe mạnh khác"
+  },
+  {
+   "slug": "ao",
+   "label": "Áo easyGYM"
+  }
+ ],
+ "products": [
+  {
+   "slug": "goat-kefir-a",
+   "name": "Goat Kefir A",
+   "category": "kefir",
+   "reviews": 9,
+   "image": "https://easygym.vn/uploads/source/food/z7876754781456_f28a0ab66acf59b5e35c46218a2b50ce.webp",
+   "tag": "Lên men từ sữa dê",
+   "variants": [
+    {
+     "label": "300ml",
+     "price": 55000
+    },
+    {
+     "label": "500ml",
+     "price": 85000
+    },
+    {
+     "label": "1000ml",
+     "price": 150000
+    }
+   ],
+   "images": [
+    "https://easygym.vn/uploads/source/food/z7876754781456_f28a0ab66acf59b5e35c46218a2b50ce.webp"
+   ],
+   "desc": "<p>Công dụng:<br>-Trẻ hóa<br>-Đẹp da<br>-Eo nhỏ<br>-Hỗ trợ giảm cân/giảm mỡ<br>-Chuẩn hóa vị giác, giảm thèm ngọt<br>-Xây dựng hệ ruột khỏe mạnh<br>-Giảm các triệu chứng tiêu hóa như đầy bụng, táo bón, trào ngược, tiêu chảy.<br>-Ngủ ngon</p>",
+   "detail": "<p>HDSD: bảo quản ngăn mát tủ lạnh, dùng trong vòng 7-10 ngày.<br>Hiệu quả nhất là dùng trước khi ăn 15-30', có thể dùng sau hoặc kèm với trái cây trong lúc ăn.<br>Với những người quá mẫn cảm với vị chua, dạ dày kích thích, hãy thử dùng kèm thêm nước hầm xương để phủ 1 lớp Gelatin lên thành ruột hoặc chuyển sang dùng sau ăn.<br>Liều lượng dùng: 100-300mỗi lần dùng, 300-1000ml/ngày. Tùy thuộc vào khẩu phần ăn nhiều-ít mỗi người</p>",
+   "questions": [
+    {
+     "q": "Goat Kefir A có điểm gì nổi bật?",
+     "a": "<p>Goat Kefir A được lên men từ sữa dê cùng lợi khuẩn Kefir tự nhiên, hỗ trợ tiêu hóa và chăm sóc sức khỏe toàn diện.</p>"
+    },
+    {
+     "q": "Goat Kefir A phù hợp với những ai?",
+     "a": "<p>Phù hợp cho người muốn cải thiện hệ tiêu hóa, ăn uống healthy, giữ dáng hoặc bổ sung lợi khuẩn mỗi ngày.</p>"
+    },
+    {
+     "q": "Uống Goat Kefir A mang lại lợi ích gì?",
+     "a": "<p>Hỗ trợ giảm đầy bụng, táo bón, cải thiện đường ruột, hỗ trợ đẹp da và giúp cơ thể phục hồi tốt hơn.</p>"
+    },
+    {
+     "q": "Goat Kefir A có hỗ trợ giảm cân không?",
+     "a": "<p>Có. Sản phẩm giúp kiểm soát cảm giác thèm ngọt, hỗ trợ ăn uống lành mạnh và duy trì vóc dáng hiệu quả.</p>"
+    },
+    {
+     "q": "Nên dùng Goat Kefir A vào lúc nào?",
+     "a": "<p>Có thể sử dụng vào buổi sáng, sau bữa ăn hoặc trước khi ngủ để hấp thụ lợi khuẩn tốt hơn.</p>"
+    }
+   ]
+  },
+  {
+   "slug": "goat-kefir-s",
+   "name": "Goat Kefir S",
+   "category": "kefir",
+   "reviews": 6,
+   "image": "https://easygym.vn/uploads/source/food/screenshot-2026-05-28-225109.webp",
+   "tag": "Lên men từ sữa dê",
+   "variants": [
+    {
+     "label": "300ml",
+     "price": 75000
+    },
+    {
+     "label": "500ml",
+     "price": 130000
+    },
+    {
+     "label": "1000ml",
+     "price": 220000
+    }
+   ],
+   "images": [
+    "https://easygym.vn/uploads/source/food/screenshot-2026-05-28-225109.webp"
+   ],
+   "desc": "<p>HDSD: bảo quản ngăn mát tủ lạnh, dùng trong vòng 7-10 ngày.<br>Hiệu quả nhất là dùng trước khi ăn 15-30', có thể dùng sau hoặc kèm với trái cây trong lúc ăn.<br>Với những người quá mẫn cảm với vị chua, dạ dày kích thích, hãy thử dùng kèm thêm nước hầm xương để phủ 1 lớp Gelatin lên thành ruột hoặc chuyển sang dùng sau ăn.<br>Liều lượng dùng: 100-300mỗi lần dùng, 300-1000ml/ngày. Tùy thuộc vào khẩu phần ăn nhiều-ít mỗi người</p>",
+   "detail": "",
+   "questions": [
+    {
+     "q": "Goat Kefir S có công dụng gì nổi bật?",
+     "a": "<p>Goat Kefir S hỗ trợ hệ tiêu hóa khỏe mạnh, giúp đẹp da, giữ dáng và tăng cường sức khỏe đường ruột tự nhiên.</p>"
+    },
+    {
+     "q": "Goat Kefir S phù hợp với đối tượng nào?",
+     "a": "<p>Phù hợp cho người ăn healthy, người muốn giảm cân, cải thiện tiêu hóa hoặc bổ sung lợi khuẩn mỗi ngày.</p>"
+    },
+    {
+     "q": "Goat Kefir S mang lại lợi ích gì cho cơ thể?",
+     "a": "<p>Hỗ trợ giảm đầy bụng, táo bón, trào ngược, cải thiện giấc ngủ và giúp cơ thể phục hồi tốt hơn.</p>"
+    },
+    {
+     "q": "Vì sao nhiều người lựa chọn Goat Kefir S?",
+     "a": "<p>Vì sản phẩm giúp giảm cảm giác thèm ngọt, hỗ trợ kiểm soát cân nặng và duy trì lối sống lành mạnh.</p>"
+    },
+    {
+     "q": "Nên uống Goat Kefir S vào thời điểm nào?",
+     "a": "<p>Có thể dùng vào buổi sáng, sau bữa ăn hoặc trước khi ngủ để cơ thể hấp thụ lợi khuẩn hiệu quả hơn.</p>"
+    }
+   ]
+  },
+  {
+   "slug": "cow-kefir",
+   "name": "Cow Kefir",
+   "category": "kefir",
+   "reviews": 8,
+   "image": "https://easygym.vn/uploads/source/food/z7876769388636_15d43f7cc6b8f2c081f4449d6a404aca.webp",
+   "tag": "Lên men từ sữa bò",
+   "variants": [
+    {
+     "label": "300ml",
+     "price": 50000
+    },
+    {
+     "label": "500ml",
+     "price": 70000
+    },
+    {
+     "label": "1000ml",
+     "price": 130000
+    }
+   ],
+   "images": [
+    "https://easygym.vn/uploads/source/food/z7876769388636_15d43f7cc6b8f2c081f4449d6a404aca.webp"
+   ],
+   "desc": "<p>Công dụng:<br>-Trẻ hóa<br>-Đẹp da<br>-Eo nhỏ<br>-Hỗ trợ giảm cân/giảm mỡ<br>-Chuẩn hóa vị giác, giảm thèm ngọt<br>-Xây dựng hệ ruột khỏe mạnh<br>-Giảm các triệu chứng tiêu hóa như đầy bụng, táo bón, trào ngược, tiêu chảy.<br>-Ngủ ngon</p>",
+   "detail": "<p>HDSD: bảo quản ngăn mát tủ lạnh, dùng trong vòng 7-10 ngày.<br>Hiệu quả nhất là dùng trước khi ăn 15-30', có thể dùng sau hoặc kèm với trái cây trong lúc ăn.<br>Với những người quá mẫn cảm với vị chua, dạ dày kích thích, hãy thử dùng kèm thêm nước hầm xương để phủ 1 lớp Gelatin lên thành ruột hoặc chuyển sang dùng sau ăn.<br>Liều lượng dùng: 100-300mỗi lần dùng, 300-1000ml/ngày. Tùy thuộc vào khẩu phần ăn nhiều-ít mỗi người</p>",
+   "questions": [
+    {
+     "q": "Cow Kefir có công dụng gì nổi bật?",
+     "a": "<p>Cow Kefir hỗ trợ hệ tiêu hóa khỏe mạnh, giúp đẹp da, giữ dáng và cải thiện sức khỏe đường ruột tự nhiên.</p>"
+    },
+    {
+     "q": "Cow Kefir phù hợp với những ai?",
+     "a": "<p>Phù hợp cho người ăn healthy, người muốn cải thiện tiêu hóa, giảm đầy bụng hoặc bổ sung lợi khuẩn mỗi ngày.</p>"
+    },
+    {
+     "q": "Thành phần chính của Cow Kefir là gì?",
+     "a": "<p>Được lên men từ sữa cùng hệ lợi khuẩn Kefir tự nhiên giúp bổ sung probiotic tốt cho cơ thể.</p>"
+    },
+    {
+     "q": "Uống Cow Kefir mang lại lợi ích gì?",
+     "a": "<p>Hỗ trợ giảm đầy hơi, táo bón, cải thiện giấc ngủ, giảm cảm giác thèm ngọt và hỗ trợ phục hồi cơ thể.</p>"
+    },
+    {
+     "q": "Nên sử dụng Cow Kefir vào thời điểm nào?",
+     "a": "<p>Có thể uống vào buổi sáng, sau bữa ăn hoặc trước khi ngủ để cơ thể hấp thụ lợi khuẩn tốt hơn.</p>"
+    }
+   ]
+  },
+  {
+   "slug": "greek-kefir",
+   "name": "Greek Kefir 500g",
+   "category": "kefir",
+   "reviews": 4,
+   "image": "https://easygym.vn/uploads/source/food/z7881594102426_a71e19fef98d976e6999e7fdaea8141f.webp",
+   "tag": "Giàu protein",
+   "variants": [
+    {
+     "label": "500g",
+     "price": 170000
+    }
+   ],
+   "images": [
+    "https://easygym.vn/uploads/source/food/z7881594102426_a71e19fef98d976e6999e7fdaea8141f.webp"
+   ],
+   "desc": "",
+   "detail": "<p>Greek Kefir được làm từ sữa lên men tự nhiên, chứa nhiều lợi khuẩn có lợi cho hệ tiêu hóa. Với kết cấu sánh mịn và hàm lượng protein cao, sản phẩm giúp hỗ trợ tiêu hóa, tăng cường sức đề kháng và bổ sung dinh dưỡng cho cơ thể.</p> <h3>Ưu điểm nổi bật</h3> <ul> <li>Giàu lợi khuẩn tự nhiên.</li> <li>Hỗ trợ hệ tiêu hóa khỏe mạnh.</li> <li>Bổ sung protein và canxi.</li> <li>Không chất bảo quản.</li> <li>Phù hợp cho người ăn uống lành mạnh.</li> </ul> <h3>Hướng dẫn sử dụng</h3> <p>Dùng trực tiếp sau khi làm lạnh hoặc kết hợp cùng trái cây, granola, yến mạch để tăng thêm hương vị và dinh dưỡng.</p> <p><strong>Greek Kefir – Lựa chọn dinh dưỡng lành mạnh cho cả gia đình.</strong></p>",
+   "questions": [
+    {
+     "q": "Greek Kefir là gì?",
+     "a": "<p>Greek Kefir là thức uống lên men từ sữa, giàu lợi khuẩn và protein, hỗ trợ hệ tiêu hóa và tăng cường sức khỏe tổng thể.</p>"
+    },
+    {
+     "q": "Greek Kefir có lợi ích gì cho sức khỏe?",
+     "a": "<p>Sản phẩm giúp cân bằng hệ vi sinh đường ruột, hỗ trợ tiêu hóa, bổ sung protein và tăng cường sức đề kháng.</p>"
+    },
+    {
+     "q": "Greek Kefir phù hợp với những ai?",
+     "a": "<p>Phù hợp cho người ăn uống lành mạnh, người tập luyện thể thao, người muốn cải thiện tiêu hóa và bổ sung lợi khuẩn mỗi ngày.</p>"
+    },
+    {
+     "q": "Greek Kefir có dễ uống không?",
+     "a": "<p>Có. Greek Kefir có vị chua nhẹ tự nhiên, kết cấu sánh mịn và dễ kết hợp với trái cây hoặc ngũ cốc.</p>"
+    },
+    {
+     "q": "Nên sử dụng Greek Kefir vào thời điểm nào?",
+     "a": "<p>Có thể dùng vào bữa sáng, bữa phụ hoặc sau khi tập luyện để bổ sung dinh dưỡng hiệu quả.</p>"
+    }
+   ]
+  },
+  {
+   "slug": "bong-lean-supervani",
+   "name": "Bánh Bông Lean - vị Supervani",
+   "category": "banh",
+   "reviews": 16,
+   "image": "https://easygym.vn/uploads/source/food/screenshot-2026-05-28-233051.webp",
+   "tag": "223 kcal/100g",
+   "variants": [
+    {
+     "label": "10",
+     "price": 150000
+    },
+    {
+     "label": "14",
+     "price": 190000
+    },
+    {
+     "label": "18",
+     "price": 230000
+    }
+   ],
+   "images": [
+    "https://easygym.vn/uploads/source/food/screenshot-2026-05-28-233051.webp"
+   ],
+   "desc": "<p>Thành phần bánh:<br>-100% bột nguyên cám whole grain<br>-Mật ong rừng nguyên chất<br>-Bột whey collagen<br>-Trứng gà ta<br><br>Macros bánh, trong 100g bánh bông lean chứa:<br>-Calories: 223 Kcals<br>-Carb: 28.7g<br>-Pro: 16g<br>-Fat: 5.4<br>-Fiber 14g</p>",
+   "detail": "",
+   "questions": [
+    {
+     "q": "Bánh Bông Lean vị Supervani có gì đặc biệt?",
+     "a": "<p>Bánh có <strong>hương vani nhẹ</strong>, dễ ăn, không ngọt gắt, phù hợp khẩu vị số đông.</p>"
+    },
+    {
+     "q": "Bánh này phù hợp với ai?",
+     "a": "<p>Phù hợp cho <strong>người ăn clean, tập gym, giữ dáng</strong> hoặc cần bữa ăn nhẹ lành mạnh trong ngày.</p>"
+    },
+    {
+     "q": "Thành phần chính của bánh là gì?",
+     "a": "<p>Làm từ <strong>100% bột nguyên cám (whole grain)</strong>, mật ong rừng nguyên chất, trứng gà ta và <strong>whey collagen</strong>.</p>"
+    },
+    {
+     "q": "Giá trị dinh dưỡng của bánh ra sao?",
+     "a": "<p>Khoảng <strong>223 kcal / 100g</strong>, bánh <strong>đạm cao, nhiều chất xơ, ít béo</strong>, hỗ trợ kiểm soát cân nặng.</p>"
+    },
+    {
+     "q": "Nên dùng bánh vào thời điểm nào?",
+     "a": "<p>Ăn <strong>bữa phụ</strong>, trước hoặc sau tập, hoặc thay thế bánh ngọt thông thường khi muốn ăn lành mạnh.</p>"
+    }
+   ]
+  },
+  {
+   "slug": "bong-lean-socola",
+   "name": "Bánh Bông Lean - vị Socola tan chảy",
+   "category": "banh",
+   "reviews": 8,
+   "image": "https://easygym.vn/uploads/source/food/screenshot-2026-05-28-233247.webp",
+   "tag": "223 kcal/100g",
+   "variants": [
+    {
+     "label": "10",
+     "price": 140000
+    },
+    {
+     "label": "14",
+     "price": 180000
+    },
+    {
+     "label": "18",
+     "price": 220000
+    }
+   ],
+   "images": [
+    "https://easygym.vn/uploads/source/food/screenshot-2026-05-28-233247.webp"
+   ],
+   "desc": "<p>Thành phần bánh:<br>-100% bột nguyên cám whole grain<br>-Mật ong rừng nguyên chất<br>-Bột whey collagen<br>-Trứng gà ta<br><br>Macros bánh, trong 100g bánh bông lean chứa:<br>-Calories: 223 Kcals<br>-Carb: 28.7g<br>-Pro: 16g<br>-Fat: 5.4<br>-Fiber 14g</p>",
+   "detail": "",
+   "questions": [
+    {
+     "q": "Bánh Bông Lean vị Socola tan chảy có gì nổi bật?",
+     "a": "<p>Bánh có <strong>vị socola đậm</strong>, mềm ẩm, thơm béo nhẹ nhưng không gây ngán.</p>"
+    },
+    {
+     "q": "Bánh này phù hợp với đối tượng nào?",
+     "a": "<p>Phù hợp cho <strong>người tập gym, ăn clean, giữ dáng</strong> hoặc muốn ăn bánh nhưng hạn chế đường và chất béo.</p>"
+    },
+    {
+     "q": "Thành phần chính của bánh là gì?",
+     "a": "<p>Làm từ <strong>100% bột nguyên cám (whole grain)</strong>, mật ong rừng nguyên chất, trứng gà ta và <strong>whey collagen</strong>.</p>"
+    },
+    {
+     "q": "Lượng calo và dinh dưỡng ra sao?",
+     "a": "<p>Khoảng <strong>223 kcal / 100g</strong>, bánh <strong>giàu đạm, nhiều chất xơ, ít béo</strong>, hỗ trợ kiểm soát cân nặng.</p>"
+    },
+    {
+     "q": "Nên ăn bánh vào thời điểm nào là hợp lý?",
+     "a": "<p>Dùng làm <strong>bữa phụ</strong>, ăn <strong>trước hoặc sau tập</strong>, hoặc khi thèm đồ ngọt nhưng vẫn muốn ăn lành mạnh.</p>"
+    }
+   ]
+  },
+  {
+   "slug": "bong-lean-matcha",
+   "name": "Bánh Bông Lean - vị Matcha thanh đạm",
+   "category": "banh",
+   "reviews": 7,
+   "image": "https://easygym.vn/uploads/source/food/screenshot-2026-05-28-233238.webp",
+   "tag": "223 kcal/100g",
+   "variants": [
+    {
+     "label": "10",
+     "price": 140000
+    },
+    {
+     "label": "14",
+     "price": 180000
+    },
+    {
+     "label": "18",
+     "price": 220000
+    }
+   ],
+   "images": [
+    "https://easygym.vn/uploads/source/food/screenshot-2026-05-28-233238.webp"
+   ],
+   "desc": "<p>Thành phần bánh:<br>-100% bột nguyên cám whole grain<br>-Mật ong rừng nguyên chất<br>-Bột whey collagen<br>-Trứng gà ta<br><br>Macros bánh, trong 100g bánh bông lean chứa:<br>-Calories: 223 Kcals<br>-Carb: 28.7g<br>-Pro: 16g<br>-Fat: 5.4<br>-Fiber 14g</p>",
+   "detail": "",
+   "questions": [
+    {
+     "q": "Bánh Bông Lean vị Matcha có gì đặc biệt?",
+     "a": "<p>Bánh có vị <strong>matcha thanh đạm</strong>, dễ ăn, không ngọt gắt, phù hợp ăn hằng ngày.</p>"
+    },
+    {
+     "q": "Bánh này phù hợp với ai?",
+     "a": "<p>Phù hợp cho <strong>người ăn clean, giữ dáng, tập gym</strong> hoặc cần món bánh lành mạnh thay thế bánh ngọt thông thường.</p>"
+    },
+    {
+     "q": "Thành phần chính của bánh là gì?",
+     "a": "<p>Làm từ <strong>100% bột nguyên cám (whole grain)</strong>, mật ong rừng nguyên chất, trứng gà ta và <strong>whey collagen</strong>.</p>"
+    },
+    {
+     "q": "Giá trị dinh dưỡng của bánh ra sao?",
+     "a": "<p>Khoảng <strong>223 kcal / 100g</strong>, bánh <strong>giàu đạm, nhiều chất xơ, ít béo</strong>, hỗ trợ kiểm soát cân nặng.</p>"
+    },
+    {
+     "q": "Nên ăn bánh vào thời điểm nào?",
+     "a": "<p>Có thể ăn <strong>bữa phụ trong ngày</strong>, trước hoặc sau tập, hoặc khi thèm bánh nhưng vẫn muốn ăn lành mạnh.</p>"
+    }
+   ]
+  },
+  {
+   "slug": "chocolean",
+   "name": "Chocolean - Cho cơ thể bạn LEAN",
+   "category": "khoe",
+   "reviews": 10,
+   "image": "https://easygym.vn/uploads/source/food/screenshot-2026-05-28-233630.webp",
+   "tag": "100% cacao nguyên chất",
+   "variants": [
+    {
+     "label": "",
+     "price": 189000
+    }
+   ],
+   "images": [
+    "https://easygym.vn/uploads/source/food/screenshot-2026-05-28-233630.webp",
+    "https://easygym.vn/uploads/medium/food/screenshot-2026-05-28-233630.webp",
+    "https://easygym.vn/uploads/medium/feed-back/z7897951124693_3ce0da32e8cd834cc4f7dfa408723c41.webp",
+    "https://easygym.vn/uploads/medium/feed-back/z7897951121924_39ecaa127d72e8bf2b2a21ff18996b25.webp",
+    "https://easygym.vn/uploads/medium/feed-back/715345737_1485350690054949_6950410533442197925_n.webp",
+    "https://easygym.vn/uploads/medium/feed-back/714804934_1545993780569159_8912374416205428917_n.webp",
+    "https://easygym.vn/uploads/medium/feed-back/z7897951131233_2a9f51e7922e66f5569bd369a6714293.webp",
+    "https://easygym.vn/uploads/medium/feed-back/708986647_1002672628919515_5443472682837992001_n.webp",
+    "https://easygym.vn/uploads/medium/feed-back/711075321_4545208605805460_3056096583564840950_n.webp",
+    "https://easygym.vn/uploads/medium/feed-back/711583123_1535173288312799_5288964453758819466_n.webp",
+    "https://easygym.vn/uploads/medium/feed-back/712286461_1374815164752430_2467230653963574532_n.webp",
+    "https://easygym.vn/uploads/medium/feed-back/712523127_1876635513026424_2841046272271165571_n.webp",
+    "https://easygym.vn/uploads/medium/feed-back/714303106_1329754232438969_2737815309673632358_n.webp",
+    "https://easygym.vn/uploads/medium/feed-back/714597832_1931994994123174_6537685637579559655_n.webp",
+    "https://easygym.vn/uploads/medium/feed-back/690668392_2312158082644884_1322777077729041319_n.webp"
+   ],
+   "desc": "",
+   "detail": "<h3>Công dụng của Chocolean và cách sử dụng hiệu quả nhất</h3> <p>Bắt đầu từ thế kỉ 20, cacao và socola được sử dụng làm nguyên liệu cho nhiều món nước và thức ăn được ưa chuộng trên nhiều nước, đặc biệt là Châu Âu. Nhưng công dụng của bột cacao và cách sử dụng sao cho phát huy được tác dụng của bột cacao thì chưa thật sự được nhiều người biết đến .</p> <p>Dưới đây là top 10 công dụng và những lợi ích của Chocolean được biết đến nhiều nhất:</p> <p><img src=\"https://file.hstatic.net/1000396324/file/cong-dung-cua-bot-cacao_da21014a06b64f4b9215d009b57a6797_grande.jpg\" alt=\"Công dụng của bột cacao và cách sử dụng hiệu quả nhất\"></p> <h2><strong>Công Dụng Của Chocolean</strong></h2> <h3><strong>1. Tăng cường trao đổi chất</strong></h3> <p>Tiến sĩ Shilpa Mittal, Chuyên gia dinh dưỡng Ấn Độ, cho biết “Ca cao nguyên chất là một thành phần tuyệt vời để thúc đẩy sự trao đổi chất.\" Chỉ trong vòng vài tuần sử dụng cacao sẽ giảm hormone cortisol, cải thiện sự trao đổi chất, và thậm chí cải thiện hoạt động vi sinh vật đường ruột.</p> <h3><strong>2. Tốt cho người mắc bệnh tim, đột quỵ</strong></h3> <p>Một nghiên cứu vừa được các nhà khoa học công bố trong các bài đánh giá đương đại về Y học Tim mạchcho thấy việc sử dụng thường xuyên các thực phẩm và đồ uống có nguồn gốc thực vật như Cacao làm giảm nguy cơ bệnh mạch vành và đột quỵ.</p> <p>Ngoài ra, nghiên cứu đã chứng minh được tác dụng có lợi của các chất có trong Cacao như Epicatechin (là một loại flavonoid có trong Cacao) đối với huyết áp, kháng insulin, và chức năng mạch máu và tiểu cầu. Các flavonoid có trong Cacao cũng giúp ngăn ngừa hiện tượng các tiểu cầu trong máu tự hòa với nhau dẫn đến hình thành máu đông.</p> <p><img src=\"https://file.hstatic.net/1000396324/file/cong-dung-cua-bot-cacao-3_b571b521f4884c34ab9b3462b31a40fe_grande.jpg\" alt=\"Bột cacao tốt cho người mắc bệnh tim, đột quỵ\"></p> <h3><strong>3. Chống oxy hóa</strong></h3> <p>Như các bạn đã biết chất chống oxy hóa giúp dễ tiêu hóa hơn. Vì vậy, khi dùng bữa người ta có thói quen uống rượu vang vì nó chứa hàm lượng chống oxy hóa cao.</p> <p>Nhưng Cacao lại chứa hàm lượng chất chống oxy hóa nhiều hơn cả rượu vang và trà xanh. Cho nên khi gặp phải trường hợp ăn quá nhiều hoặc khó tiêu thì các bạn hãy nghĩ ngay đến thanh chocolate hoặc ly cacao nhé!!!</p> <h3><strong>4. Cải thiện lưu thông máu, ổn định huyết áp</strong></h3> <p>Polyphenol là chất chống oxy hóa có trong Cacao và các loại thực phẩm khác như trái cây, rau, socola, trà và rượu vang. Polyphenol có rất nhiều lợi ích sức khỏe như giảm viêm, cải thiện mức cholesterol, tăng lưu lượng máu để giảm huyết áp và lượng đường trong máu.</p> <p>Ngoài ra, Cacao có khả năng tiêu thụ vào đường máu và sản sinh insulin, một chất có khả năng ổn định lượng đường trong máu.</p>  <h3><strong>5. Giảm cân, kiểm soát cân nặng</strong></h3> <p>Ca cao có tác dụng giảm cân không? Nghe có vẻ phản khoa học, nhưng thực tế cacao được sử dụng như một thức uống giảm cân. Bởi Thành phần chính trong ca cao là theobromine, một chất làm cho cơ thể cảm thấy no và ngăn chặn cảm giác thèm ăn.</p> <p>Vì vậy, để chiến đấu với cảm giác thèm ăn để kiểm soát cân nặng bản thân thì dùng caocao hoặc socola đen là cách hiệu quả.</p> <h3><strong>6. Làm đẹp da và bảo vệ da khỏi tác hại từ ánh nắng mặt trời</strong></h3> <p>Cacao nguyên chất chứa hàm lượng lớn chất chống oxy hóa, chống lại các gốc tự do sản sinh trong cơ thể, giúp làm chậm quá trình lão hóa, ngăn nếp nhăn. Nếu dùng cacao nguyên chất làm mặt nạ dưỡng da sẽ giúp da tươi trẻ, căng bóng,… Đó là lý do vì sao những chef thường xuyên sử dụng cacao trong công thức của mình thường có đôi bàn tay rất mịn màng, mềm mại.</p> <p>Ngoài ra, trong cacao còn chứ Polyphenol – một loại chất chống oxy hóa đặc biệt có khả năng hấp thụ tia UV. Chất này hấp thu tốt nhất qua đường ăn uống. Vì vậy, một ly hot chocolate mỗi ngày sẽ giúp bạn bảo vệ làn da của mình tốt hơn.</p> <h3><strong>7. Duy trì cơ và chức năng thần kinh</strong></h3> <p>Trong cacao chứa rất nhiều magie. Magnesium là 1 khoáng chất cần thiết cho hơn 300 phản ứng sinh hóa trong cơ thể chúng ta, và hạt cacao chứa tới 272 miligam/100 gram.</p> <p>Đây là chìa khóa cho cơ và chức năng thần kinh, giúp giữ nhịp tim ổn định. Nhờ có hàm lượng magiê cao, cùng với các tác động của epicatechin, cacao cải thiện cơ cấu cơ và tăng cường chức năng thần kinh.</p> <h3><strong>8. Ngăn ngừa thiếu máu</strong></h3> <p>Là một thực phẩm giàu sắt, công dụng của bột cacao có thể giúp chống các triệu chứng thiếu máu, nhờ việc bổ sung sắt cần thiết cho quá trình sản xuất hồng cầu.</p> <p>Lượng chất sắt dồi dào trong cacao giúp cơ thể tránh mệt mỏi, khó chịu do tác dụng phụ của thiếu máu gây ra.</p>  <h3><strong>10. Giàu dinh dưỡng</strong></h3> <p>Chất chống oxi hóa, chất béo, carbohydrate, protein, polyphenol, các chất khoáng như canxi, magie, lưu huỳnh, đồng, sắt, kẽm, kali, và một số chất béo không bão hòa đơn là những chất dinh dưỡng cần thiết cho sự phát triển của cơ thể và tim mạch,…. May mắn là, những chất này đều có thể dễ dàng tìm thấy trong cacao nguyên chất.</p> <p>Ngoài ra, tác dụng của ca cao với trẻ em là khi sử dụng, cơ thể trẻ cũng sẽ được hấp thụ các chất xơ và vitamin E, B2, B1, B5, B3, B9,… giúp cơ thể khỏe mạnh và tăng cường sức khỏe của hệ tiêu hóa.</p> <h2><strong>Cacao Và Socola Có Gì Khác Nhau?</strong></h2> <table> <tbody> <tr> <td> </td> <td><strong>Cacao</strong></td> <td><strong>Socola</strong></td> </tr> <tr> <td><strong>Bản chất</strong></td> <td>Là phần bột được nghiền từ chocolate liquor sau khi được ép lấy chất lỏng (loại bỏ được bơ ca cao).</td> <td>Là hỗn hợp giữa bột ca cao và bơ ca cao, pha trộn thêm đường và sữa có tỷ lệ khác nhau tùy theo mục đích sử dụng.</td> </tr> <tr> <td><strong>Màu sắc/Phân loại</strong></td> <td>Bột ca cao tự nhiên có màu nâu nhạt, có tính axit và mùi socola rất mạnh.</td> <td>Bộ socola có 3 loại: bột socola đen, trắng và nâu với màu sắc tương tự như tên gọi của nó.</td> </tr> <tr> <td><strong>Độ ngọt</strong></td> <td>Đối với bột ca cao chưa qua xử lý kiềm: có vị đắng đặc trưng, thỉnh thoảng có chút vị chua nhẹ. Đối với bột ca cao đã qua xử lý kiềm: giảm bớt độ đắng và màu sắc có thể trở nên sậm hơn.</td> <td>Tùy theo tỷ lệ đường và sữa mà socola có hương vị và màu sắc khác nhau, như có vị đắng, ngọt vừa và ngọt đắng.</td> </tr> </tbody> </table> <p>Tại các thương hiệu lớn, cacao và socola nguyên chất được xem là thước đo cho các món <strong><a href=\"https://chocolategraphics.vn/collections/banh-trung-thu-leong-yin\">quà trung thu</a></strong>, <strong><a href=\"https://chocolategraphics.vn/collections/qua-tet-cao-cap\">quà tết cao cấp</a></strong>, quà tặng doanh nghiệp và quà tặng cưới đẳng cấp.</p> <h2><strong>Làm Sao Để Phân Biệt CaCao Nguyên Chất Và CaCao Pha?</strong></h2> <table> <tbody> <tr> <td> </td> <td><strong>Ca cao nguyên chất</strong></td> <td><strong>Ca cao pha</strong></td> </tr> <tr> <td><strong>Màu sắc</strong></td> <td>Màu đậm, đều màu và tươi</td> <td>Màu nâu đỏ, nâu nhạt, không tươi. Có lẫn các đốm trắng nhạt do bị độn bột</td> </tr> <tr> <td><strong>Mùi vị</strong></td> <td>Tiền vị đắng, hậu vị chua béo dịu nhẹ</td> <td>Có mùi thơm và vị ngọt của sữa. Mùi cacao nhẹ</td> </tr> <tr> <td><strong>Hương thơm</strong></td> <td>Mùi hương tự nhiên</td> <td>Có nhiều mùi hương khác như socola, vani, sữa</td> </tr> <tr> <td><strong>Khi pha cùng nước</strong></td> <td>Hoà tan ngay, hơi lỏng và có hương thơm đặc trưng của cacao. Khi uống bạn sẽ cảm nhận được mùi vị rất đậm đà</td> <td>Cacao pha sẽ bị đặc lại khi pha vì chúng bị trộn thêm ngũ cốc , khi uống ít nghe được mùi cacao.</td> </tr> </tbody> </table> <h2><strong>Những Lưu Ý Khi Sử Dụng Chocolean</strong></h2> <p>Mặc dù là loại nguyên liệu giàu dưỡng chất, nhưng cũng như những thực phẩm sức khỏe khác, việc sử dụng cacao nên có kiểm soát, tránh lạm dụng dùng quá nhiều. Cụ thể về việc uống cacao đúng cách:</p> <ul> <li> <p>Không tiêu thụ nhiều hơn 40 gram hoặc 4 thìa cacao nguyên chất hàng ngày (hơn 15viên/ngày.</p> </li> <li> <p>Sử dụng Chocolean vào thời điểm nào là tốt nhất? Chỉ ngoại trừ việc bạn đang muốn tăng cân và cần phải ăn nhiều, việc dùng chocolean trước bữa ăn sẽ làm giảm cảm giác thèm ăn, còn lại mọi lúc bạn đều có thể sử dụng Chocolean.</p> </li> </ul> <p><img src=\"https://file.hstatic.net/1000396324/file/cong-dung-cua-bot-cacao-2_14d14446b12047cba83cf37443bc69c5_grande.jpg\" alt=\"Sử dụng cacao sau buổi tập luyện thể dục để lấy lại năng lượng nhanh chóng\"></p> <h2><strong>Cách pha Chocolean thành món nước cacao vừa ngon miệng vừa giúp phát huy công dụng của Chocolean</strong></h2> <p>Cho khoảng 3-4 viên Chocolean hòa tan trong 200 ml nóng nóng (70 – 80 độ C). Việc cho thêm nhiều Chocolean chỉ khiến chocolean không thể tan được trong nước, đồng thời, nước quá nóng hoặc quá lạnh cũng sẽ khiến Chocolean không thể tan ra.</p> <p>Khuấy đều và thưởng thức một ly cacao ấm nóng, ngát hương. Thật tuyệt đúng không nào.</p>",
+   "questions": [
+    {
+     "q": "Chocolean là gì?",
+     "a": "<p><strong>Chocolean</strong> là sản phẩm từ <strong>100% cacao nguyên chất</strong>, hỗ trợ giữ cơ thể LEAN, giúp hạn chế thèm ăn vặt và tăng sự tỉnh táo.</p>"
+    },
+    {
+     "q": "Chocolean phù hợp với ai?",
+     "a": "<p>Phù hợp cho <strong>người tập gym</strong>, người ăn uống lành mạnh, người muốn <strong>giữ dáng – giảm mỡ – kiểm soát cơn thèm ngọt</strong>.</p>"
+    },
+    {
+     "q": "Cách sử dụng Chocolean như thế nào?",
+     "a": "<p>Mỗi lần dùng <strong>2–4 viên</strong>, có thể sử dụng <strong>trước – trong – sau tập</strong> hoặc bất kỳ lúc nào trong ngày khi mệt mỏi hay thèm ăn vặt.</p>"
+    },
+    {
+     "q": "Chocolean có an toàn không?",
+     "a": "<p>Sản phẩm làm từ <strong>cacao nguyên chất</strong>, không phải thuốc, an toàn khi sử dụng đúng liều lượng và phù hợp cho lối sống năng động.</p>"
+    },
+    {
+     "q": "Dùng Chocolean có giúp giảm cân không?",
+     "a": "<p>Chocolean <strong>không phải thuốc giảm cân</strong>, nhưng hỗ trợ <strong>kiểm soát ăn vặt, tăng tỉnh táo</strong>, từ đó giúp bạn duy trì chế độ ăn uống và tập luyện hiệu quả hơn.</p>"
+    }
+   ]
+  },
+  {
+   "slug": "thach-jellean",
+   "name": "Thạch Jellean",
+   "category": "khoe",
+   "reviews": 4,
+   "image": "https://easygym.vn/uploads/source/food/screenshot-2026-05-28-224641.webp",
+   "tag": "50 calories/100g",
+   "variants": [
+    {
+     "label": "",
+     "price": 89000
+    }
+   ],
+   "images": [
+    "https://easygym.vn/uploads/source/food/screenshot-2026-05-28-224641.webp"
+   ],
+   "desc": "",
+   "detail": "<p>Một món thạch \"càng ăn càng khô\" đúng theo tiêu chí của hệ sinh thái easyGYM, ko cần quan tâm đến liều lượng, ăn no thì nghỉ.</p> <p>Hé lộ 2 ingredients chủ chốt trong món Jeallean này:<br>-Flanovoids<br>-Potassium <br>Không chứa đường, không chất bảo quản, chất tạo ngọt.</p> <p>100g Jellean chứa 50 calories với tỉ lệ CPF là 5:4:5, với một người khỏe mạnh thì sức ăn cùng lắm là 300g tương ứng với 150 calories nếu chỉ ăn mỗi Jellean này, như vậy là rất thấp, phù hợp với những ai muốn giảm cân, giữ dáng.</p> <p>Đặc biệt với công thức bí truyền, 100g Jellean chứa tới 750mg Potassium, như vậy sẽ đặc biệt giải quyết rất nhanh những vấn đề thiếu hụt khoáng và giảm hiệu suất thể thao. </p> <p>Những đối tượng sau đây:<br>-Hay nóng trong người, dễ đổ mồ hôi<br>-Ra mồ hôi rất nhiều<br>-Thường xuyên khát nước<br>-Hay bị chuột rút, cơ bắp co rút<br>-Người bị tích nước, sưng phù</p> <p>➜Thì Jellean được coi là giải pháp ăn uống tối ưu để fix.</p> <p>Preorder tại bếp easyMEAL. Món mới nghĩ ra, ăn ngon quá, sáng dậy lại thấy khô hơn nên đăng lên kêu mọi người cùng test.</p>",
+   "questions": [
+    {
+     "q": "Thạch Jellean có gì đặc biệt?",
+     "a": "<p>Jellean là món thạch eat-clean không đường, không chất bảo quản và không chất tạo ngọt, phù hợp cho lối sống healthy.</p>"
+    },
+    {
+     "q": "Thạch Jellean phù hợp với những ai?",
+     "a": "<p>Phù hợp cho người giảm cân, giữ dáng, tập gym hoặc muốn tìm món ăn vặt lành mạnh mỗi ngày.</p>"
+    },
+    {
+     "q": "Điểm nổi bật về dinh dưỡng của Jellean là gì?",
+     "a": "<p>Thạch chỉ khoảng 50 calories/100g và chứa lượng Potassium cao giúp bổ sung khoáng chất hiệu quả.</p>"
+    },
+    {
+     "q": "Ăn Jellean mang lại lợi ích gì?",
+     "a": "<p>Giúp no lâu, hạn chế thèm ăn, hỗ trợ kiểm soát cân nặng và bổ sung năng lượng nhẹ cho cơ thể.</p>"
+    },
+    {
+     "q": "Nên dùng Thạch Jellean vào lúc nào?",
+     "a": "<p>Có thể dùng làm bữa phụ, ăn sau tập hoặc sử dụng khi cần món ăn nhẹ healthy mà không lo tăng cân.</p>"
+    }
+   ]
+  },
+  {
+   "slug": "kim-chi-organic",
+   "name": "Kim Chi Organic - Kim chi chuẩn vị Hàn Quốc",
+   "category": "khoe",
+   "reviews": 1,
+   "image": "https://easygym.vn/uploads/source/food/screenshot-2026-05-28-233530.webp",
+   "tag": "Chuẩn vị Hàn Quốc",
+   "variants": [
+    {
+     "label": "Hũ",
+     "price": 130000
+    },
+    {
+     "label": "Kg",
+     "price": 220000
+    }
+   ],
+   "images": [
+    "https://easygym.vn/uploads/source/food/screenshot-2026-05-28-233530.webp"
+   ],
+   "desc": "<p>Quá trình lên men kim chi cũng tạo ra một môi trường thuận lợi cho các vi khuẩn thân thiện khác phát triển và sinh sôi. Trên thực tế, các loại lợi khuẩn có liên quan đến việc hỗ trợ một số tình trạng gồm:</p> <p>Cảm cúm;<br>Táo bón;<br>Cải thiện sức khỏe đường tiêu hóa;<br>Cải thiện sức khỏe tim mạch;<br>Cải thiện sức khỏe tinh thần;<br>Cải thiện tình trạng da.<br>Tăng cường khả năng chuyển hóa protein<br><br>Tuy nhiên các lợi ích này chỉ có được khi bổ sung lợi khuẩn liều cao chứ không phải số lượng lợi khuẩn có trong một khẩu phần kim chi điển hình. Vì vậy sẽ rất tốt nếu kết hợp Kimchi với Kefir</p>",
+   "detail": "<h2>7 lợi ích đáng ngạc nhiên của Kim chi</h2> <p><strong>Kim chi (món ăn truyền thống của Hàn Quốc) là một món rau ngâm chua cay. Kim chi truyền thống được làm bằng cách ngâm bắp cải, hành lá hoặc củ cải trong nước muối với tỏi, gừng, ớt tiêu và nước mắm, sau đó để cho các nguyên liệu lên men. Kim chi có bề dày lịch sử lâu đời ở Hàn Quốc với niên đại hơn 2.000 năm. Vậy ăn kimchi nhiều có tốt không và lợi ích về sức khỏe của món ăn này là gì?</strong></p> <h2>1.Kim chi chứa nhiều dinh dưỡng - ít calo</h2> <p>Cải thảo là một trong những thành phần chính của <strong>kim chi</strong>, đây là loại thực phẩm chứa một lượng lớn vitamin A và C. Bên cạnh đó, cải thảo còn cung cấp ít nhất 10 loại khoáng chất khác nhau và hơn 34 loại <a href=\"https://www.vinmec.com/vie/bai-viet/axit-amin-la-gi-vai-tro-va-tac-dung-vi\"><strong>axit amin</strong></a><strong>.</strong></p> <p><strong>Kim chi cải thảo</strong> có thể chứa thêm nhiều loại rau củ và gia vị khác, tuy nhiên trung bình một khẩu phần<strong> kim chi</strong> <strong>cải thảo</strong> 150gram sẽ cung cấp khoảng:</p> <ul> <li>Vitamin B6: 19% nhu cầu hàng ngày;</li> <li>Vitamin C: 22% nhu cầu hàng ngày;</li> <li>Vitamin K: 55% nhu cầu hàng ngày;</li> <li>Folate: 20% nhu cầu hàng ngày;</li> <li>Sắt: 21% nhu cầu hàng ngày;</li> <li>Niacin: 10% nhu cầu hàng ngày;</li> <li>Riboflavin: 24% nhu cầu hàng ngày,</li> </ul> <p>Rau xanh là nguồn cung cấp vitamin K và riboflavin tuyệt vời. Trong khi đó, <strong>kim chi</strong> thường bao gồm rất nhiều loại rau xanh như bắp cải, <a href=\"https://www.vinmec.com/vie/bai-viet/can-tay-loi-ich-suc-khoe-thong-tin-dinh-duong-vi\"><strong>cần tây</strong></a> và rau bina... vì vậy <strong>kim chi</strong> là một món ăn tuyệt vời để cung cấp những chất dinh dưỡng này cho cơ thể.</p> <p><a href=\"https://www.vinmec.com/vie/bai-viet/nhung-thuc-pham-giau-vitamin-k-vi\"><strong>Vitamin K</strong></a> đóng một vai trò quan trọng trong chuyển hóa xương (giữ cho xương không bị giòn) và <a href=\"https://www.vinmec.com/vie/bai-viet/qua-trinh-dong-cam-mau-dien-ra-nao-vi\"><strong>quá trình đông máu</strong></a>, trong khi đó riboflavin giúp điều chỉnh quá trình sản xuất năng lượng, tăng trưởng tế bào và trao đổi chất. Thêm vào đó, quá trình lên men có thể giúp các chất dinh dưỡng dễ hấp thụ hơn.</p> <p>Có thể thấy, <strong>kim chi</strong> có bảng thành phần dinh dưỡng tuyệt vời với hàm lượng calo thấp nhưng chứa nhiều chất dinh dưỡng như sắt, folate và vitamin B6 và K.</p> <p>Choline được tìm thấy trong <strong>kim chi</strong> là một hợp chất tự nhiên rất quan trọng để duy trì tế bào, cơ bắp, hệ thần kinh và thậm chí cả tâm trạng. Ngoài ra, choline cũng rất quan trọng để duy trì trí nhớ.</p> <h2>2. 9 lợi ích đáng ngạc nhiên của Kim chi</h2> <h3><strong>2.1. Bổ sung men vi sinh</strong></h3> <p>Quá trình lên men lacto mà <strong>kim chi</strong> trải qua khiến <strong>kim chi</strong> trở nên đặc biệt độc đáo, có thời hạn sử dụng kéo dài hơn và có hương vị đặc biệt thơm ngon hơn.</p> <p>Quá trình lên men xảy ra khi tinh bột hoặc đường được chuyển hóa thành rượu hoặc axit bởi các sinh vật như nấm men, nấm mốc hoặc vi khuẩn. Quá trình lên men lactose của <strong>kim chi</strong> sử dụng vi khuẩn Lactobacillus để phân hủy đường thành axit lactic, tạo cho <strong>kim chi</strong> có vị chua đặc trưng. Vi khuẩn này có thể hỗ trợ các tình trạng như <a href=\"https://www.vinmec.com/vie/bai-viet/sot-co-kho-la-gi-va-hay-gap-trong-mua-nao-vi\"><strong>sốt cỏ khô</strong></a> và một số loại tiêu chảy.</p> <p>Quá trình lên men <strong>kim chi</strong> cũng tạo ra một môi trường thuận lợi cho các vi khuẩn thân thiện khác phát triển và sinh sôi. Trên thực tế, các loại lợi khuẩn có liên quan đến việc hỗ trợ một số tình trạng gồm:</p> <ul>  <li>Cảm cúm;</li> <li>Táo bón;</li> <li>Cải thiện sức khỏe đường tiêu hóa;</li> <li>Cải thiện sức khỏe tim mạch;</li> <li>Cải thiện sức khỏe tinh thần;</li> <li>Cải thiện tình trạng da.</li> </ul> <p>Tuy nhiên các lợi ích này chỉ có được khi bổ sung lợi khuẩn liều cao chứ không phải số lượng lợi khuẩn có trong một khẩu phần <strong>kim chi</strong> điển hình.</p> <p>Tóm lại, ăn các men vi sinh có trong thực phẩm lên men có thể giúp giảm các triệu chứng của rối loạn tiêu hóa như <a href=\"https://www.vinmec.com/vie/benh/hoi-chung-ruot-kich-thich-3045\"><strong>hội chứng ruột kích thích</strong></a> và viêm ruột kết. Việc duy trì hệ vi khuẩn đường ruột khỏe mạnh là điều quan trọng đối với sức khỏe tổng thể.</p> <figure> </figure> <p><img src=\"https://www.vinmec.com/static/uploads/large_20210312_024233_911182_kim_chi_cai_thao_co_max_1800x1800_jpg_b346777918.jpg\" alt=\" Kim chi bổ sung một lượng men vi sinh cho cơ thể người dùng \"></p> <p>Kim chi bổ sung một lượng men vi sinh cho cơ thể người dùng</p> <h3><strong>2.2. Tăng cường hệ thống miễn dịch</strong></h3> <p>Các Lactobacillus vi khuẩn trong <strong>kim chi</strong> (tương tự được tìm thấy trong sữa chua) có thể tăng cường sức khỏe miễn dịch của người dùng. Trong một nghiên cứu trên chuột, những con chuột được tiêm Lactobacillus plantarum (một chủng vi khuẩn cụ thể phổ biến trong <strong>kim chi</strong> và các thực phẩm lên men khác) có lượng <a href=\"https://www.vinmec.com/vie/bai-viet/cac-chat-uc-che-tnf-alpha-so-voi-cac-lieu-phap-sinh-hoc-khac-cho-benh-crohn-vi\"><strong>yếu tố hoại tử khối u alpha (TNF alpha)</strong></a> thấp hơn so với nhóm chuột đối chứng. Trên lâm sàng, mức TNF alpha thường tăng cao khi nhiễm trùng và bệnh tật, giảm xuống khi hệ thống miễn dịch đang hoạt động hiệu quả.</p> <p>Tương tự như vậy, một nghiên cứu trong phòng thí nghiệm đã phân lập được vi khuẩn Lactobacillus plantarum từ <strong>kim chi</strong> và chứng minh được rằng vi khuẩn này có tác dụng tăng cường miễn dịch. Tuy những kết quả này đầy hứa hẹn nhưng vẫn cần thêm các nghiên cứu trên cơ thể con người.</p> <h3><strong>2.3. Giảm viêm</strong></h3> <p><a href=\"https://www.vinmec.com/vie/bai-viet/probiotics-la-gi-vi\"><strong>Probiotics</strong></a> và các hợp chất hoạt động trong <strong>kim chi</strong>, cùng các loại thực phẩm lên men có thể giúp chống lại <strong>triệu chứng viêm</strong>. Ví dụ, nghiên cứu trên chuột cho thấy rằng một trong những hợp chất chính trong <strong>kim chi</strong> giúp cải thiện sức khỏe mạch máu bằng cách ngăn chặn hiện tượng viêm.</p> <p>Trong một nghiên cứu trên chuột khác, chiết xuất <strong>kim chi</strong> được sử dụng với liều lượng 91mg trên mỗi pound trọng lượng cơ thể (200mg mỗi kg) hàng ngày trong 2 tuần giúp làm giảm lượng các enzym liên quan đến viêm trong cơ thể chuột.</p> <p>Trong khi đó, một nghiên cứu trong phòng thí đã nghiệm xác nhận rằng Probiotics và các hợp chất hoạt động trong <strong>kim chi</strong> giúp hỗ trợ đặc tính chống viêm bằng cách ngăn chặn việc giải phóng các hợp chất gây viêm.</p> <h3><strong>2.4. Làm chậm quá trình lão hóa</strong></h3> <p>Hiện tượng viêm mãn tính không chỉ liên quan đến nhiều bệnh tật mà còn đẩy nhanh <a href=\"https://www.vinmec.com/vie/bai-viet/11-cach-giam-lao-hoa-da-som-vi\"><strong>quá trình lão hóa</strong></a>. Điều thú vị là<strong> kim chi</strong> có thể kéo dài tuổi thọ của tế bào bằng cách làm chậm quá trình này.</p> <p>Một nghiên cứu trong phòng thí nghiệm, các tế bào người được xử lý với <strong>kim chi</strong> đã chứng minh khả năng sống sót tăng lên khi đo lường sức khỏe tổng thể của tế bào, cũng như cho thấy tuổi thọ của các tế bào này sẽ kéo dài hơn. Tuy nhiên, nghiên cứu tổng thể trên người vẫn còn thiếu sót, cần có nhiều nghiên cứu hơn nữa trước khi kết luận <strong>kim chi</strong> như một phương pháp điều trị chống lão hóa .</p> <h3><strong>2.5. Ngăn ngừa nhiễm trùng nấm men</strong></h3> <p>Các lợi khuẩn có trong <strong>kim chi</strong> có thể giúp ngăn ngừa nhiễm trùng nấm men. Nhiễm nấm âm đạo xảy ra khi <a href=\"https://www.vinmec.com/vie/bai-viet/nam-candida-am-dao-co-de-chua-khong-vi\"><strong>nấm Candida</strong></a> - một loại nấm thường vô hại nhưng đột nhiên nhân lên nhanh chóng trong âm đạo. Loại nấm này có thể phát triển các khả năng kháng thuốc kháng sinh, nhiều nhà nghiên cứu đang tìm kiếm các phương pháp điều trị tự nhiên thay vì sử dụng đến thuốc.</p> <p>Các nghiên cứu trong phòng thí nghiệm và động vật cho thấy một số chủng Lactobacillus có khả năng chống lại nấm Candida. Một nghiên cứu trong ống nghiệm khác còn phát hiện ra rằng nhiều chủng phân lập khác từ <strong>kim chi</strong> có hoạt tính kháng khuẩn chống lại loại nấm này.</p> <h3><strong>2.6. Hỗ trợ giảm cân</strong></h3> <p>Nhiều người thừa cân béo phì luôn tự hỏi <strong>ăn kimchi nhiều có tốt không</strong>? Thực tế kim chi tươi và lên men đều có hàm lượng calo thấp và có thể thúc đẩy giảm cân. Một nghiên cứu kéo dài 4 tuần ở 22 người thừa cân cho thấy ăn <strong>kim chi</strong> tươi hoặc kim chi đã lên men giúp giảm trọng lượng cơ thể, giảm <a href=\"https://www.vinmec.com/vie/bai-viet/chi-so-bmi-bao-nhieu-la-binh-thuong-vi\"><strong>chỉ số khối (BMI)</strong></a> và lượng chất béo bên trong. Ngoài ra, <strong>kim chi</strong> lên men còn làm giảm lượng đường trong máu và cải thiện tình trạng huyết áp cao.</p> <figure> </figure> <p><img src=\"https://www.vinmec.com/static/uploads/small_20210312_024232_854820_kim_chi_cai_thao_2_max_1800x1800_jpg_849c0074da.jpg\" alt=\" Kim chi cải thảo sử dụng hợp lý có thể hỗ trợ giảm cân \"></p> <p>Kim chi cải thảo sử dụng hợp lý có thể hỗ trợ giảm cân</p> <p>Tuy nhiên trên cơ sở khoa học, không rõ đặc tính nào của <strong>kim chi</strong> mang lại tác dụng giảm cân ngoài lượng calo thấp, hàm lượng chất xơ cao và bổ sung lợi khuẩn.</p> <h3><strong>2.7. Hỗ trợ sức khỏe tim mạch</strong></h3> <p><strong>Kim chi</strong> có thể làm giảm nguy cơ mắc bệnh tim, tác dụng này có được là do đặc tính chống viêm của nó, viêm có thể là nguyên nhân cơ bản của bệnh tim.</p> <p>Trong một nghiên cứu kéo dài 8 tuần ở những con chuột được cho ăn chế độ ăn nhiều <a href=\"https://www.vinmec.com/vie/bai-viet/muc-cholesterol-khuyen-cao-theo-tung-do-tuoi-vi\"><strong>cholesterol</strong></a>, lượng chất béo trong máu và gan ở những con chuột được sử dụng chiết xuất <strong>kim chi</strong> thấp hơn ở những con chuột trong nhóm đối chứng.</p> <p>Ngoài ra, chiết xuất <strong>kim chi</strong> có tác dụng ngăn chặn sự gia tăng của việc tích tụ chất béo. Điều này rất quan trọng vì sự tích tụ mỡ có thể góp phần gây ra bệnh tim. Bên cạnh đó, một nghiên cứu kéo dài một tuần trên 100 người đã phát hiện ra rằng ăn 0,5–7,5 ounce (15–210 gam) <strong>kim chi</strong> mỗi ngày làm giảm đáng kể lượng đường trong máu, cholesterol toàn phần và <a href=\"https://www.vinmec.com/vie/bai-viet/chi-so-ldl-cholesterol-trong-mau-la-gi-vi\"><strong>mức cholesterol LDL</strong></a> (xấu) - tất cả đều là những yếu tố nguy cơ gây bệnh tim.</p> <h2> </h2> <figure> </figure> <p><img src=\"https://www.vinmec.com/static/uploads/large_20210312_024233_485385_kim_chi_cai_thao_9_max_1800x1800_jpg_904999798f.jpg\" alt=\" Kim chi cải thảo ngon cần thực hiện cẩn thận và đúng quy trình \"></p> <p>Kim chi cải thảo ngon cần thực hiện cẩn thận và đúng quy trình</p> <h2>4. Vậy ăn kimchi nhiều có tốt không?</h2> <p>Mối quan tâm lớn nhất đối với món ăn này là <a href=\"https://www.vinmec.com/vie/benh/ngo-doc-thuc-pham-3244\"><strong>ngộ độc thực phẩm</strong></a>. Gần đây, <strong>kim chi</strong> có liên quan đến việc bùng phát <a href=\"https://www.vinmec.com/vie/bai-viet/vi-khuan-e-coli-co-vai-tro-gi-trong-co-va-thuong-gay-benh-gi-vi\"><strong>vi khuẩn E. coli</strong></a> và norovirus. Mặc dù thực phẩm lên men thường không mang mầm bệnh từ thực phẩm nhưng về cơ bản các thành phần của kim chi vẫn dễ bị nhiễm khuẩn. Do đó, những người có hệ thống miễn dịch yếu nên thận trọng với kim chi.</p> <p>Bạn nên tự chế biến hoặc mua <strong>kim chi</strong> từ một nguồn đáng tin cậy và bảo quản đúng cách để giảm thiểu rủi ro của bất kỳ tác dụng phụ nào.<br><br>Kimchi organic bởi bếp easyMEAL hoàn toàn không đường, không chất bảo quản, không phụ gia, không chất tạo màu dã khiến món KIMCHI này quay trở lại đúng với VỊ NGUYÊN BẢN của nó.</p>",
+   "questions": [
+    {
+     "q": "Kim Chi Organic có gì đặc biệt?",
+     "a": "<p>Kim chi được <strong>lên men tự nhiên theo chuẩn vị Hàn Quốc</strong>, giữ trọn vị chua cay hài hòa và giàu lợi khuẩn tốt cho sức khỏe.</p>"
+    },
+    {
+     "q": "Kim chi này phù hợp với ai?",
+     "a": "<p>Phù hợp cho người <strong>ăn uống lành mạnh</strong>, người tập gym, người cần <strong>cải thiện tiêu hóa</strong> và tăng cường sức đề kháng.</p>"
+    },
+    {
+     "q": "Ăn kim chi này có lợi gì?",
+     "a": "<p>Giúp <strong>tốt cho đường ruột</strong>, hỗ trợ tiêu hóa, giảm táo bón và góp phần tăng khả năng chuyển hóa dinh dưỡng.</p>"
+    },
+    {
+     "q": "Có thể dùng kim chi như thế nào?",
+     "a": "<p>Dùng trực tiếp, ăn kèm bữa chính, salad, cơm gạo lứt hoặc các món eat clean hằng ngày.</p>"
+    },
+    {
+     "q": "Kim Chi Organic có phù hợp ăn kiêng không?",
+     "a": "<p>Có. Kim chi <strong>ít calo</strong>, giàu chất xơ và lợi khuẩn, phù hợp cho chế độ <strong>eat clean – healthy – giữ dáng</strong>.</p>"
+    }
+   ]
+  },
+  {
+   "slug": "ao-easygym",
+   "name": "Áo easyGYM - thương hiệu easyGYM Unisex Cổ Tròn",
+   "category": "ao",
+   "reviews": 4,
+   "image": "https://easygym.vn/uploads/source/food/z7876777439754_40ad0b68615016f7084cdd350ff1ee05.webp",
+   "tag": "Unisex, cổ tròn",
+   "variants": [
+    {
+     "label": "M (m7, 70-80kg)",
+     "price": 429000
+    },
+    {
+     "label": "L (trên m7, 70-120kg)",
+     "price": 429000
+    }
+   ],
+   "images": [
+    "https://easygym.vn/uploads/source/food/z7876777439754_40ad0b68615016f7084cdd350ff1ee05.webp",
+    "https://easygym.vn/uploads/medium/food/z7876777439754_40ad0b68615016f7084cdd350ff1ee05.webp",
+    "https://easygym.vn/uploads/medium/san-pham/512073997_3717497831716134_186041783019179797_n.webp",
+    "https://easygym.vn/uploads/medium/san-pham/510500214_3716384911827426_8923822197666253094_n.webp",
+    "https://easygym.vn/uploads/medium/san-pham/589784280_3909082219224360_6547518610980105524_n.webp"
+   ],
+   "desc": "",
+   "detail": "<p><strong>Áo easyGYM – Unisex cổ tròn</strong> là áo tập luyện – sinh hoạt hằng ngày mang phong cách tối giản, dễ mặc cho cả nam và nữ. Thiết kế gọn gàng, năng động, phù hợp tập gym, vận động nhẹ hoặc mặc thường ngày, thể hiện tinh thần khỏe khoắn và hiện đại của thương hiệu <strong>easyGYM</strong>.</p>",
+   "questions": [
+    {
+     "q": "Áo easyGYM Unisex Cổ Tròn có gì nổi bật?",
+     "a": "<p>Áo được thiết kế theo phong cách tối giản, trẻ trung, dễ phối đồ và phù hợp cho cả nam lẫn nữ.</p>"
+    },
+    {
+     "q": "Áo easyGYM phù hợp để mặc khi nào?",
+     "a": "<p>Có thể mặc đi tập gym, chơi thể thao, đi chơi hoặc mặc thường ngày nhờ chất vải thoải mái và năng động.</p>"
+    },
+    {
+     "q": "Chất liệu áo easyGYM có thoải mái không?",
+     "a": "<p>Áo sử dụng chất liệu mềm mại, thoáng mát, thấm hút mồ hôi tốt giúp mặc dễ chịu suốt cả ngày.</p>"
+    },
+    {
+     "q": "Form áo easyGYM có dễ mặc không?",
+     "a": "<p>Form unisex hiện đại, vừa vặn cơ thể, phù hợp với nhiều dáng người khác nhau.</p>"
+    },
+    {
+     "q": "Vì sao nên chọn áo easyGYM Unisex Cổ Tròn?",
+     "a": "<p>Vì áo mang phong cách khỏe khoắn, dễ phối đồ, phù hợp tập luyện và sinh hoạt hằng ngày với mức giá hợp lý.</p>"
+    }
+   ]
+  }
+ ],
+ "courses": [
+  {
+   "slug": "tap-luyen-1-1",
+   "name": "TẬP LUYỆN 1-1 CÙNG easyGYM",
+   "mode": "Trực tiếp",
+   "card": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/screenshot-2026-06-02-084338.webp",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/604762944_3940431466089435_5730574963157915050_n.webp",
+   "desc": "Chương trình Coaching 1-1 easyGYM được thiết kế dành riêng cho những học viên có thể trạng đặc biệt, đang gặp các vấn đề về sức khỏe, bệnh lý, hoặc cần một lộ trình tập luyện theo dõi sát sao – cá nhân hóa tuyệt đối.",
+   "plans": [
+    {
+     "label": "1 tháng",
+     "price": 8700000
+    },
+    {
+     "label": "3 tháng",
+     "price": 24900000
+    },
+    {
+     "label": "6 tháng",
+     "price": 45700000
+    }
+   ],
+   "body": "<p>Với hình thức <strong>tập 1 kèm 1 cùng huấn luyện viên</strong>, easyGYM cam kết mang lại <strong>hiệu quả rõ rệt ngay sau khóa học đầu tiên</strong>.</p> <h3>Quyền lợi khi tham gia Coaching 1-1 easyGYM</h3> <ul> <li>Thời gian &amp; địa điểm tập luyện <strong>linh hoạt theo nhu cầu cá nhân</strong></li> <li>Lộ trình tập được xây dựng <strong>riêng cho từng học viên</strong></li> <li>Theo dõi sát sao thể trạng, đảm bảo an toàn và hiệu quả</li> <li><strong>Cam kết hiệu quả 100%</strong> sau khóa học đầu tiên</li> </ul> <h3><img src=\"https://easygym.vn/uploads/source/hinh-anh-thuc-te/screenshot-2026-05-26-224025.webp\" alt=\"\"></h3> <h3>Thông tin thanh toán</h3> <ul> <li><strong>Ngân hàng:</strong> Sacombank</li> <li><strong>Chủ tài khoản:</strong> NGUYỄN TIẾN ĐẠT</li> <li><strong>Số tài khoản:</strong> 060150087190</li> </ul> <p>Sau khi chuyển khoản, vui lòng <strong>chụp màn hình xác nhận</strong> và gửi về:</p> <ul> <li>Facebook cá nhân</li> <li>Zalo</li> <li>Email: <strong><a>Dat.easygym@gmail.com</a></strong></li> </ul> <h3>Hotline tư vấn &amp; đăng ký</h3> <p>📞 <strong>0967 856 518</strong></p>"
+  },
+  {
+   "slug": "group-training",
+   "name": "easyGYM x GROUP TRAINING",
+   "mode": "Trực tiếp theo nhóm",
+   "card": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/screenshot-2026-06-02-084351.webp",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/545067685_3809485122517404_7871706691362725826_n.webp",
+   "desc": "easyGYM x Group Training là hình thức tập luyện theo nhóm giúp bạn duy trì kỷ luật, tăng động lực và tối ưu hiệu quả tập luyện. Tập trực tiếp cùng easyGYM, có môi trường – có anh em – có người theo sát ăn uống và tập luyện, với chi phí tiết kiệm hơn PT 1–1.",
+   "plans": [
+    {
+     "label": "3 tháng",
+     "price": 10000000
+    }
+   ],
+   "body": "<p>easyGYM x Group training.</p> <p>Tại sao là TẬP NHÓM⁉️</p> <p>Vì khi có MÔI TRƯỜNG tập, hẹn nhau hết rồi, ta sẽ đúng giờ, ko bỏ lỡ, có trách nhiệm hơn.</p> <p>Vì khi có ANH EM tập, bản năng chiến đấu realman trỗi dậy, test tăng, tập hiệu quả và xung hơn.</p> <p>(Ai bảo đi tập có gái xinh đi ngang qua tập khỏe hơn là mấy thèn simp lỏ sĩ gái thôi nhé, anh em gymbro mới là chân ái🤣<br><br>Tập luyện theo nhóm, tiết kiệm chi phí, vẫn được follow theo dõi ăn uống và tập luyện thường xuyên<br>Rất phù hợp với những ai chưa có nhiều điều kiện tài chính mà vẫn muốn luyện tập trực tiếp với easyGYM.</p> <p><br>Mời các bạn trẻ chiến thần lập team vào chiến với Đạt easyGYM.<br><br><strong>Chi phí; 10.000.000vnd - 3 tháng</strong></p>"
+  },
+  {
+   "slug": "coach-online",
+   "name": "easyGYM-COACHONL. HƯỚNG DẪN TẬP ONLINE",
+   "mode": "Online",
+   "card": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/screenshot-2026-06-02-084905.webp",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/516800753_3738141202985130_735539858327737961_n.webp",
+   "desc": "Dành cho những bạn ở xa, không có cơ hội làm việc trực tiếp với Đạt, nhưng vẫn muốn tập luyện bài bản và tối ưu chi phí. Coach online là lựa chọn phù hợp, với giáo án tập luyện – ăn uống được thiết kế cá nhân hóa, theo sát và điều chỉnh thường xuyên trong suốt quá trình tập.",
+   "plans": [
+    {
+     "label": "3 tháng",
+     "price": 8000000
+    },
+    {
+     "label": "6 tháng",
+     "price": 13000000
+    }
+   ],
+   "body": "<p>🔥Chào bạn, cám ơn bạn đã quan tâm đến sức khỏe của bạn và khóa học easyGYM bên mình!<br>🔥 Coach Online:<br>-3 tháng 8tr<br>-6 tháng 13tr<br><br>✔️Bạn sẽ nhận được:<br>-Giáo trình tập luyện (bao gồm bài tập, check form)<br>-Kế hoạch dinh dưỡng (bao gồm thời gian, khẩu phần, chế biến, lựa chọn món,v.v)<br>-Hỏi đáp tất cả các vấn đề về sức khỏe<br><img src=\"https://easygym.vn/uploads/source/hinh-anh-thuc-te/screenshot-2026-06-02-084905.webp\" alt=\"\"><br>✔️ Quy trình:<br>-Sau khi purchase gói tập coach sẽ gửi assessment các mẫu hỏi và client sẽ hoàn thành trong 3 ngày.<br>-Khi coach nhận được đầy đủ các thông tin của client thông qua assessment thì sẽ bắt đầu setup plan tập và ăn.<br>-Khi client nhận được plan sẽ bắt đầu tính thời gian coaching.<br>-Plan ăn và tập có thể giữ nguyên hoặc thay đổi dựa trên updated của client qua từng tuần.<br><br>Dành cho client có nhu cầu tập trực tiếp hoặc video call checkin toàn bộ buổi tập trong thời gian coach online:<br>-1 buổi video call 500k<br>-tập trực tiếp 800k<br><br>STK: Sacombank <br>Nguyen Tien Dat<br>060150087190<br><br>Chuyển khoản vui lòng ghi rõ họ tên + coach online và chụp màn hình gửi qa zalo hoặc trang cá nhân của mình.<br>https://www.facebook.com/easygym.coach/ <br>zalo: 0967856518</p>"
+  },
+  {
+   "slug": "easygym-class",
+   "name": "easyGYM-CLASS. TÌM HIỂU VỀ NỀN VĂN MINH easyGYM",
+   "mode": "Online, tài liệu",
+   "card": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/e1d81075-f7e7-4737-8ae4-201263926785.webp",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/e1d81075-f7e7-4737-8ae4-201263926785.webp",
+   "desc": "Cùng tìm hiểu căn kẽ và góc gác của easyGYM, giúp bạn hiểu đúng về tập luyện, ăn uống và tư duy xây dựng thể hình. Sau khóa học, bạn có thể tự xây dựng lịch tập và chế độ ăn phù hợp với bản thân, áp dụng lâu dài và chủ động cho hành trình fitness của mình.",
+   "plans": [
+    {
+     "label": "1 slot",
+     "price": 4500000
+    }
+   ],
+   "body": "<p>▬ Dựa vào sở thích và mục tiêu mỗi người ta sẽ chọn ra những yều tố mình cần phải TẬP. <br>▬ Theo dõi và tăng tiến nó, khi đó mới gọi là LUYỆN. <br>▬ Khi cảm thấy chán, cần sự đổi mới, ta lại thay đổi các yếu tố, các bài tập, thậm chí cả bộ môn, đó gọi là sự ĐA DẠNG. <br>➜ Chính những vòng lặp 𝙩ậ𝙥 - 𝙡𝙪𝙮ệ𝙣 - đ𝙖 𝙙ạ𝙣𝙜 ấy tạo thành con đường tập luyện lâu dài và bền vững. <br>Đơn giản, dễ dàng, tiến bộ, toàn diện và tận hường việc luyện tập, đó cũng chính là con đường luyện tập của easyGYM</p> <p>Chuẩn bị ra khơi easyGYM class khóa 04 dự kiến cuối tháng 12, các bạn đặt chỗ từ bây giờ nhé. <br><img src=\"https://easygym.vn/uploads/source/hinh-anh-thuc-te/e1d81075-f7e7-4737-8ae4-201263926785.webp\" alt=\"\"><br>▶Hình thức học: online, gửi tài liệu, đọc hiểu, làm bài tập và giải đáp. <br>▶Tài liệu Bao gồm:<br>-easyGYM-nền tảng<br>-easyGYM-xây dựng và theo dõi tập luyện<br>-easyGYM-Các yếu tố thể chất<br>-easyGYM-lịch tập mẫu<br><br>-easyMEAL-nền tảng<br>-easyMEAL-xây dựng và theo dõi ăn uống<br>-easyMEAL-siêu thực phẩm<br>-easyMEAL-lịch ăn mẫu<br><br>-Easytips - 36 tips dễ dàng thực hiện để có một cơ thể khỏe mạnh hơn.<br><br>▶Tham gia cộng đồng Easygym - lifetime nơi bạn được giao lưu và hỏi đáp tất tần tật về gym. <br>▶SALEOFF 45% CHO KHÓA IV CÒN 4.500K/SLOT. </p> <p><img src=\"https://easygym.vn/uploads/source/hinh-anh-thuc-te/4670f8c6-dd65-42f6-a037-8fc8e7e6a91d.webp\" alt=\"\"></p>"
+  }
+ ],
+ "posts": [
+  {
+   "slug": "chocolean-va-cach-su-dung-hieu-qua-nhat",
+   "title": "Chocolean Và Cách Sử Dụng Hiệu Quả Nhất",
+   "excerpt": "Chocolean được tạo ra từ cacao nguyên chất chất lượng cao, mang đến giải pháp bổ sung dinh dưỡng tiện lợi cho người bận rộn. Vậy Chocolean có những công dụng gì và sử dụng như thế nào để đạt hiệu quả tốt nhất?",
+   "image": "https://easygym.vn/uploads/source/food/screenshot-2026-05-28-233630.webp",
+   "date": "30/05/2026",
+   "cat": "tin-tuc",
+   "body": "<h2> Chocolean Và Cách Sử Dụng Hiệu Quả Nhất</h2> <p>Từ lâu, cacao đã được xem là một trong những siêu thực phẩm giàu dinh dưỡng được yêu thích trên toàn thế giới. Không chỉ mang hương vị thơm ngon đặc trưng, cacao còn chứa nhiều hoạt chất có lợi cho sức khỏe, hỗ trợ tim mạch, kiểm soát cân nặng và nâng cao chất lượng cuộc sống.</p> <p><strong>Chocolean</strong> được tạo ra từ cacao nguyên chất chất lượng cao, mang đến giải pháp bổ sung dinh dưỡng tiện lợi cho người bận rộn. Vậy Chocolean có những công dụng gì và sử dụng như thế nào để đạt hiệu quả tốt nhất?</p> <h2>10 Công Dụng Nổi Bật Của Chocolean</h2> <h3>1. Hỗ Trợ Tăng Cường Trao Đổi Chất</h3> <p>Cacao nguyên chất chứa nhiều hoạt chất sinh học có khả năng thúc đẩy quá trình trao đổi chất tự nhiên của cơ thể. Việc sử dụng đều đặn giúp cơ thể chuyển hóa năng lượng hiệu quả hơn, đồng thời hỗ trợ duy trì cân nặng khỏe mạnh.</p> <h3>2. Tốt Cho Sức Khỏe Tim Mạch</h3> <p>Các hợp chất flavonoid có trong cacao được nhiều nghiên cứu ghi nhận có khả năng hỗ trợ sức khỏe tim mạch thông qua việc:</p> <ul> <li> <p>Cải thiện lưu thông máu.</p> </li> <li> <p>Hỗ trợ ổn định huyết áp.</p> </li> <li> <p>Giảm nguy cơ hình thành cục máu đông.</p> </li> <li> <p>Hỗ trợ chức năng mạch máu khỏe mạnh.</p> </li> </ul> <p>Đây là lý do cacao thường xuất hiện trong các chế độ ăn uống lành mạnh dành cho người quan tâm đến sức khỏe tim mạch.</p> <h3>3. Chống Oxy Hóa Mạnh Mẽ</h3> <p>Chocolean chứa hàm lượng chất chống oxy hóa cao, giúp trung hòa các gốc tự do gây hại cho cơ thể.</p> <p>Nhờ đó, sản phẩm góp phần:</p> <ul> <li> <p>Hỗ trợ làm chậm quá trình lão hóa.</p> </li> <li> <p>Bảo vệ tế bào khỏi tổn thương.</p> </li> <li> <p>Hỗ trợ hệ miễn dịch khỏe mạnh.</p> </li> </ul> <h3>4. Hỗ Trợ Ổn Định Đường Huyết Và Huyết Áp</h3> <p>Polyphenol trong cacao giúp cải thiện tuần hoàn máu, hỗ trợ điều hòa huyết áp và góp phần kiểm soát đường huyết hiệu quả hơn khi kết hợp cùng chế độ dinh dưỡng hợp lý.</p> <h3>5. Hỗ Trợ Kiểm Soát Cân Nặng</h3> <p>Một trong những ưu điểm nổi bật của Chocolean là khả năng hỗ trợ kiểm soát cảm giác thèm ăn.</p> <p>Thành phần theobromine tự nhiên trong cacao giúp tạo cảm giác no lâu hơn, từ đó giảm nhu cầu ăn vặt và hỗ trợ quá trình duy trì vóc dáng.</p> <h3>6. Làm Đẹp Da Từ Bên Trong</h3> <p>Các chất chống oxy hóa trong cacao giúp:</p> <ul> <li> <p>Hỗ trợ làm chậm quá trình lão hóa da.</p> </li> <li> <p>Giúp làn da tươi sáng hơn.</p> </li> <li> <p>Hỗ trợ bảo vệ da trước các tác động từ môi trường.</p> </li> </ul> <p>Việc bổ sung cacao thường xuyên có thể góp phần duy trì làn da khỏe mạnh và rạng rỡ.</p> <h3>7. Hỗ Trợ Hoạt Động Cơ Bắp Và Hệ Thần Kinh</h3> <p>Cacao là nguồn cung cấp magie tự nhiên dồi dào.</p> <p>Magie đóng vai trò quan trọng trong:</p> <ul> <li> <p>Hoạt động của hệ thần kinh.</p> </li> <li> <p>Chức năng cơ bắp.</p> </li> <li> <p>Duy trì nhịp tim ổn định.</p> </li> <li> <p>Hỗ trợ phục hồi sau vận động.</p> </li> </ul> <h3>8. Bổ Sung Sắt, Hỗ Trợ Ngăn Ngừa Thiếu Máu</h3> <p>Hàm lượng sắt tự nhiên trong cacao giúp hỗ trợ quá trình tạo hồng cầu, góp phần giảm nguy cơ thiếu máu do thiếu sắt và cải thiện tình trạng mệt mỏi.</p> <h3>9. Hỗ Trợ Hệ Hô Hấp</h3> <p>Theobromine trong cacao có tác dụng hỗ trợ làm dịu cổ họng và giảm cảm giác khó chịu đường hô hấp, đặc biệt trong những thời điểm thời tiết thay đổi.</p> <h3>10. Cung Cấp Nguồn Dinh Dưỡng Phong Phú</h3> <p>Chocolean chứa nhiều dưỡng chất thiết yếu như:</p> <ul> <li> <p>Protein thực vật</p> </li> <li> <p>Chất xơ</p> </li> <li> <p>Canxi</p> </li> <li> <p>Magie</p> </li> <li> <p>Kali</p> </li> <li> <p>Sắt</p> </li> <li> <p>Kẽm</p> </li> <li> <p>Vitamin nhóm B</p> </li> <li> <p>Vitamin E</p> </li> </ul> <p>Đây là nguồn dinh dưỡng phù hợp cho cả người lớn và trẻ em trong chế độ ăn uống cân bằng.</p> <h2>Chocolean Và Socola Khác Nhau Như Thế Nào?</h2> <table> <thead> <tr> <th>Tiêu chí</th> <th>Chocolean (Cacao nguyên chất)</th> <th>Socola thông thường</th> </tr> </thead> <tbody> <tr> <td>Thành phần chính</td> <td>Cacao nguyên chất</td> <td>Cacao, bơ cacao, đường, sữa</td> </tr> <tr> <td>Hàm lượng đường</td> <td>Thấp hoặc không bổ sung</td> <td>Cao hơn</td> </tr> <tr> <td>Hương vị</td> <td>Đậm vị cacao tự nhiên</td> <td>Ngọt và béo hơn</td> </tr> <tr> <td>Giá trị dinh dưỡng</td> <td>Giữ được nhiều hoạt chất tự nhiên</td> <td>Phụ thuộc công thức chế biến</td> </tr> <tr> <td>Mục đích sử dụng</td> <td>Chăm sóc sức khỏe, dinh dưỡng</td> <td>Thưởng thức, bánh kẹo</td> </tr> </tbody> </table> <h2>Cách Nhận Biết Cacao Nguyên Chất</h2> <h3>Cacao nguyên chất</h3> <ul> <li> <p>Màu nâu đậm tự nhiên.</p> </li> <li> <p>Mùi cacao rõ ràng.</p> </li> <li> <p>Vị đắng nhẹ đặc trưng.</p> </li> <li> <p>Hậu vị béo thanh tự nhiên.</p> </li> <li> <p>Hòa tan tốt và giữ được hương thơm đậm đà.</p> </li> </ul> <h3>Cacao pha</h3> <ul> <li> <p>Màu nhạt hơn.</p> </li> <li> <p>Có mùi sữa hoặc hương liệu.</p> </li> <li> <p>Vị ngọt rõ rệt.</p> </li> <li> <p>Dễ bị vón hoặc đặc khi pha.</p> </li> </ul> <h2>Hướng Dẫn Sử Dụng Chocolean Hiệu Quả</h2> <p>Để tận dụng tối đa lợi ích của sản phẩm, nên sử dụng đúng liều lượng và đúng cách.</p> <h3>Liều lượng khuyến nghị</h3> <ul> <li> <p>3 – 4 viên/lần sử dụng.</p> </li> <li> <p>Không nên dùng quá 15 viên mỗi ngày.</p> </li> </ul> <h3>Thời điểm sử dụng phù hợp</h3> <ul> <li> <p>Buổi sáng để bổ sung năng lượng.</p> </li> <li> <p>Trước giờ làm việc hoặc học tập.</p> </li> <li> <p>Sau khi tập luyện thể thao.</p> </li> <li> <p>Buổi chiều khi cần tỉnh táo và giảm cảm giác đói.</p> </li> </ul> <h3>Cách pha Chocolean</h3> <p><strong>Nguyên liệu:</strong></p> <ul> <li> <p>3 – 4 viên Chocolean</p> </li> <li> <p>200ml nước nóng khoảng 70 – 80°C</p> </li> </ul> <p><strong>Cách thực hiện:</strong></p> <ol> <li> <p>Cho Chocolean vào ly.</p> </li> <li> <p>Thêm nước nóng vừa đủ nhiệt độ.</p> </li> <li> <p>Khuấy đều cho tan hoàn toàn.</p> </li> <li> <p>Thưởng thức khi còn ấm.</p> </li> </ol> <p>Lưu ý không sử dụng nước quá nóng hoặc quá lạnh vì có thể ảnh hưởng đến khả năng hòa tan và hương vị của sản phẩm.</p> <h2>Kết Luận</h2> <p>Chocolean không chỉ là một món uống thơm ngon từ cacao nguyên chất mà còn là nguồn bổ sung dinh dưỡng giàu chất chống oxy hóa, khoáng chất và các hợp chất có lợi cho sức khỏe. Khi sử dụng đúng cách và kết hợp cùng chế độ ăn uống cân bằng, Chocolean có thể trở thành người bạn đồng hành lý tưởng giúp bạn duy trì năng lượng, chăm sóc sức khỏe và tận hưởng cuộc sống khỏe mạnh mỗi ngày.</p>"
+  },
+  {
+   "slug": "goat-kefir-thuc-uong-len-men-tu-nhien-giau-loi-khuan-cho-suc-khoe",
+   "title": "Goat Kefir – Thức Uống Lên Men Tự Nhiên Giàu Lợi Khuẩn Cho Sức Khỏe",
+   "excerpt": "Kefir là một loại thức uống lên men truyền thống được tạo ra từ sữa tươi và hạt kefir. Hạt kefir là tập hợp tự nhiên của nhiều chủng lợi khuẩn và nấm men có lợi như vi khuẩn lactic (Lactic Acid Bacteria), nấm men và vi khuẩn acetic.",
+   "image": "https://easygym.vn/uploads/source/food/snapedit_1780040591338.webp",
+   "date": "30/05/2026",
+   "cat": "tin-tuc",
+   "body": "<h2> </h2> <p> Goat Goat Kefir – Thức Uống Lên Men Tự Nhiên Giàu Lợi Khuẩn Cho Sức Khỏe</p> <h2>Goat Goat Kefir là gì?</h2> <p>Goat Kefir là một loại thức uống lên men truyền thống được tạo ra từ sữa tươi và hạt Goat Kefir . Hạt Goat Kefir là tập hợp tự nhiên của nhiều chủng lợi khuẩn và nấm men có lợi như vi khuẩn lactic (Lactic Acid Bacteria), nấm men và vi khuẩn acetic.</p> <p>Trong quá trình lên men, các vi sinh vật này chuyển hóa đường lactose trong sữa thành các hợp chất có lợi, tạo nên một loại thức uống giàu dinh dưỡng với hương vị chua nhẹ đặc trưng và độ sủi bọt tự nhiên.</p> <p>Goat Kefir cung cấp nhiều dưỡng chất quan trọng như:</p> <ul> <li>Protein chất lượng cao</li> <li>Canxi</li> <li>Vitamin A, D và B12</li> <li>Axit lactic, axit acetic và axit glycolic</li> <li>Men vi sinh tự nhiên (Probiotics)</li> <li>Polysaccharide có lợi cho hệ tiêu hóa</li> </ul> <p>Khác với nhiều sản phẩm Goat Kefir thương mại được bổ sung đường hoặc hương liệu, Goat Kefir nguyên bản giữ nguyên hệ lợi khuẩn tự nhiên, mang lại giá trị dinh dưỡng và sức khỏe tối ưu.</p> <h2>Những lợi ích nổi bật của Goat Kefir</h2> <h3>1. Bổ sung lợi khuẩn đa dạng cho đường ruột</h3> <p>Goat Kefir chứa nhiều chủng vi sinh vật sống khác nhau, giúp tăng cường sự đa dạng của hệ vi sinh đường ruột. Đây là yếu tố quan trọng giúp cơ thể duy trì hệ tiêu hóa khỏe mạnh và hấp thu dinh dưỡng hiệu quả.</p> <h3>2. Hỗ trợ hệ miễn dịch</h3> <p>Các lợi khuẩn trong Goat Kefir góp phần cân bằng hệ vi sinh đường ruột, từ đó hỗ trợ tăng cường khả năng miễn dịch tự nhiên của cơ thể.</p> <h3>3. Cải thiện chức năng tiêu hóa</h3> <p>Việc bổ sung Goat Kefir thường xuyên có thể giúp:</p> <ul> <li>Hỗ trợ tiêu hóa thức ăn tốt hơn</li> <li>Giảm tình trạng khó tiêu</li> <li>Hỗ trợ cân bằng hệ vi sinh sau khi sử dụng kháng sinh</li> </ul> <h3>4. Hỗ trợ kiểm soát chuyển hóa</h3> <p>Một số nghiên cứu cho thấy việc sử dụng Goat Kefir đều đặn có thể góp phần cải thiện độ nhạy insulin, hỗ trợ kiểm soát đường huyết và huyết áp.</p> <h3>5. Giảm viêm trong cơ thể</h3> <p>Các hợp chất sinh học và lợi khuẩn trong Goat Kefir được cho là có khả năng hỗ trợ giảm phản ứng viêm, từ đó góp phần bảo vệ sức khỏe lâu dài.</p> <h3>6. Bổ sung dinh dưỡng tự nhiên</h3> <p>Goat Kefir là nguồn cung cấp protein, vitamin và khoáng chất dồi dào, phù hợp cho người muốn xây dựng chế độ ăn lành mạnh.</p> <h2>Lưu ý khi sử dụng Goat Kefir</h2> <p>Đối với người mới bắt đầu, việc bổ sung một lượng lớn men vi sinh có thể khiến cơ thể xuất hiện các triệu chứng tạm thời như:</p> <ul> <li>Đầy hơi</li> <li>Chướng bụng nhẹ</li> <li>Thay đổi nhu động ruột</li> </ul> <p>Đây là phản ứng bình thường khi hệ tiêu hóa đang thích nghi với lượng lợi khuẩn mới. Nên bắt đầu với lượng nhỏ và tăng dần theo thời gian để cơ thể thích nghi tốt hơn.</p> <h2>Cách thưởng thức Goat Kefir ngon và dễ dàng</h2> <h3>Uống trực tiếp</h3> <p>Thưởng thức Goat Kefir lạnh như một loại thức uống bổ dưỡng hằng ngày với vị chua thanh tự nhiên.</p> <h3>Kết hợp cùng trái cây</h3> <p>Có thể dùng chung với:</p> <ul> <li>Việt quất</li> <li>Dâu tây</li> <li>Ổi</li> <li>Chuối</li> <li>Các loại quả mọng</li> </ul> <p>Sự kết hợp này tạo nên món ăn nhẹ giàu dinh dưỡng và hấp dẫn.</p> <h3>Làm sinh tố</h3> <p>Goat Kefir là nguyên liệu tuyệt vời cho các loại smoothie, giúp tăng hàm lượng protein và lợi khuẩn trong khẩu phần ăn.</p> <h3>Kết hợp với yến mạch</h3> <p>Trộn Goat Kefir cùng yến mạch ngâm qua đêm để tạo nên bữa sáng tiện lợi, giàu dinh dưỡng và hỗ trợ hệ tiêu hóa.</p> <h2>Ứng dụng Goat Kefir trong nấu ăn</h2> <p>Goat Kefir có thể thay thế nhiều nguyên liệu từ sữa trong các công thức chế biến:</p> <ul> <li>Làm bánh kếp (Pancake)</li> <li>Làm bánh quế (Waffle)</li> <li>Chế biến pudding</li> <li>Thay thế sữa trong một số món tráng miệng</li> <li>Thay mayonnaise hoặc kem chua trong nước sốt và món chấm</li> </ul> <p>Không chỉ tăng hương vị, Goat Kefir còn giúp món ăn trở nên mềm xốp và bổ dưỡng hơn.</p> <h2>Vì sao nên chọn Goat Kefir nguyên bản?</h2> <p>Goat Kefir nguyên bản không bổ sung đường và hương liệu giúp bảo toàn tối đa hệ lợi khuẩn tự nhiên. Đây là lựa chọn phù hợp cho những người theo đuổi lối sống lành mạnh, muốn chăm sóc hệ tiêu hóa và nâng cao sức khỏe mỗi ngày.</p> <p>Một ly Goat Kefir mỗi ngày là cách đơn giản để bổ sung lợi khuẩn, nuôi dưỡng hệ vi sinh đường ruột và xây dựng nền tảng sức khỏe bền vững từ bên trong.</p>"
+  },
+  {
+   "slug": "banh-bong-lean-easymeal-an-sach-song-de-cho-nguoi-ban-ron",
+   "title": "Bánh Bông Lean easyMEAL – Ăn Sạch, Sống Dễ Cho Người Bận Rộn",
+   "excerpt": "Trong cuộc sống hiện đại, việc duy trì một chế độ ăn uống lành mạnh không còn là ưu tiên của riêng những người tập luyện thể thao hay theo đuổi lối sống healthy. Ngày nay, dân văn phòng, người làm việc bận rộn hay các bậc phụ huynh cũng đang tìm kiếm những giải pháp dinh dưỡng tiện lợi nhưng vẫn đảm bảo sức khỏe. Và đó là lý do Bánh Bông Lean easyMEAL đang trở thành lựa chọn được nhiều người quan tâm.",
+   "image": "https://easygym.vn/uploads/source/food/screenshot-2026-05-28-233247.webp",
+   "date": "30/05/2026",
+   "cat": "tin-tuc",
+   "body": "<h2> Bánh Bông Lean easyMEAL – Ăn Sạch, Sống Dễ Cho Người Bận Rộn</h2> <p>Trong cuộc sống hiện đại, việc duy trì một chế độ ăn uống lành mạnh không còn là ưu tiên của riêng những người tập luyện thể thao hay theo đuổi lối sống healthy. Ngày nay, dân văn phòng, người làm việc bận rộn hay các bậc phụ huynh cũng đang tìm kiếm những giải pháp dinh dưỡng tiện lợi nhưng vẫn đảm bảo sức khỏe. Và đó là lý do <strong>Bánh Bông Lean easyMEAL</strong> đang trở thành lựa chọn được nhiều người quan tâm.</p> <p>Liệu sản phẩm này có thực sự ngon, tiện lợi và phù hợp với lối sống bận rộn như những gì được giới thiệu? Hãy cùng tìm hiểu chi tiết trong bài review dưới đây.</p> <h2>Bánh Bông Lean easyMEAL là gì?</h2> <p>Bánh Bông Lean easyMEAL là dòng bánh bông lan được phát triển theo xu hướng ăn uống lành mạnh (healthy lifestyle), hướng đến những người muốn kiểm soát lượng calo nạp vào cơ thể nhưng vẫn có thể thưởng thức món bánh thơm ngon mỗi ngày.</p> <p>Khác với những loại bánh bông lan truyền thống thường chứa nhiều đường và chất béo, easyMEAL tập trung vào việc cân bằng giữa hương vị và giá trị dinh dưỡng, giúp người dùng có thêm lựa chọn cho các bữa ăn phụ hoặc bữa sáng nhanh gọn.</p> <h2>Thiết kế và đóng gói</h2> <p>Điểm cộng đầu tiên của Bánh Bông Lean easyMEAL chính là sự tiện lợi.</p> <p>Sản phẩm được đóng gói riêng từng phần ăn, dễ dàng mang theo khi đi làm, đi học hoặc trong các chuyến công tác. Bao bì hiện đại, thông tin dinh dưỡng được thể hiện rõ ràng giúp người dùng dễ dàng kiểm soát khẩu phần ăn hàng ngày.</p> <p>Đối với những người thường xuyên phải làm việc cường độ cao hoặc không có nhiều thời gian chuẩn bị bữa ăn, đây là một lợi thế rất lớn.</p> <h2>Hương vị thực tế có ngon không?</h2> <p>Sau khi trải nghiệm, cảm nhận đầu tiên là bánh có độ mềm khá tốt, không bị khô như nhiều loại bánh ăn kiêng khác trên thị trường.</p> <h3>Kết cấu bánh</h3> <ul> <li> <p>Mềm và xốp vừa phải.</p> </li> <li> <p>Không quá nhiều dầu mỡ.</p> </li> <li> <p>Không gây cảm giác ngán khi ăn liên tục.</p> </li> </ul> <h3>Độ ngọt</h3> <p>Một trong những điểm khác biệt lớn nhất là độ ngọt được tiết chế đáng kể.</p> <p>Nếu bạn đã quen với bánh bông lan truyền thống nhiều đường thì lần đầu ăn có thể cảm thấy vị nhạt hơn. Tuy nhiên sau vài lần sử dụng, đây lại trở thành ưu điểm giúp người dùng ăn ngon mà không bị ngấy.</p> <h3>Mùi vị</h3> <p>Bánh vẫn giữ được hương thơm đặc trưng của bông lan, dễ ăn và phù hợp với nhiều đối tượng từ học sinh, sinh viên đến nhân viên văn phòng.</p> <h2>Giá trị dinh dưỡng</h2> <p>Điều khiến nhiều người lựa chọn Bánh Bông Lean easyMEAL không chỉ nằm ở hương vị mà còn ở khả năng hỗ trợ xây dựng thói quen ăn uống lành mạnh.</p> <p>Một khẩu phần bánh có thể giúp:</p> <ul> <li> <p>Bổ sung năng lượng nhanh chóng.</p> </li> <li> <p>Hạn chế cảm giác đói giữa các bữa chính.</p> </li> <li> <p>Giảm xu hướng ăn vặt bằng các loại thực phẩm nhiều đường hoặc đồ ăn nhanh.</p> </li> <li> <p>Hỗ trợ duy trì chế độ ăn cân bằng.</p> </li> </ul> <p>Đây là lựa chọn phù hợp cho những người đang theo đuổi lối sống \"eat clean\" hoặc đơn giản là muốn ăn uống khoa học hơn.</p> <h2>Ai nên sử dụng Bánh Bông Lean easyMEAL?</h2> <h3>Dân văn phòng</h3> <p>Những người thường xuyên bận họp, làm việc liên tục và không có nhiều thời gian chuẩn bị đồ ăn.</p> <h3>Sinh viên</h3> <p>Cần bữa ăn nhẹ nhanh chóng giữa các buổi học.</p> <h3>Người tập luyện thể thao</h3> <p>Có thể sử dụng như bữa phụ trước hoặc sau khi vận động.</p> <h3>Người ăn uống lành mạnh</h3> <p>Muốn giảm bớt lượng đường và chất béo trong khẩu phần hàng ngày.</p> <h2>Ưu điểm nổi bật</h2> <p>✔ Tiện lợi, dễ mang theo.</p> <p>✔ Hương vị dễ ăn.</p> <p>✔ Độ ngọt vừa phải.</p> <p>✔ Phù hợp với lối sống hiện đại.</p> <p>✔ Hỗ trợ xây dựng thói quen ăn uống lành mạnh.</p> <p>✔ Có thể dùng cho bữa sáng hoặc bữa phụ.</p> <h2>Một vài điểm cần cân nhắc</h2> <ul> <li> <p>Không phù hợp với những ai thích bánh quá ngọt.</p> </li> <li> <p>Hương vị thiên về sự cân bằng dinh dưỡng hơn là trải nghiệm bánh ngọt truyền thống.</p> </li> <li> <p>Cần kết hợp cùng chế độ ăn khoa học để đạt hiệu quả tốt nhất.</p> </li> </ul> <h2>Đánh giá tổng thể</h2> <table> <thead> <tr> <th>Tiêu chí</th> <th>Điểm đánh giá</th> </tr> </thead> <tbody> <tr> <td>Hương vị</td> <td>8/10</td> </tr> <tr> <td>Độ mềm</td> <td>9/10</td> </tr> <tr> <td>Tiện lợi</td> <td>10/10</td> </tr> <tr> <td>Giá trị dinh dưỡng</td> <td>8.5/10</td> </tr> <tr> <td>Phù hợp người bận rộn</td> <td>9.5/10</td> </tr> </tbody> </table> <h2>Kết luận</h2> <p>Bánh Bông Lean easyMEAL là một lựa chọn đáng cân nhắc cho những ai đang tìm kiếm một món ăn nhẹ tiện lợi, ít ngọt và phù hợp với lối sống hiện đại. Sản phẩm không cố gắng trở thành một chiếc bánh ngọt \"gây nghiện\", mà hướng đến mục tiêu giúp người dùng duy trì thói quen ăn uống cân bằng và lành mạnh hơn mỗi ngày.</p> <p>Nếu bạn là người thường xuyên bận rộn, ít thời gian chuẩn bị bữa ăn nhưng vẫn muốn chăm sóc sức khỏe bản thân, Bánh Bông Lean easyMEAL hoàn toàn xứng đáng để trải nghiệm.</p>"
+  },
+  {
+   "slug": "tap-gym-nhom-co-gi-khac-tap-mot-minh-ly-do-khien-nhieu-nguoi-gan-bo-lau-dai",
+   "title": "Tập Gym Nhóm Có Gì Khác Tập Một Mình? Lý Do Khiến Nhiều Người Gắn Bó Lâu Dài",
+   "excerpt": "Tập gym nhóm không chỉ tiết kiệm chi phí mà còn tạo động lực mạnh mẽ, giúp người tập duy trì kỷ luật và cải thiện hiệu suất rõ rệt so với tập một mình.",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/screenshot-2026-05-26-224025.webp",
+   "date": "27/05/2026",
+   "cat": "tin-tuc",
+   "body": "<p>Tập gym một mình rất dễ rơi vào trạng thái “tập cho xong”. Khi mệt, bạn có thể bỏ set, giảm rep mà không ai nhắc nhở. Điều này diễn ra âm thầm và khiến kết quả chững lại.</p> <p>Ngược lại, khi tập nhóm, bạn có môi trường cạnh tranh lành mạnh. Thấy người khác cố gắng, bạn cũng buộc phải cố. Tập nhóm giúp tăng hiệu suất buổi tập, nâng cao tinh thần và hạn chế bỏ cuộc giữa chừng.</p> <p>EasyGYM xây dựng mô hình tập nhóm nhưng vẫn theo sát từng cá nhân: chỉnh form, theo dõi tiến độ và hỗ trợ ăn uống. Điều này giúp người mới tập cũng không bị lộp bộp hay chấn thương.</p>"
+  },
+  {
+   "slug": "tap-gym-sau-gio-lam-cach-giai-toa-stress-hieu-qua-nhat-cho-nguoi-tre",
+   "title": "Tập Gym Sau Giờ Làm: Cách Giải Tỏa Stress Hiệu Quả Nhất Cho Người Trẻ",
+   "excerpt": "Gym không chỉ để đẹp mà còn là cách xả stress cực mạnh sau giờ làm. Tập luyện giúp cơ thể thoát khỏi áp lực công việc và đưa tinh thần về trạng thái cân bằng.",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/screenshot-2026-05-26-224604.webp",
+   "date": "27/05/2026",
+   "cat": "tin-tuc",
+   "body": "<p>Sau một ngày làm việc căng thẳng, não bộ bị bào mòn bởi deadline và áp lực, rất nhiều người chọn nằm dài lướt điện thoại. Nhưng điều này chỉ khiến cơ thể trì trệ và tinh thần càng nặng nề hơn.</p> <p>Tập gym sau giờ làm giúp cơ thể giải phóng endorphin – hormone tạo cảm giác tích cực. Chỉ cần 45–60 phút vận động, bạn có thể “reset” lại tâm trạng, ngủ sâu hơn và sáng hôm sau tỉnh táo hơn.</p> <p>Với hình thức tập nhóm, không khí trong phòng gym trở nên sôi động, có tương tác và năng lượng cao. Điều này đặc biệt phù hợp với những người đi làm dễ nản, thiếu động lực tập một mình.</p>"
+  },
+  {
+   "slug": "vi-sao-di-tap-gym-deu-nhung-khong-thay-len-form-su-that-nam-o-thoi-quen-hang-ngay",
+   "title": "Vì Sao Đi Tập Gym Đều Nhưng Không Thấy Lên Form? Sự Thật Nằm Ở Thói Quen Hàng Ngày",
+   "excerpt": "Nhiều người đến phòng gym đều đặn nhưng hình thể không thay đổi vì thiếu kỷ luật trong sinh hoạt: tập cho có, ăn uống tùy hứng và không có môi trường thúc đẩy. Gym không chỉ là nâng tạ, mà là cả một lối sống. Nội dung",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/screenshot-2026-05-26-224156.webp",
+   "date": "27/05/2026",
+   "cat": "tin-tuc",
+   "body": "<p>Việc đến phòng gym 3–4 buổi mỗi tuần không đồng nghĩa với việc bạn sẽ lên form nếu thời gian còn lại sống buông thả. Tập gym là một chuỗi liên kết giữa tập luyện – ăn uống – nghỉ ngơi – tinh thần.</p> <p>Trong phòng gym, nhiều người tập theo cảm xúc: hôm có hứng thì tập nặng, hôm mệt thì lướt điện thoại. Điều này khiến cơ thể không có sự tiến bộ rõ ràng. Tập gym hiệu quả cần có kế hoạch, có người theo sát và môi trường đủ kỷ luật.</p> <p>Tập luyện theo nhóm như mô hình easyGYM giúp người tập duy trì nhịp độ ổn định hơn. Khi có người tập chung, bạn sẽ khó bỏ buổi, khó tập hời hợt và có động lực đẩy giới hạn bản thân cao hơn mỗi ngày.</p>"
+  },
+  {
+   "slug": "an-gi-sau-gio-tap-de-khong-bi-pha-form-goi-y-cho-nguoi-tap-easygym",
+   "title": "Ăn Gì Sau Giờ Tập Để Không Bị Phá Form? Gợi Ý Cho Người Tập EasyGYM",
+   "excerpt": "Sau tập là thời điểm nhạy cảm nhất trong ngày. Chọn đúng đồ ăn giúp phục hồi cơ thể, giữ form và tránh tích mỡ không mong muốn.",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/tap-gym-giam-can-1.webp",
+   "date": "27/05/2026",
+   "cat": "tin-tuc",
+   "body": "<p>Sau khi tập luyện, cơ thể cần năng lượng để phục hồi nhưng cũng rất dễ tích mỡ nếu ăn sai. Nhiều người vì đói quá mà ăn đồ ngọt hoặc thức ăn nhanh, khiến toàn bộ công sức tập luyện trở nên vô nghĩa.</p> <p>Các lựa chọn như kefir, bánh lean ít đường hoặc một phần nhỏ chocolate dành cho người eat clean giúp bổ sung năng lượng vừa đủ mà không gây tăng mỡ. Quan trọng là ăn đúng lượng và không ăn quá muộn.</p> <p>EasyGYM luôn khuyến khích học viên xây dựng thói quen ăn sau tập hợp lý để duy trì phong độ và động lực tập lâu dài, thay vì tập hăng rồi bỏ ngang vì ăn uống mất kiểm soát.</p>"
+  },
+  {
+   "slug": "vi-sao-thuc-pham-len-men-nhu-kefir-kim-chi-phu-hop-voi-nguoi-tap-gym",
+   "title": "Vì Sao Thực Phẩm Lên Men Như Kefir, Kim Chi Phù Hợp Với Người Tập Gym",
+   "excerpt": "Thực phẩm lên men giúp cải thiện tiêu hóa, giảm đầy bụng và hỗ trợ hấp thu dinh dưỡng tốt hơn – đặc biệt phù hợp với người tập luyện cường độ cao.",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/screenshot-2026-05-26-224340.webp",
+   "date": "27/05/2026",
+   "cat": "tin-tuc",
+   "body": "<p>Người tập gym thường ăn nhiều protein, nếu hệ tiêu hóa kém sẽ dễ gặp tình trạng đầy bụng, khó tiêu. Thực phẩm lên men như kefir và kim chi chứa lợi khuẩn giúp cân bằng đường ruột và cải thiện khả năng hấp thu.</p> <p>Khi tiêu hóa tốt, cơ thể hấp thu protein và khoáng chất hiệu quả hơn, từ đó giúp phục hồi cơ bắp nhanh hơn sau tập. Ngoài ra, các món này còn giúp giảm cảm giác thèm đồ ngọt và ăn vặt.</p> <p>Với những học viên tập nhóm tại easyGYM, việc duy trì hệ tiêu hóa khỏe mạnh giúp buổi tập ổn định hơn, ít mệt và ít bị “xệ năng lượng”.</p>"
+  },
+  {
+   "slug": "do-an-lean-co-phai-an-bao-nhieu-cung-duoc-su-that-nguoi-tap-gym-can-biet",
+   "title": "Đồ Ăn Lean Có Phải Ăn Bao Nhiêu Cũng Được? Sự Thật Người Tập Gym Cần Biết",
+   "excerpt": "Đồ ăn lean không đồng nghĩa với việc ăn vô tội vạ. Dù là thực phẩm lành mạnh, nếu không kiểm soát khẩu phần vẫn có thể gây tăng mỡ và phản tác dụng.",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/512667534_3717288468403737_125863088436570013_n.webp",
+   "date": "27/05/2026",
+   "cat": "tin-tuc",
+   "body": "<p>Một sai lầm phổ biến là cho rằng đồ ăn lean thì ăn bao nhiêu cũng không sao. Thực tế, bất kỳ thực phẩm nào nếu nạp quá mức nhu cầu cơ thể đều có thể dẫn đến dư năng lượng.</p> <p>Kefir, bánh bông lan lean hay chocolate ít đường đều tốt hơn đồ ăn thông thường, nhưng vẫn cần ăn đúng thời điểm và đúng lượng. Người tập gym nên ưu tiên ăn sau tập hoặc trong các bữa phụ để hỗ trợ phục hồi và giảm cảm giác đói.</p> <p>EasyGYM luôn nhấn mạnh việc xây dựng thói quen ăn uống hợp lý, không cực đoan nhưng cũng không buông thả. Khi kiểm soát được khẩu phần, đồ ăn lean mới phát huy đúng giá trị của nó.</p>"
+  },
+  {
+   "slug": "tap-gym-ma-an-linh-tinh-ly-do-khien-ban-mai-khong-len-form",
+   "title": "Tập Gym Mà Ăn Linh Tinh: Lý Do Khiến Bạn Mãi Không Lên Form",
+   "excerpt": "Nhiều người tập đều đặn nhưng không thấy thay đổi vì ăn uống không kiểm soát. Chỉ cần ăn sai sau giờ tập, toàn bộ công sức trong phòng gym có thể bị “đổ sông đổ biển”.",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/689010330_4100799503385963_6017928533330710342_n.webp",
+   "date": "27/05/2026",
+   "cat": "tin-tuc",
+   "body": "<p>Việc tập luyện chỉ chiếm khoảng 30–40% kết quả hình thể, phần còn lại đến từ chế độ ăn. Một buổi tập nặng nhưng sau đó ăn nhiều đồ ngọt, thức ăn nhanh hoặc uống nước có đường sẽ khiến lượng calo dư thừa tích tụ thành mỡ.</p> <p>Đó là lý do easyGYM luôn khuyến khích học viên quan tâm đến ăn uống song song với tập luyện. Các món ăn lean như kefir, kim chi lên men, bánh ít đường giúp ổn định đường huyết và giảm cảm giác thèm ăn sau tập.</p> <p>Khi bạn ăn đúng, cơ thể phục hồi nhanh hơn, cơ bắp săn chắc hơn và hiệu quả tập nhóm cũng rõ rệt hơn. Ngược lại, ăn sai khiến bạn dễ mệt mỏi, uể oải và mất động lực tập lâu dài.</p>"
+  },
+  {
+   "slug": "an-lean-la-gi-vi-sao-nguoi-tap-gym-nen-an-lean-thay-vi-kieng-khem-cuc-doan",
+   "title": "Ăn Lean Là Gì? Vì Sao Người Tập Gym Nên Ăn Lean Thay Vì Kiêng Khem Cực Đoan",
+   "excerpt": "Ăn lean không phải là nhịn ăn hay cắt bỏ hoàn toàn đồ ngon, mà là lựa chọn thực phẩm thông minh để vừa đảm bảo dinh dưỡng, vừa kiểm soát mỡ. Đây là cách ăn phù hợp cho người tập gym muốn duy trì thể lực và hình thể lâu dài.",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/cach_an_uong_khi_tap_gym7_grande.webp",
+   "date": "27/05/2026",
+   "cat": "tin-tuc",
+   "body": "<p>Rất nhiều người khi bắt đầu tập gym thường nghĩ rằng muốn giảm mỡ thì phải nhịn ăn, ăn nhạt hoặc loại bỏ hoàn toàn đồ ngọt. Tuy nhiên, cách này chỉ hiệu quả trong thời gian ngắn và dễ dẫn đến chán nản, bỏ cuộc.</p> <p>Ăn lean là phương pháp ăn uống cân bằng, tập trung vào thực phẩm ít đường tinh luyện, ít dầu mỡ nhưng vẫn đảm bảo đủ protein, chất xơ và năng lượng cho cơ thể. Các sản phẩm như kefir, bánh lean ít đường, chocolate dành cho người eat clean giúp người tập kiểm soát cơn đói mà không cảm thấy bị “ép”.</p> <p>Đối với người tập tại easyGYM, ăn lean giúp duy trì sức bền khi tập nhóm, hạn chế tình trạng đuối sức hoặc thèm ăn quá mức sau buổi tập. Khi ăn đúng, việc giữ form và cải thiện vóc dáng trở nên bền vững hơn rất nhiều.</p>"
+  },
+  {
+   "slug": "nguoi-ban-ron-nen-bat-dau-tap-gym-nhu-the-nao-cho-dung",
+   "title": "Người bận rộn nên bắt đầu tập gym như thế nào cho đúng?",
+   "excerpt": "Bắt đầu đúng cách giúp người bận rộn duy trì thói quen tập luyện lâu dài mà không bị quá tải.",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/516800753_3738141202985130_735539858327737961_n.webp",
+   "date": "27/05/2026",
+   "cat": "tin-tuc",
+   "body": "<p>Người bận rộn thường e ngại tập gym vì sợ không đủ thời gian hoặc không theo nổi lịch tập. Tuy nhiên, tập gym không nhất thiết phải kéo dài hàng giờ mỗi ngày. Điều quan trọng là <strong>chọn đúng phương pháp</strong>.</p> <p>easyGYM thường khuyến khích người bận rộn bắt đầu với các buổi tập 45–60 phút, tập trung vào các bài tập toàn thân. Việc này giúp tối ưu thời gian nhưng vẫn mang lại hiệu quả rõ rệt. Ngoài ra, việc có huấn luyện viên theo sát giúp bạn tránh tập sai và lãng phí công sức.</p> <p>Quan trọng nhất là không nên so sánh bản thân với người khác. Mỗi người có thể trạng và quỹ thời gian khác nhau. Tập đều đặn, an toàn và phù hợp mới là chìa khóa thành công.</p>"
+  },
+  {
+   "slug": "vi-sao-tap-gym-giup-cai-thien-suc-khoe-tinh-than",
+   "title": "Vì sao tập gym giúp cải thiện sức khỏe tinh thần?",
+   "excerpt": "Gym không chỉ thay đổi vóc dáng mà còn mang lại nhiều lợi ích tích cực cho tinh thần.",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/511269006_3716249228507661_3973768484470522313_n.webp",
+   "date": "27/05/2026",
+   "cat": "tin-tuc",
+   "body": "<p>Nhiều người tìm đến gym với mục tiêu giảm cân hoặc tăng cơ, nhưng ít ai biết rằng tập luyện còn có tác động mạnh mẽ đến sức khỏe tinh thần. Khi vận động, não bộ tăng sản xuất serotonin và dopamine – hai chất dẫn truyền thần kinh giúp cải thiện tâm trạng và giảm cảm giác căng thẳng.</p> <p>Việc tập gym đều đặn giúp giảm nguy cơ trầm cảm, lo âu và cải thiện khả năng kiểm soát cảm xúc. Đặc biệt, khi tập luyện trong môi trường tích cực như easyGYM, nơi có huấn luyện viên đồng hành và cộng đồng tập luyện, người tập sẽ cảm thấy được hỗ trợ và có thêm động lực duy trì thói quen lành mạnh.</p>"
+  },
+  {
+   "slug": "loi-ich-cua-viec-tap-gym-sau-gio-lam-viec",
+   "title": "Lợi ích của việc tập gym sau giờ làm việc",
+   "excerpt": "Tập luyện sau giờ làm giúp giải tỏa căng thẳng, cải thiện tinh thần và nâng cao chất lượng giấc ngủ.",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/511185929_3718084248324159_1758586858350608199_n.webp",
+   "date": "27/05/2026",
+   "cat": "tin-tuc",
+   "body": "<p>Sau một ngày dài làm việc, cơ thể và đầu óc thường rơi vào trạng thái căng thẳng. Việc tập gym sau giờ làm không chỉ giúp cơ thể vận động mà còn là cách hiệu quả để “xả” áp lực tinh thần tích tụ trong ngày.</p> <p>Tập luyện giúp cơ thể tiết ra endorphin – hormone mang lại cảm giác hưng phấn và tích cực. Nhờ đó, tâm trạng trở nên thoải mái hơn, giảm stress và lo âu. Bên cạnh đó, việc vận động còn giúp tăng cường lưu thông máu, cải thiện sự tập trung và giảm nguy cơ mắc các bệnh liên quan đến lối sống ít vận động.</p> <p>Theo kinh nghiệm huấn luyện tại easyGYM, những học viên duy trì tập luyện sau giờ làm thường ngủ ngon hơn, ít suy nghĩ tiêu cực và có tinh thần tốt hơn vào ngày hôm sau. Đây là khoảng thời gian lý tưởng để cơ thể chuyển từ trạng thái làm việc sang nghỉ ngơi.</p>"
+  },
+  {
+   "slug": "4-cach-tao-thoi-quen-tap-luyen-cho-nguoi-ban-ron",
+   "title": "4 cách tạo thói quen tập luyện cho người bận rộn",
+   "excerpt": "Làm thế nào để có thể tìm thấy động lực và thời gian để tập luyện? Mặc dù không phải lúc nào cũng dễ dàng nhưng bạn có thể xây dựng thói quen tập luyện đều đặn sau khi hết giờ làm.",
+   "image": "https://easygym.vn/uploads/source/logo/taptheduc-1657180561980630408573.jpg",
+   "date": "13/08/2025",
+   "cat": "tin-tuc",
+   "body": "<h2><strong>Lợi ích của việc tập luyện sau giờ làm việc</strong></h2> <p>Lợi ích của việc tập luyện sau giờ làm cũng tương tự như tất cả những lợi ích đáng kinh ngạc của việc tập luyện nói chung và sức khỏe tinh thần tốt hơn, giảm nguy cơ mắc bệnh và vô số lợi ích về thể chất và tinh thần khác mà khoa học đã chứng minh. </p> <ul> <li><strong>Tăng cường trí não.</strong> Tập luyện không chỉ giúp cải thiện cơ thể mà còn có lợi cho sức khỏe tinh thần của bạn. Tập luyện giúp tăng cường mức năng lượng và tăng sản xuất serotonin trong não, cải thiện tinh thần và sự minh mẫn. </li> </ul> <ul> <li><strong>Tâm trạng thoải mái. </strong>Vận động sau giờ làm việc hoặc một ngày bận rộn cho phép bạn tạm thời giải tỏa căng thẳng trong ngày nhờ lượng endorphin do tập luyện tạo ra. Hoàn thành công việc vào cuối ngày giúp bạn cảm thấy thoải mái hơn và đầu óc bớt bận tâm hơn.</li> </ul> <ul> <li><strong>Cải thiện chất lượng giấc ngủ. </strong>Những người ngủ ngáy do căng thẳng và suy nghĩ quá mức, mất ngủ, thì nên tập thể dục vào buổi tối. Các endorphin sẽ làm giảm mệt mỏi khiến bạn có giấc ngủ sâu nhanh chóng. </li> </ul> <h2><strong>Làm thế nào để có động lực đến phòng tập sau giờ làm việc?</strong></h2> <p>The New Gym hoàn toàn hiểu điều đó, việc tìm ra động lực để tập luyện sau một ngày dài có thể là một thử thách, nhưng một vài cách đơn giản có thể giúp bạn dễ dàng quản lý hơn.</p> <ul> <li><strong>Đặt lịch tập luyện vào lịch của bạn. </strong>Các sự kiện quan trọng như cuộc họp và hoạt động sau giờ học của trẻ em đều được lên lịch việc tập luyện cũng nên có. Việc lên lịch cho mọi việc sẽ báo hiệu cho bộ não của bạn rằng điều đó quan trọng và giúp bạn cam kết với chính mình. </li> </ul> <ul> <li><strong>Lập kế hoạch trước thời hạn. </strong>Đừng đợi đến phút cuối cùng, quên mất điều gì đó rồi từ bỏ tất cả. Hãy chuẩn bị túi tập luyện vào đêm hôm trước và thay quần áo tập luyện trước khi rời văn phòng. Giúp bạn dễ dàng chuyển thẳng từ văn phòng đến phòng tập. </li> </ul> <ul> <li><strong>Để công việc ở nơi làm việc. </strong>Hãy cố gắng tách biệt công việc với cuộc sống gia đình để công việc không kéo theo bạn về nhà. Phòng tập luyện cung cấp một thời gian chuyển tiếp tuyệt vời cho việc này, vì vậy nếu bạn gặp khó khăn khi rời khỏi nơi làm việc, việc ghé thăm phòng tập luyện sau đó có thể là giải pháp hoàn hảo. </li> </ul> <ul> <li><strong>Đừng về nhà! </strong>Khi đã về đến nhà, việc ra khỏi nhà là điều gần như không thể, đặc biệt đối với những việc “nhàm chán” như tập luyện. Hãy đến thẳng phòng tập luyện sau giờ làm việc và khi đến đó, ít nhất bạn có thể nhảy lên máy chạy bộ hoặc xe đạp trong vài phút. </li> </ul> <h2><strong>Một số bài tập yêu thích để tập luyện sau giờ làm việc </strong></h2> <p>Tâm trí của bạn có thể đã làm việc vất vả cả ngày, nhưng hầu hết mọi người đều ít vận động, vì vậy cơ thể bạn cần được kích hoạt sau một ngày làm việc vất vả. Thật không may, đầu óc mệt mỏi có thể khiến bạn cảm thấy cơ thể cũng mệt mỏi.</p> <p>Đó là lý do tại sao nên bắt đầu chậm rãi. Hãy để bản thân “thoát khỏi” những bài tập ngắn sau giờ làm việc, đặc biệt là khi xây dựng một thói quen mới. Bởi vì những bài tập ngắn vẫn mang lại nhiều lợi ích cho cơ thể. </p> <p>Không có cách nào tốt hơn để bắt đầu chậm hơn với những mục yêu thích đơn giản sau: </p> <ul> <li><strong>Các động tác giãn cơ dễ dàng. </strong>Thử vài động tác giãn cơ chậm để làm ấm cơ thể sau một ngày ngồi trước máy tính. Tư thế em bé, gập người về phía trước và giãn cơ nhẹ nhàng là những tư thế tuyệt vời để giúp cơ thể thư giãn sau một ngày dài.</li> </ul> <ul> <li><strong>Đi bộ nhanh. </strong>Cho dù ở khu nhà, nếu thời tiết đẹp hay trên máy chạy bộ, đi bộ với tốc độ nhanh hơn mức trung bình sẽ giúp cơ thể chuyển động và giúp não yên tĩnh, ngay cả khi chỉ mất 10 – 15 phút. </li> </ul> <ul> <li><strong>Tập luyện sức mạnh. </strong>Sau khi đã khởi động và đã đến phòng tập luyện, bạn cũng có thể nuông chiều cơ thể mình bằng một số bài tập tăng cường sức mạnh. Hãy thử một số bài tập luyện chức năng dành cho người mới bắt đầu . Nếu bạn ở nhà, hãy tập plank hoặc ngồi trên tường.</li> </ul> <ul> <li><strong>Hạ nhiệt. </strong>Cho dù tập luyện của bạn dài hay ngắn, cơ thể bạn cần được hạ nhiệt để cảnh báo bộ não rằng bạn sắp kết thúc hoạt động. Bạn có thể kết thúc bài tập bằng một vài động tác giãn cơ hoặc thử tư thế yoga như “nằm gác chân lên tường để truyền một chút năng lượng vào thời gian cuối cùng trong ngày của bạn. </li> </ul> <p>Hãy nhớ rằng hành trình tập luyện của bạn là một cuộc chạy marathon chứ không phải chạy nước rút. Bắt đầu với các bài tập có thể quản lý được và dần dần xây dựng thói quen của bạn.</p>"
+  },
+  {
+   "slug": "nguoi-moi-tap-gym-nen-tap-nhung-may-khang-luc-nao",
+   "title": "Người mới tập Gym nên tập những máy kháng lực nào?",
+   "excerpt": "Máy kháng lực là một cách tuyệt vời cho người mới để rèn luyện sức mạnh. Giống như tạ tự do, máy kháng lực tăng thêm trọng lượng cho một bài tập khiến cơ bắp của bạn trở nên khó khăn hơn, để chúng thích nghi và phát triển.",
+   "image": "https://easygym.vn/uploads/source/logo/may-day-nguc-ngoi-copy.webp",
+   "date": "13/08/2025",
+   "cat": "tin-tuc",
+   "body": "<h2><strong>Tập máy kháng lực có dễ không?</strong></h2> <p>Máy kháng lực vẫn là một cách tập luyện hiệu quả cho cả người mới bắt đầu và người tập gym chuyên nghiệp. Đối với những người mới tập luyện, nó cho phép bạn xây dựng sức mạnh một cách an toàn – gần như không thể sai tư thế vì mô hình chuyển động đã được cố định. Đối với những người tập gym ở trình độ trung cấp và cao cấp, máy kháng lực là lựa chọn tuyệt vời để thêm vào buổi tập luyện nhằm tạo sự cân bằng cho bài tập cô lập cho một nhóm cơ vào cuối buổi tập của bạn.</p> <h2> </h2> <h2><strong>Lợi ích của việc tập máy kháng lực?</strong></h2> <ul> <li><strong>Máy kháng lực giúp bạn thành thạo các chuyển động cần thiết</strong></li> </ul> <p>Nếu bạn là người mới bắt đầu tập gym, máy kháng lực là một cách tuyệt vời để học các kiểu chuyển động tạ, một cách an toàn và có kiểm soát. Máy tập kháng lực có phạm vi chuyển động được xác định trước, nghĩa là bạn chỉ có thể nâng và hạ tạ đúng cách. Điều này giúp bạn học bài tập, tăng cường sức mạnh và học cách sử dụng các cơ phù hợp trước khi chuyển sang tập tạ tự do.</p> <ul> <li><strong>Máy kháng lực rất dễ cài đặt</strong></li> </ul> <p>The New Gym hiểu rằng việc bắt đầu tập gym có vẻ khó khăn, nhưng không cần phải như vậy. Máy tập kháng lực rất dễ cài đặt – tất cả những gì bạn cần làm là điều chỉnh vị trí bắt đầu cho phù hợp với chiều cao của mình. Việc thay đổi trọng lượng cũng đơn giản và bạn có thể kiểm tra các trọng lượng khác nhau mà không cần phải tìm và đặt lại các đĩa tạ hoặc tạ đơn, tạ chuông…</p> <ul> <li><strong>Máy kháng lực giúp bạn nhắm mục tiêu các cơ cụ thể</strong></li> </ul> <p>Điều tuyệt vời về máy kháng lực là chúng hoàn hảo cho công việc cô lập nhóm cơ – nghĩa là nhắm mục tiêu vào một cơ cụ thể thay vì nhiều cơ cùng một lúc. Điều này có thể hữu ích cho việc xây dựng sức mạnh trong cơ bắp mà nếu không có thể bị bỏ qua và thực sự có thể giúp cân bằng cơ bắp. Khi bạn tập các bài tập phức hợp như squats và deadlifts, bạn không tập trung tập luyện các nhóm cơ yếu nhất của mình – vì vậy hãy cố gắng tập luyện tất cả chúng như nhau.</p> <h2> </h2> <h2><strong>Bạn nên dùng máy kháng lực nào?</strong></h2> <p>Khi bắt đầu, điều quan trọng là luôn sử dụng mức tạ mà bạn có thể nâng thoải mái mà không bị trượt. Vì vậy, The New Gym khuyên bạn nên bắt đầu với trọng lượng nhẹ và tăng dần từ đó. Một nguyên tắc nhỏ là tập trong một phạm vi phù hợp với mục tiêu của bạn – ví dụ: 4 – 6 đại diện cho sức mạnh, 8 – 10 đại diện cho tăng trưởng cơ bắp và hơn 12 đại diện cho sức bền. Nếu bạn thấy rằng mình có thể thoải mái nâng nhiều hơn so với mức tạ ban đầu, thì đã đến lúc tăng trọng lượng tạ lên một chút. Điều này được gọi là phương pháp tích lũy áp lực tăng dần (Progressive Overload), là một nguyên tắc tập luyện liên quan đến việc tăng kích thích lên cơ bắp của bạn để khuyến khích sự thích nghi tốt hơn. Điều này có thể thông qua việc tăng trọng lượng hoặc cũng có thể bằng cách tăng số lần lặp lại, tần suất tập luyện một nhóm cơ nhất định hoặc thậm chí giảm thời gian nghỉ ngơi.</p> <h2> </h2> <h2><strong>Bao lâu thì nên tập máy kháng lực?</strong></h2> <p>Máy kháng lực rất tốt cho người mới bắt đầu, vì vậy chúng có thể là nơi tuyệt vời để bắt đầu khi lập kế hoạch cho thói quen tập luyện của bạn. Tùy thuộc vào mục tiêu của bạn, bạn có thể muốn thực hiện các bài tập máy kháng lực nhiều lần mỗi tuần và thậm chí bạn có thể chia nó thành các ngày tập luyện cho phần thân trên hoặc thân dưới. Tuy nhiên, khi bạn đã tự tin hơn với các bài tập và xây dựng được một số sức mạnh cho cơ bắp, bạn có thể muốn bắt đầu sử dụng tạ tự do hoặc các bài tập chức năng hơn trong quá trình tập luyện của mình. Tuy nhiên, có rất nhiều lợi ích khi sử dụng máy kháng lực, vì vậy The New Gym khuyên bạn nên kết hợp chúng với các bài tập tạ tự do để cân bằng giữa các động tác tổng hợp và động tác cô lập do thói quen của bạn.</p> <h2> </h2> <h2><strong>Nên sử dụng máy kháng lực nào?</strong></h2> <p><strong>1. Máy kéo xô (Lat Pulldown)</strong></p> <figure><img src=\"https://thenewgym.vn/wp-content/uploads/2024/10/may-keo-xo.jpg\" alt=\"người mới, newbie, người mới tập, The New Gym, tập máy gym\"> <figcaption>Máy kéo xô</figcaption> </figure> <p>Máy kéo xô nhắm mục tiêu cơ lưng và cũng tác động đến cơ bụng của bạn. Cách sử dụng máy kéo xô:</p> <ul> <li>Điều chỉnh miếng đệm chân sao cho chúng nằm ngay trên đùi của bạn. Nó không nên đè bẹp chân của bạn nhưng cũng không nên có một khoảng cách lớn.</li> <li>Bật ghim ở trọng lượng mà bạn muốn nâng, hãy nhớ luôn ưu tiên hình thức hơn trọng lượng.</li> <li>Đứng lên để nắm lấy tay cầm kéo xuống và quay trở lại chỗ ngồi của bạn.</li> <li>Và sau đó bạn đã sẵn sàng để đi! Ngả người ra sau một chút, thu vai lại (hãy tưởng tượng bạn đang khép hai vai lại với nhau) rồi kéo tay cầm xuống phía vai.</li> <li>Từ từ quay trở lại vị trí bắt đầu của bạn và sau đó lặp lại.</li> </ul> <p> <strong>2. Máy đạp chân (Leg Press)</strong></p> <figure><img src=\"https://thenewgym.vn/wp-content/uploads/2024/10/may-dap-chan.jpg\" alt=\"người mới, newbie, người mới tập, The New Gym, tập máy gym\"> <figcaption>Máy đạp chân</figcaption> </figure> <p>Máy đạp chân là một cỗ máy hiệu quả để vận động phần thân dưới của bạn, đặc biệt là cơ tứ đầu, cơ mông và gân kheo. Cách sử dụng máy đạp chân:</p> <ul> <li>Đầu tiên, điều chỉnh ghế về vị trí bắt đầu thoải mái bằng cách kéo chốt ghế. Hướng tới một góc 90 độ với đầu gối của bạn</li> <li>Đặt chốt vào trọng lượng bạn muốn nâng và sau đó bạn đã sẵn sàng.</li> <li>Đặt bàn chân của bạn lên bệ đỡ chân cách nhau một khoảng rộng bằng hông và giữ tay cầm ở bên cạnh ghế của bạn</li> <li>Dùng chân đạp vào bệ cho đến khi chúng duỗi ra hoàn toàn mà không khóa đầu gối và trở về vị trí ban đầu. Và sau đó lặp lại!</li> </ul> <p> <strong>3. Máy đẩy vai (Shoulder Press)</strong></p> <figure><img src=\"https://thenewgym.vn/wp-content/uploads/2024/10/may-tap-ep-vai-2-1.jpeg\" alt=\"người mới, newbie, người mới tập, The New Gym, tập máy gym\"> <figcaption>Máy đẩy vai</figcaption> </figure> <p>Máy ép vai nhắm mục tiêu lên bạn cơ vai, chẳng hạn như cơ trước, bên và sau, cơ tròn lớn và cơ chóp xoay. Cách sử dụng máy ép vai:</p> <ul> <li>Điều chỉnh chiều cao ghế sao cho tay thẳng hàng với vai.</li> <li>Đặt chốt vào trọng lượng bạn muốn nâng, ngồi trở lại vào đệm ghế và giữ cho đôi chân của bạn đặt trên mặt đất.</li> <li>Nắm lấy tay cầm (hẹp hoặc rộng) và sử dụng vai của bạn để đẩy tay cầm lên trên đầu mà không khóa khuỷu tay của bạn.</li> <li>Từ từ trở lại vị trí bắt đầu của bạn, cố gắng giữ cho trọng lượng không chạm vào chồng và lặp lại.</li> </ul> <p> <strong>4. Máy đẩy ngực ngồi (Seated Chest Press)</strong></p> <figure><img src=\"https://thenewgym.vn/wp-content/uploads/2024/10/may-day-nguc-ngoi-copy.jpeg\" alt=\"người mới, newbie, người mới tập, The New Gym, tập máy gym\"> <figcaption>Máy đẩy ngực ngồi</figcaption> </figure> <p>Máy đẩy ngực là một cách hiệu quả để nhắm mục tiêu của bạn cơ ngực, bao gồm cả cơ ngực lớn và cơ ngực phụ. Cách sử dụng máy đẩy ngực:</p> <ul> <li>Điều chỉnh chiều cao của ghế sao cho tay ngang với giữa ngực của bạn</li> <li>Đặt chốt vào trọng lượng bạn muốn nâng, ngồi trở lại vào đệm ghế và giữ cho đôi chân của bạn đặt trên mặt đất</li> <li>Nắm lấy tay cầm và sử dụng cơ ngực của bạn để ấn ra cho đến khi cánh tay gần mở rộng hoàn toàn</li> <li>Giữ lưng dựa vào đệm ghế và từ từ trở lại vị trí bắt đầu, cố gắng giữ cho tạ không chạm vào chồng và lặp lại</li> </ul> <p> <strong>5. Máy kéo xô ngồi (Seated Row)</strong> <img src=\"https://thenewgym.vn/wp-content/uploads/2024/10/may-keo-vai-ngoi.jpeg\" alt=\"may keo vai ngoi\"> Máy kéo xô ngồi nhắm vào cơ lưng của bạn. Các cơ chính được kích hoạt là hình thang ở lưng trên, cơ hình thoi và cơ lưng rộng ở giữa lưng và cơ dựng sống ở lưng dưới. Cách sử dụng máy tập ngồi:</p> <ul> <li>Điều chỉnh chiều cao của ghế sao cho tay cầm phía trên nhẹ bằng đỉnh vai của bạn</li> <li>Điều chỉnh đệm ngực để cả hai tay có thể với tới tay cầm khi duỗi ra</li> <li>Nắm lấy một trong hai vị trí tay nắm (hẹp hoặc rộng) và kéo tay cầm sang một bên, siết chặt cơ lưng rồi từ từ trở lại vị trí ban đầu mà không chạm lại tạ vào chồng. Sau đó lặp lại!</li> </ul>"
+  },
+  {
+   "slug": "chay-bo-cung-phai-dep-outfit-goi-y-danh-cho-runner",
+   "title": "CHẠY BỘ CŨNG PHẢI ĐẸP – OUTFIT GỢI Ý DÀNH CHO RUNNER",
+   "excerpt": "Chạy bộ là một trong những môn thể thao đơn giản nhất – chỉ cần một đôi giày và một tinh thần sẵn sàng. Tuy nhiên, diện mạo khi chạy cũng đóng vai trò quan trọng không kém:",
+   "image": "https://easygym.vn/uploads/source/logo/chay-bo2.webp",
+   "date": "13/08/2025",
+   "cat": "tin-tuc",
+   "body": "<h3><strong>1. Vì sao chạy bộ cần chú trọng đến trang phục?</strong></h3> <p>Chạy bộ là một trong những môn thể thao đơn giản nhất – chỉ cần một đôi giày và một tinh thần sẵn sàng. Tuy nhiên, <strong>diện mạo khi chạy</strong> cũng đóng vai trò quan trọng không kém:</p> <ul> <li> <p>✅ Giúp bạn tự tin, có động lực hơn mỗi lần ra phố</p> </li> <li> <p>✅ Tăng hiệu quả vận động nhờ chất liệu và thiết kế phù hợp</p> </li> <li> <p>✅ Tạo ấn tượng đẹp, chuyên nghiệp nếu bạn là runner thường xuyên tham gia sự kiện thể thao hoặc chạy nhóm</p> </li> </ul> <h3><strong>2. Outfit cơ bản cho buổi chạy hoàn hảo</strong></h3> <h4><strong>Áo thể thao thấm hút mồ hôi</strong></h4> <p>Ưu tiên chất liệu <strong>polyester pha spandex</strong>, thoáng khí và mau khô. Form áo nên vừa vặn hoặc slim-fit để dễ vận động. Nếu chạy sáng sớm hay trời lạnh, có thể layer thêm áo khoác gió thể thao mỏng nhẹ.</p> <blockquote> <p>Gợi ý từ <strong>5GOAL SPORT</strong>: Áo thun thể thao cá nhân hóa với tên hoặc slogan truyền cảm hứng.</p> </blockquote> <h4><strong>Quần short thể thao nhẹ, thoáng</strong></h4> <p>Một chiếc quần short vừa vặn, có lót trong hoặc chất liệu chống hăm là ưu tiên hàng đầu. Độ dài lý tưởng: trên đầu gối khoảng 5 – 10 cm, tránh vướng víu khi chạy.</p> <blockquote> <p>Nếu bạn nữ muốn thanh lịch hơn, có thể chọn <strong>quần legging 3/4 hoặc full-length</strong> ôm sát nhưng co giãn tốt.</p> </blockquote> <h4><strong>Giày chạy phù hợp với dáng chân</strong></h4> <p>Dù đẹp đến đâu, một đôi giày sai form sẽ khiến bạn đau chân và dễ chấn thương. Hãy chọn giày có lớp đệm êm, nhẹ, và phù hợp với địa hình bạn chạy (đường phố, đường mòn hay sân vận động).</p> <blockquote> <p>Màu sắc: Trắng, đen hoặc các tone neon giúp tạo điểm nhấn năng động.</p> </blockquote> <h3><strong>3. Phụ kiện không thể thiếu khi chạy bộ</strong></h3> <ul> <li> <p><strong>Mũ lưỡi trai hoặc băng đô thấm mồ hôi</strong></p> </li> <li> <p><strong>Túi đeo bụng mini hoặc đeo tay</strong> để đựng điện thoại, chìa khóa</p> </li> <li> <p><strong>Đồng hồ thể thao hoặc smartband</strong> để theo dõi nhịp tim, quãng đường</p> </li> <li> <p><strong>Tai nghe bluetooth không dây</strong> – giúp bạn thư giãn, giữ nhịp độ ổn định</p> </li> </ul> <h3><strong>4. Outfit cho từng phong cách runner</strong></h3> <h4>? <strong>Runner tối giản:</strong></h4> <p>Áo đen – quần đen – giày trắng → Dễ phối, luôn hợp thời.</p> <h4>? <strong>Runner cá tính:</strong></h4> <p>Áo oversize + quần biker ngắn + giày chunky + phụ kiện màu nổi.</p> <h4>? <strong>Runner “high fashion”:</strong></h4> <p>Layer áo ba lỗ bên trong, khoác ngoài áo zip màu pastel, legging màu trung tính – vừa thể thao, vừa phong cách Hàn Quốc.</p> <h3><strong>5. Thời trang chạy bộ từ cá nhân hóa – xu hướng mới</strong></h3> <p>Ngày càng nhiều runner chọn in tên riêng, nhóm chạy, hoặc số lần hoàn thành Half/Full Marathon lên áo, balo, túi chạy.<br>Tại <strong>5GOAL SPORT</strong>, bạn có thể:<br>✅ Tùy chọn màu sắc<br>✅ Thêm slogan chạy bộ của bạn<br>✅ In thiết kế hoặc tên team chạy lên sản phẩm</p> <blockquote> <p>“Đừng chỉ chạy – hãy thể hiện mình trên từng bước chân!”</p> </blockquote> <p>Chạy bộ không chỉ là một môn thể thao – đó là phong cách sống. Và phong cách sống thì luôn cần sự chỉn chu. Diện outfit đúng, đẹp và phù hợp giúp bạn vừa khỏe mạnh, vừa tự tin mỗi lần xuống phố. Hãy biến mỗi lần chạy thành một “fashion show ngẫu hứng” của chính bạn nhé!</p> 0 Đánh giá bài viết"
+  },
+  {
+   "slug": "gym-khong-chi-la-tap-luyen-ma-la-mot-phong-cach-song",
+   "title": "GYM – KHÔNG CHỈ LÀ TẬP LUYỆN, MÀ LÀ MỘT PHONG CÁCH SỐNG",
+   "excerpt": "Nếu như bóng đá là môn thể thao vua của cộng đồng thì gym chính là vua của sự biến đổi bản thân. Ngày nay, hình ảnh phòng tập không còn xa lạ",
+   "image": "https://easygym.vn/uploads/source/logo/unnamed-3.webp",
+   "date": "13/08/2025",
+   "cat": "tin-tuc",
+   "body": "<h3> <strong>GYM – BỘ MÔN THỂ THAO DẪN ĐẦU XU HƯỚNG SỐNG KHỎE TẠI VIỆT NAM</strong></h3> <p>Nếu như bóng đá là môn thể thao vua của cộng đồng thì <strong>gym</strong> chính là vua của sự biến đổi bản thân. Ngày nay, hình ảnh phòng tập không còn xa lạ – từ thành thị đến nông thôn, giới trẻ Việt ngày càng quan tâm đến hình thể, vóc dáng và sức khỏe toàn diện thông qua luyện tập <strong>gym và fitness</strong>.</p> <p><img src=\"https://b3327586.smushcdn.com/3327586/wp-content/uploads/2024/05/gb-botanica-gym-link-spaces-slough-1024x683.jpg?lossy=0&amp;strip=1&amp;webp=1\" alt=\"The Benefits of Having a Workplace Gym - Link Spaces\"></p> <h3>✅ <strong>1. Cải thiện thể hình rõ rệt</strong></h3> <p>Tập gym giúp <strong>tăng cơ – giảm mỡ – định hình vóc dáng</strong> một cách khoa học. Nam giới có thể phát triển cơ ngực, vai, lưng, tay; trong khi nữ giới thường tập trung vào vòng eo, hông và mông. Chỉ sau 2–3 tháng tập luyện đều đặn, bạn sẽ thấy sự thay đổi rõ rệt.</p> <h3>? <strong>2. Tăng sức khỏe thể chất và sức bền</strong></h3> <p>Gym không chỉ là tập “cho đẹp”, mà còn tăng cường <strong>sức mạnh cơ bắp, hệ tim mạch, trao đổi chất và kháng viêm tự nhiên</strong>. Những người tập gym thường có sức bền tốt hơn, ít bệnh vặt, và hồi phục nhanh sau thời gian làm việc mệt mỏi.</p> <h3>? <strong>3. Rèn luyện tính kỷ luật và kiên trì</strong></h3> <p>Tập gym không thể đạt kết quả sau một đêm. Sự tiến bộ đến từ <strong>lịch tập đều đặn, chế độ ăn uống hợp lý và tinh thần kiên định</strong>. Chính điều này khiến gym không chỉ là bài tập thể chất, mà còn là “bài học cuộc đời” về sự kiên trì và vượt giới hạn.</p> <h3>? <strong>4. Giải tỏa căng thẳng và nâng cao tinh thần</strong></h3> <p>Tập gym kích thích cơ thể sản sinh <strong>endorphin và dopamine</strong> – hai hormone giúp giảm căng thẳng và tạo cảm giác vui vẻ. Nhiều người chia sẻ rằng chỉ cần một buổi tập nặng là có thể giải tỏa áp lực sau cả ngày dài làm việc.</p> <h3>?‍♂️ <strong>5. Xây dựng hình ảnh và sự tự tin</strong></h3> <p>Một vóc dáng cân đối, khỏe khoắn giúp bạn <strong>tự tin hơn trong giao tiếp, công việc và cả tình cảm</strong>. Đặc biệt, hình ảnh “người tập gym” thường gắn liền với ý chí, sức sống, và sự thu hút hiện đại – điều mà ai cũng muốn sở hữu.</p> <h3>? <strong>6. Thời trang gym – Tuyên ngôn cá tính của người tập luyện</strong></h3> <p>Đi cùng sự phát triển của phong trào luyện tập là sự bùng nổ của <strong>thời trang gym</strong>. Áo tanktop, croptop, bra thể thao, quần legging, quần jogger ôm form… được thiết kế tối ưu cho vận động, thoáng khí, co giãn tốt và tôn dáng.<br><strong>5GOAL SPORT</strong> tự hào mang đến các mẫu trang phục gym cá tính, cá nhân hóa phong cách của bạn trong từng bài tập.</p> <h3>? <strong>7. Phù hợp với mọi mục tiêu cá nhân</strong></h3> <ul> <li> <p>Tăng cân, tăng cơ</p> </li> <li> <p>Giảm mỡ, giảm cân</p> </li> <li> <p>Tập luyện sức bền</p> </li> <li> <p>Hồi phục sau chấn thương</p> </li> <li> <p>Cải thiện hình thể chuyên sâu (ngực, mông, bụng…)</p> </li> </ul> <p>Dù bạn là người mới hay đã tập lâu năm, <strong>gym luôn có bài tập và lịch trình phù hợp với mục tiêu cá nhân</strong>.</p> <h3>? <strong>8. Những mô hình gym phổ biến tại Việt Nam</strong></h3> <ul> <li> <p><strong>Gym truyền thống</strong>: Máy móc đa năng, tự tập</p> </li> <li> <p><strong>Fitness Studio</strong>: Có PT cá nhân, tập nhóm, bài bản</p> </li> <li> <p><strong>Crossfit/Functional Training</strong>: Bài tập chuyên sâu, thử thách</p> </li> <li> <p><strong>Calisthenics (thể hình đường phố)</strong>: Không cần máy móc, dùng trọng lượng cơ thể</p> </li> </ul> <p><img src=\"https://cdn.tgdd.vn/Files/2022/12/02/1492401/8-thu-khong-nen-mang-den-phong-tap-gym-de-tap-luyen-tot-hon-202212020119550437.jpg\" alt=\"8 thứ không nên mang đến phòng tập gym để tập luyện tốt hơn\"></p> <h3>? <strong>Lưu ý cho người mới bắt đầu tập gym</strong></h3> <ul> <li> <p>Khởi động kỹ trước khi tập</p> </li> <li> <p>Không “tập quá sức” những ngày đầu</p> </li> <li> <p>Kết hợp với chế độ ăn hợp lý (tăng đạm – giảm đường tinh luyện)</p> </li> <li> <p>Kiên trì ít nhất 3–6 tháng để thấy hiệu quả rõ rệt</p> </li> <li>Chọn trang phục thoải mái, hỗ trợ vận động tốt</li> </ul> <p><img src=\"https://5goalsport.com/wp-content/uploads/2025/07/unnamed-5.png\" alt=\"Style Thể Thao Nam\"></p> <h3><strong>GYM – PHONG CÁCH SỐNG CỦA NGƯỜI MUỐN “TIẾN HÓA” BẢN THÂN</strong></h3> <p>Gym không đơn thuần là đến phòng tập nâng tạ – đó là quá trình bạn <strong>thay đổi suy nghĩ, làm chủ sức khỏe và biến hình thể trở thành phiên bản tốt nhất của chính mình</strong>.</p>"
+  },
+  {
+   "slug": "review-easymeal-an-sach-song-de-cho-nguoi-ban-ron",
+   "title": "Review EasyMEAL – Ăn Sạch, Sống Dễ Cho Người Bận Rộn",
+   "excerpt": "Trong xu hướng sống khỏe hiện đại, việc lựa chọn những thực phẩm sạch, giàu dinh dưỡng và tiện lợi ngày càng được nhiều người quan tâm. EasyMEAL là một thương hiệu thực phẩm hướng đến lối sống lành mạnh, được sáng lập bởi Đạt easyGYM – một huấn luyện viên thể hình với mong muốn giúp mọi người xây dựng sức khỏe từ chính những bữa ăn hằng ngày.",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/z7879027157748_e068d136b25874a8cb554af362e93131.webp",
+   "date": "30/05/2026",
+   "cat": "easymeal",
+   "body": "<h2><img src=\"https://easygym.vn/uploads/source/avatar-food/z7881382919674_f5d9fa54aee97ee854d75e6608badd66.webp\" alt=\"\"><br>Ấn Tượng Đầu Tiên Về EasyMEAL</h2> <p>Điều khiến EasyMEAL tạo được thiện cảm chính là triết lý sản phẩm rõ ràng: <strong>Organic – Tự nhiên – Tốt cho hệ tiêu hóa</strong>. Các sản phẩm được định hướng không sử dụng đường tinh luyện, không chất bảo quản và hạn chế tối đa các thành phần không cần thiết. Đây là một điểm cộng lớn đối với những người đang theo đuổi chế độ ăn uống lành mạnh hoặc tập luyện thể thao.</p> <p>EasyMEAL không đơn thuần là một thương hiệu thực phẩm mà còn truyền tải thông điệp về một lối sống tích cực, giúp người dùng dễ dàng duy trì thói quen ăn uống khoa học mỗi ngày.</p> <p><img src=\"https://easygym.vn/uploads/source/hinh-anh-thuc-te/z7879027157748_e068d136b25874a8cb554af362e93131.webp\" alt=\"\"></p>"
+  },
+  {
+   "slug": "review-goat-kefir-sua-len-men-tu-nhien-tu-sua-de-a2",
+   "title": "Review GOAT KEFIR – Sữa Lên Men Tự Nhiên Từ Sữa Dê A2",
+   "excerpt": "Trong xu hướng sống khỏe hiện đại, việc chăm sóc sức khỏe không chỉ dừng lại ở tập luyện mà còn bắt đầu từ hệ tiêu hóa – nền tảng quan trọng quyết định khả năng hấp thu và năng lượng mỗi ngày. Chính vì vậy, những sản phẩm tự nhiên – tốt cho đường ruột – ít gây kích ứng ngày càng được nhiều người ưu tiên lựa chọn. GOAT KEFIR là dòng sữa lên men tự nhiên từ sữa dê A2, hướng đến việc nuôi dưỡng hệ tiêu hóa một cách khoa học, an toàn và bền vững cho người theo đuổi lối sống lành mạnh.",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/z7879027281458_c48aedc648ae8928048ba0575b6cd2fa.webp",
+   "date": "02/06/2026",
+   "cat": "easymeal",
+   "body": "<h2><img src=\"https://easygym.vn/uploads/source/avatar-food/z7881382919674_f5d9fa54aee97ee854d75e6608badd66.webp\" alt=\"\"></h2> <h2>Ấn Tượng Đầu Tiên Về GOAT KEFIR</h2> <p>Điểm tạo thiện cảm ngay từ đầu của GOAT KEFIR chính là triết lý sản phẩm rõ ràng:<br><strong>Tự nhiên – Ít chế biến – Tập trung vào hệ tiêu hóa</strong>.</p> <p>Sản phẩm không chạy theo vị ngọt hay hương liệu nhân tạo, mà chú trọng giữ trọn giá trị nguyên bản của sữa dê A2 và quá trình lên men tự nhiên. Đây là lựa chọn phù hợp cho những người quan tâm đến sức khỏe đường ruột, người tập luyện thể thao hoặc người có hệ tiêu hóa nhạy cảm.</p> <p>GOAT KEFIR không chỉ là một loại thức uống, mà còn là giải pháp dinh dưỡng giúp xây dựng nền tảng sức khỏe từ bên trong.</p> <p><img src=\"https://easygym.vn/uploads/source/hinh-anh-thuc-te/z7879027281458_c48aedc648ae8928048ba0575b6cd2fa.webp\" alt=\"\"></p> <h2>GOAT KEFIR Là Gì?</h2> <p>GOAT KEFIR là <strong>sữa dê A2 lên men tự nhiên</strong>, giàu lợi khuẩn sống và enzyme tiêu hóa, giúp:</p> <ul> <li>Cân bằng hệ vi sinh đường ruột</li> <li>Hỗ trợ tiêu hóa và hấp thu dinh dưỡng tốt hơn</li> <li>Giảm tình trạng đầy bụng, khó tiêu so với sữa bò thông thường</li> </ul> <p>Đặc biệt, <strong>protein A2 trong sữa dê</strong> có cấu trúc dễ tiêu hóa, phù hợp với người nhạy cảm với lactose hoặc có hệ tiêu hóa yếu.</p> <h2>Điểm Nổi Bật Của GOAT KEFIR</h2> <p>GOAT KEFIR được đánh giá cao nhờ những yếu tố sau:</p> <ul> <li>100% sữa dê A2 nguyên chất</li> <li>Lên men tự nhiên bằng enzyme sống</li> <li>Không đường tinh luyện</li> <li>Không chất bảo quản</li> <li>Giàu lợi khuẩn &amp; enzyme hỗ trợ tiêu hóa</li> <li>Hương vị thanh nhẹ, dễ uống, không ngấy</li> </ul> <p>Những đặc điểm này giúp GOAT KEFIR trở thành lựa chọn an toàn cho việc sử dụng hằng ngày.</p> <h2>Lợi Ích Sức Khỏe Đáng Chú Ý</h2> <p>Theo định hướng từ sản phẩm, GOAT KEFIR mang lại nhiều giá trị thiết thực:</p> <p>✔ Hỗ trợ hệ tiêu hóa và tăng cường miễn dịch<br>✔ Giúp cơ thể hấp thu dinh dưỡng hiệu quả hơn<br>✔ Phù hợp cho người tập gym, yoga và thể thao<br>✔ Hỗ trợ kiểm soát cân nặng<br>✔ Góp phần cải thiện làn da và sức khỏe tổng thể</p> <h2>Cách Sử Dụng Hiệu Quả</h2> <ul> <li>Uống <strong>1–2 chai mỗi ngày</strong> (khoảng 300–500ml)</li> <li>Thời điểm lý tưởng: <ul> <li>Buổi sáng</li> <li>Sau tập luyện</li> <li>Trước khi ngủ</li> </ul> </li> </ul> <p>Nên dùng lạnh để cảm nhận rõ hương vị kefir và giúp dễ uống hơn.</p> <h2>GOAT KEFIR Phù Hợp Với Ai?</h2> <p>GOAT KEFIR đặc biệt phù hợp với:</p> <ul> <li>Người theo lối sống healthy</li> <li>Người tập gym, yoga, thể thao</li> <li>Người có hệ tiêu hóa yếu, hay đầy bụng</li> <li>Người muốn cải thiện sức khỏe đường ruột</li> <li>Người ăn uống khoa học, ít đường – ít chế biến</li> </ul> <h2>Đánh Giá Tổng Quan</h2> <p>GOAT KEFIR không đơn thuần là một sản phẩm sữa lên men, mà là <strong>giải pháp dinh dưỡng sạch – lành – bền vững</strong> cho cuộc sống hiện đại. Với thành phần tự nhiên, dễ uống và tập trung vào hệ tiêu hóa, sản phẩm phù hợp cho việc sử dụng lâu dài mỗi ngày.</p> <p>Nếu bạn đang tìm kiếm một lựa chọn hỗ trợ tiêu hóa, phù hợp tập luyện và nuôi dưỡng sức khỏe từ bên trong, <strong>GOAT KEFIR</strong> là cái tên rất đáng để trải nghiệm.</p> <p><strong>GOAT KEFIR – Nuôi dưỡng hệ tiêu hóa khỏe mạnh và nguồn năng lượng bền bỉ mỗi ngày.</strong></p>"
+  },
+  {
+   "slug": "chocolean-but-pha-gioi-han-giu-nhip-tim-an-toan",
+   "title": "Review CHOCOLEAN – Bứt Phá Giới Hạn, Giữ Nhịp Tim An Toàn",
+   "excerpt": "Trong bối cảnh nhu cầu tập luyện và duy trì thể lực ngày càng cao, việc lựa chọn nguồn năng lượng không chỉ cần hiệu quả tức thời mà còn phải ổn định, an toàn và phù hợp sử dụng lâu dài. Đặc biệt với người tập luyện thường xuyên, năng lượng sạch đóng vai trò quan trọng trong việc duy trì phong độ và bảo vệ sức khỏe tim mạch. CHOCOLEAN là sản phẩm socola đen từ 100% cacao nguyên chất, hướng đến việc cung cấp năng lượng tự nhiên, hỗ trợ tập trung và sức bền cho những ai theo đuổi lối sống vận động bền vững.",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/z7879027038732_d5ce3bb495555efa413bfda605d70956.webp",
+   "date": "02/06/2026",
+   "cat": "easymeal",
+   "body": "<h2><img src=\"https://easygym.vn/uploads/source/avatar-food/z7881382919674_f5d9fa54aee97ee854d75e6608badd66.webp\" alt=\"\"></h2> <h2>Ấn Tượng Đầu Tiên Về CHOCOLEAN</h2> <p>Điểm dễ nhận thấy ở CHOCOLEAN chính là triết lý sản phẩm rõ ràng:<br><strong>Nguyên chất – Ít kích thích – Hướng đến hiệu suất lâu dài</strong>.</p> <p>Thay vì sử dụng các chất kích thích mạnh, CHOCOLEAN tập trung vào giá trị dinh dưỡng tự nhiên từ cacao, giúp cơ thể duy trì năng lượng ổn định trong suốt buổi tập. Đây là lựa chọn phù hợp cho người tập luyện cường độ cao nhưng vẫn ưu tiên sự an toàn và bền bỉ.</p> <p>CHOCOLEAN không đơn thuần là một món socola, mà là giải pháp năng lượng sạch cho quá trình tập luyện và vận động hằng ngày.</p> <p><img src=\"https://easygym.vn/uploads/source/hinh-anh-thuc-te/z7879027038732_d5ce3bb495555efa413bfda605d70956.webp\" alt=\"\"></p> <h2>CHOCOLEAN Là Gì?</h2> <p>CHOCOLEAN là <strong>socola đen 100% cacao nguyên chất</strong>, không đường, không sữa và không phụ gia nhân tạo.<br>Sản phẩm giàu <strong>flavonoid tự nhiên</strong>, mang lại nhiều lợi ích cho người tập luyện:</p> <ul> <li>Hỗ trợ lưu thông máu</li> <li>Tăng khả năng cung cấp oxy cho cơ bắp</li> <li>Góp phần cải thiện hiệu suất tập luyện và phục hồi</li> </ul> <p>Năng lượng từ CHOCOLEAN đến từ <strong>thực phẩm thật</strong>, không phải các chất kích thích nhân tạo.</p> <h2>Điểm Nổi Bật Của CHOCOLEAN</h2> <p>CHOCOLEAN được đánh giá cao nhờ những đặc điểm sau:</p> <ul> <li>100% cacao nguyên chất</li> <li>Không đường tinh luyện</li> <li>Không sữa – không phụ gia</li> <li>Hàm lượng caffein thấp, hạn chế bồn chồn</li> <li>Hỗ trợ tập trung nhờ dopamine &amp; serotonin tự nhiên</li> <li>Giảm stress oxy hóa, hỗ trợ sức khỏe tim mạch</li> </ul> <p>Những yếu tố này giúp CHOCOLEAN phù hợp cho việc sử dụng hằng ngày.</p> <h2>Lợi Ích Đáng Chú Ý Cho Người Tập Luyện</h2> <p>Theo định hướng từ sản phẩm, CHOCOLEAN mang lại nhiều giá trị thiết thực:</p> <p>✔ Giúp duy trì năng lượng ổn định trong buổi tập<br>✔ Hỗ trợ tập trung tốt hơn khi vào set nặng<br>✔ Giảm cảm giác hụt hơi khi tập kéo dài<br>✔ Hỗ trợ phục hồi sau vận động<br>✔ Phù hợp với nhiều hình thức tập luyện khác nhau</p> <h2>Cách Sử Dụng Hiệu Quả</h2> <ul> <li>Dùng <strong>2–6 viên mỗi ngày</strong></li> <li>Có thể sử dụng <strong>trước, trong hoặc sau buổi tập</strong></li> <li>Phù hợp để dùng hằng ngày như nguồn năng lượng tự nhiên</li> </ul> <p>CHOCOLEAN tương thích với nhiều chế độ ăn:</p> <ul> <li>Eat Clean</li> <li>Keto</li> <li>Low Carb</li> <li>Thuần chay</li> </ul> <h2>CHOCOLEAN Phù Hợp Với Ai?</h2> <p>CHOCOLEAN đặc biệt phù hợp với:</p> <ul> <li>Người tập luyện thể thao và gym</li> <li>Người cần năng lượng nhưng không muốn phụ thuộc caffein</li> <li>Người quan tâm đến sức khỏe tim mạch</li> <li>Người theo đuổi lối sống vận động lâu dài</li> </ul> <h2>Đánh Giá Tổng Quan</h2> <p>CHOCOLEAN không phải là pre-workout mang tính kích thích mạnh.<br>Đây là <strong>nguồn năng lượng nguyên chất – ổn định – an toàn</strong>, phù hợp cho những ai muốn duy trì hiệu suất tập luyện lâu dài mà vẫn bảo vệ sức khỏe tổng thể.</p> <p><strong>CHOCOLEAN – Năng lượng nguyên chất, phong độ bền bỉ mỗi ngày.</strong></p>"
+  },
+  {
+   "slug": "review-banh-bong-lean-lua-chon-banh-healthy-cho-loi-song-hien-dai",
+   "title": "Review Bánh Bông Lean – LỰA CHỌN BÁNH HEALTHY CHO LỐI SỐNG HIỆN ĐẠI",
+   "excerpt": "Trong nhịp sống bận rộn ngày nay, việc tìm một món bánh vừa ngon miệng, vừa đảm bảo dinh dưỡng và không gây cảm giác nặng bụng là điều nhiều người quan tâm, đặc biệt với những ai tập luyện thể thao hoặc theo đuổi lối sống lành mạnh. Bánh Bông Lean được phát triển theo định hướng đó – đơn giản, tự nhiên và dễ sử dụng trong sinh hoạt hằng ngày.",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/z7879027428724_98da4379bbec0a3f74befc4cd86e9b10.webp",
+   "date": "02/06/2026",
+   "cat": "easymeal",
+   "body": "<h2><img src=\"https://easygym.vn/uploads/source/avatar-food/z7881382919674_f5d9fa54aee97ee854d75e6608badd66.webp\" alt=\"\"></h2> <h2> </h2> <h2>Ấn Tượng Đầu Tiên Về Bánh Bông Lean</h2> <p>Điều tạo thiện cảm ở Bánh Bông Lean chính là định hướng rõ ràng ngay từ nguyên liệu: <strong>nguyên cám – tự nhiên – thân thiện với hệ tiêu hóa</strong>. Sản phẩm được phát triển theo hướng hạn chế đường tinh luyện, không chất bảo quản và tránh các thành phần công nghiệp không cần thiết, phù hợp với những người đang quan tâm đến sức khỏe và chất lượng bữa ăn hằng ngày.</p> <p>Không chỉ đơn thuần là một món bánh, Bánh Bông Lean mang đến cảm giác an tâm khi sử dụng, giúp người dùng dễ dàng duy trì thói quen ăn uống lành mạnh mà không cần quá nhiều thay đổi trong sinh hoạt thường ngày.</p> <h2><img src=\"https://easygym.vn/uploads/source/hinh-anh-thuc-te/z7879027428724_98da4379bbec0a3f74befc4cd86e9b10.webp\" alt=\"\"><br>Bánh Bông Lean Là Gì?</h2> <p>Bánh Bông Lean là dòng <strong>bánh bông lan nguyên cám organic</strong>, sử dụng các nguyên liệu tự nhiên, hạn chế tối đa thành phần tinh luyện và phụ gia không cần thiết.<br>Sản phẩm hướng đến việc cung cấp <strong>nguồn năng lượng ổn định</strong>, phù hợp dùng cho bữa sáng, bữa phụ hoặc trước khi vận động.</p> <h2>Thành Phần Được Lựa Chọn Kỹ Lưỡng</h2> <p>Bánh được làm từ sự kết hợp của:</p> <ul> <li>Bột nguyên cám organic</li> <li>Trứng gà tươi</li> <li>Sữa thanh trùng</li> <li>Mật ong tự nhiên</li> <li>Chocolate nguyên chất</li> </ul> <p>Đồng thời <strong>không sử dụng</strong>:</p> <ul> <li>Đường tinh luyện</li> <li>Chất bảo quản</li> <li>Phụ gia nhân tạo</li> <li>Bột nở công nghiệp</li> </ul> <p>Cách lựa chọn này giúp bánh giữ được sự cân bằng giữa hương vị và giá trị dinh dưỡng.</p> <h2>Trải Nghiệm Hương Vị</h2> <p>Bánh có kết cấu mềm vừa, không khô, không ngọt gắt.<br>Vị bánh dịu nhẹ, dễ ăn, phù hợp với những người không thích bánh công nghiệp quá ngọt. Phiên bản chocolate tạo thêm điểm nhấn hương vị nhưng vẫn giữ được cảm giác nhẹ bụng khi sử dụng.</p> <h2>Giá Trị Mang Lại</h2> <p>Bánh Bông Lean mang đến nhiều lợi ích thiết thực:</p> <p>✔ Giàu chất xơ và protein<br>✔ Hỗ trợ tiêu hóa tốt hơn<br>✔ Tạo cảm giác no lâu<br>✔ Cung cấp năng lượng bền vững, không gây uể oải<br>✔ Dễ kết hợp với chế độ ăn uống và tập luyện lành mạnh</p> <h2>Phù Hợp Với Ai?</h2> <p>Bánh Bông Lean phù hợp cho:</p> <ul> <li>Người theo đuổi lối sống healthy</li> <li>Người tập gym, cardio, vận động thường xuyên</li> <li>Nhân viên văn phòng cần bữa ăn gọn nhẹ</li> <li>Người muốn hạn chế đồ ngọt tinh luyện</li> <li>Người ưu tiên thực phẩm ít chế biến, nguồn gốc tự nhiên</li> </ul> <h2>Đánh Giá Tổng Quan</h2> <p>Bánh Bông Lean là lựa chọn bánh lành mạnh, tập trung vào <strong>nguyên liệu – dinh dưỡng – sự tiện lợi</strong>.<br>Không cầu kỳ, không nặng vị, sản phẩm phù hợp cho những ai muốn duy trì thói quen ăn uống khoa học một cách nhẹ nhàng và bền vững.</p> <p><strong>Bánh Bông Lean – Ngon miệng, đủ chất và đồng hành cùng lối sống khỏe mỗi ngày.</strong></p>"
+  }
+ ],
+ "albums": [
+  {
+   "id": "easy-gym",
+   "title": "Easy GYM",
+   "images": [
+    "https://easygym.vn/uploads/source/hinh-anh-thuc-te/574572722_3877219322410650_6165760053241966567_n.webp",
+    "https://easygym.vn/uploads/source/hinh-anh-thuc-te/706100689_4117156011750312_4732706331045641435_n.webp",
+    "https://easygym.vn/uploads/source/hinh-anh-thuc-te/702099722_4108187772647136_2012259477285195904_n.webp",
+    "https://easygym.vn/uploads/source/hinh-anh-thuc-te/689010330_4100799503385963_6017928533330710342_n.webp",
+    "https://easygym.vn/uploads/source/hinh-anh-thuc-te/616573575_3965991673533414_129893753886747308_n.webp",
+    "https://easygym.vn/uploads/source/hinh-anh-thuc-te/604762944_3940431466089435_5730574963157915050_n.webp",
+    "https://easygym.vn/uploads/source/hinh-anh-thuc-te/545067685_3809485122517404_7871706691362725826_n.webp",
+    "https://easygym.vn/uploads/source/hinh-anh-thuc-te/511185929_3718084248324159_1758586858350608199_n.webp"
+   ]
+  },
+  {
+   "id": "thay-doi-hoc-vien-va-feedback-san-pham",
+   "title": "Những thay đổi của học viên",
+   "images": [
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938004103444_e2681003a55ecfa602d20dc479941c85.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938004019156_9b386c78e265c5ac0855f8b68572cdc7.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938004026026_52ae0348975b7b51338002195e964775.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938004050581_7697284e4441308b0e22ff0c48f50328.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938004059244_a524b6d875c7ef4e7589d0344b251f03.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938004073793_e5bed527313bd80d5f4651afd59570f3.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938004080069_7d1ad786849888e5c7ab952d94471d67.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938004085599_0473794da430edb8a3f8f189c3dc6a3f.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938004094034_10db82f5b0bad83dbe031fd6f286fc73.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938004108746_12f5410b5b65baf8abb0efe9ed21a19d.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938004116996_3054c3f31db7f8ba2b99bb948b9ca626.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938037599885_24bcf99065569f267b76954fcc74dd75.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938037619661_8d0902436afa514fe912f90372b463a2.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938037633671_31c353b396a2097d0b4b943af571d3d2.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938004003808_38e81dd611fb70f4752bdd95e167c4a7.webp"
+   ]
+  },
+  {
+   "id": "feedback-khach-hang",
+   "title": "Feedback khách hàng",
+   "images": [
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938004046503_7a7c5c0a2b89260b31977f2497a72b88.webp",
+    "https://easygym.vn/uploads/source/feed-back/z7897951131233_2a9f51e7922e66f5569bd369a6714293.webp",
+    "https://easygym.vn/uploads/source/feed-back/z7897951124693_3ce0da32e8cd834cc4f7dfa408723c41.webp",
+    "https://easygym.vn/uploads/source/feed-back/z7897951121924_39ecaa127d72e8bf2b2a21ff18996b25.webp",
+    "https://easygym.vn/uploads/source/feed-back/715345737_1485350690054949_6950410533442197925_n.webp",
+    "https://easygym.vn/uploads/source/feed-back/714597832_1931994994123174_6537685637579559655_n.webp",
+    "https://easygym.vn/uploads/source/feed-back/712523127_1876635513026424_2841046272271165571_n.webp",
+    "https://easygym.vn/uploads/source/feed-back/712286461_1374815164752430_2467230653963574532_n.webp",
+    "https://easygym.vn/uploads/source/feed-back/711075321_4545208605805460_3056096583564840950_n.webp",
+    "https://easygym.vn/uploads/source/feed-back/708986647_1002672628919515_5443472682837992001_n.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938037626052_f868bd1b0104c03b32c89c2bc65c33f9.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938037603992_0a78e36528cfba925f4ec448b52cc1a8.webp",
+    "https://easygym.vn/uploads/source/thay-doi-hoc-vien-va-feed-back/z7938037592672_3f1731bd8b64344388ae2ffb69983f05.webp",
+    "https://easygym.vn/uploads/source/feed-back/kefir/1788835421601_1843245892886534846_8023997234323530352_6a03df4a150af2e7c988f05604a4214f.webp",
+    "https://easygym.vn/uploads/source/feed-back/kefir/1788835421593_1843245892886534846_8023997234323530352_de0d689d349a514369bc1e32d48a5dad.webp",
+    "https://easygym.vn/uploads/source/feed-back/kefir/1788835421583_1843245892886534846_8023997234323530352_3f22159a86ed1811c241a24a6a0334c8.webp",
+    "https://easygym.vn/uploads/source/feed-back/kefir/1788835421574_1843245892886534846_8023997234323530352_123ffe6d8e68c1d80bd23b7a3d8017ad.webp",
+    "https://easygym.vn/uploads/source/feed-back/kefir/1788835421565_1843245892886534846_8023997234323530352_840de4b7fe47b76452a2e91c63829006.webp",
+    "https://easygym.vn/uploads/source/feed-back/kefir/1788835421554_1843245892886534846_8023997234323530352_b51af038256bdfbc1b29520ea21dfdb1.webp",
+    "https://easygym.vn/uploads/source/feed-back/kefir/1788835421541_1843245892886534846_8023997234323530352_1b5c4f40f49a7e13bb415a69fe953181.webp",
+    "https://easygym.vn/uploads/source/feed-back/kefir/1788835421527_1843245892886534846_8023997234323530352_2eac4b16133f404f8c5aee97a24a43a3.webp",
+    "https://easygym.vn/uploads/source/feed-back/kefir/1788835421510_1843245892886534846_8023997234323530352_991c5324e35bbbe803b36de65d152099.webp",
+    "https://easygym.vn/uploads/source/feed-back/kefir/1788835421484_1843245892886534846_8023997234323530352_86c60de31f2a2e6524d64f95931f2a3c.webp"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "title": "Một ngày trọn vẹn của Đạt easyGYM",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/screenshot-2026-05-26-224651.webp",
+   "id": "0ylyvZuqgW8"
+  },
+  {
+   "title": "Workout Chân To – Đều – Tỉ lệ cân đối: Bài bản từ A-Z",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/screenshot-2026-05-26-224340.webp",
+   "id": "cN0ODQBfz1Q"
+  },
+  {
+   "title": "Cách lên bài tập NGỰC từ cơ bản đến chi tiết | easyGYM",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/screenshot-2026-05-26-224156.webp",
+   "id": "H4pVKB9U5Io"
+  },
+  {
+   "title": "Buổi tập lưng cho nữ chân thật nhất: Mồ hôi, sai sót, và bài học",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/screenshot-2026-05-26-224025.webp",
+   "id": "nu8i4mo33aI"
+  },
+  {
+   "title": "Cách lên bài tập VAI từ cơ bản đến chi tiết | easyGYM",
+   "image": "https://easygym.vn/uploads/source/hinh-anh-thuc-te/screenshot-2026-05-26-224447.webp",
+   "id": "M_iz77t17ME"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "gioi-thieu",
+   "body": "<h2><strong>ĐẠT EASYGYM - ĐÔI LỜI GIỚI THIỆU</strong></h2> <p><img src=\"https://easygym.vn/uploads/source/hinhanh/69d2ba1f-d2bf-4dc9-aefa-47f131a6d7f1-(1).webp\" alt=\"\"></p> <p><em>Nguyễn Tiến Đạt aka Đạt easyGYM</em></p> <p><br>Giảng viên cấp cao Học viện Getfit Academy</p> <p>Founder easyLIFE group</p> <p>CEO easyMEAL<br> <img src=\"https://easygym.vn/uploads/source/hinhanh/453262190_3327745327358055_3430021009361042442_n(2).webp\" alt=\"\"></p> <p>2014 – 2016</p> <p>Bước chân lên SG với thành tích đậu 3 trường Đại học Kiến trúc, Bách khoa và FPT ngành Kiến trúc sư</p> <p>Pick trường Kiến trúc bởi vì nghe nói Bách khoa, FPT toàn trai không</p> <p>Học 2 năm liên tiếp không qua nổi môn Hội họa chán quá bảo lưu</p> <p>Mãi sau này mới biết là mình bị Rối loạn sắc giác bệnh di truyền.</p> <p>2016 – 2023</p> <p>Lăn lộn trong ngành fitness với tên Đạt Fit</p> <p>Học hỏi rất nhiều giáo trình fitness nước ngoài và tham gia trải nghiệm nhiều cuộc thi từ chạy bộ, crossfit đến thể hình.</p> <p><img src=\"https://easygym.vn/uploads/source/hinhanh/464183927_122118221528510599_6506185865425075146_n.webp\" alt=\"\"></p> <p>2023 – nay</p> <p>Đạt ngộ chân lý và lột xác với tên Đạt easyGYM</p> <p>Bước vào thi đấu chuyên nghiệp và đạt rất nhiều thành tích thi đấu và có lúc được xem như hiện tượng mới trong ngành fitness</p> <p>Dẫn đầu phong cách tập gym dễ dàng</p> <p><strong>Kinh Nghiệm:</strong></p> <p>- Chuyên gia dinh dưỡng thể thao tại ISSA </p> <p>- Giảng viên cấp cao tại Học viện Getfit Academy </p> <p>- Giảng viên tại Viện y học thể thao Dr.Fit</p> <p> - Giảng viên tại Cty Thể Hình Việt</p> <p><strong>Thành tích thi đấu </strong></p> <p>5 huy chương vàng</p> <p>6 huy chương bạc </p> <p>2 cúp vô địch toàn năng</p> <p>-Top1 Viet Nam Muscle Tour 2022<br>-Top1 Men physique bán chuyên Nha Trang 2023<br>-Top1 Men physique cúp các CLB Tây Ninh 2023<br>-Top1 Men physique HLV-PT 2025<br>-Top1 Men'Physique chuyên nghiệp 2026<br>-Vận động viên được ưa thích nhất 2024<br>-PT Hình thể đẹp nhất tại PT Star ⭐<br>-Vận động viên trình diễn đẹp nhất tại Gods Of Tournament 2024<br>-Nam vương Việt Nam Muscle Tour 2022<br>-Vô địch toàn năng cúp các CLB Tây Ninh 2023<br>-Top2 Men physique doanh nhân 2026</p> <p><img src=\"https://easygym.vn/uploads/source/hinhanh/415067807_3154132108052712_1822109440968241180_n.webp\" alt=\"\"></p>"
+  }
+ ]
+}

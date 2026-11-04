@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+
+# web
+node_modules/
+web/build/
+web/.svelte-kit/
+
+# backend
+backend/bin/
+*.exe
+
+.DS_Store

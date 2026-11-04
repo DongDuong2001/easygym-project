@@ -1,0 +1,19 @@
+# Local database only. Production uses Supabase (Postgres 17), so the major version matches.
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: easygym
+      POSTGRES_PASSWORD: easygym
+      POSTGRES_DB: easygym
+    ports:
+      - "5433:5432"
+    volumes:
+      - db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U easygym"]
+      interval: 2s
+      retries: 30
+
+volumes:
+  db:

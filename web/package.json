@@ -1,0 +1,30 @@
+{
+	"name": "easygym-web",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "node --test \"src/**/*.test.js\"",
+		"prepare": "svelte-kit sync || echo ''",
+		"start": "node build",
+		"e2e": "node e2e/e2e.mjs"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-node": "^6.0.1",
+		"@sveltejs/kit": "^3.1.1",
+		"@sveltejs/vite-plugin-svelte": "^7.3.1",
+		"playwright": "^1.64.1",
+		"svelte": "^5.57.3",
+		"vite": "^8.3.5"
+	},
+	"imports": {
+		"#lib": "./src/lib/index.js",
+		"#lib/*": "./src/lib/*"
+	},
+	"engines": {
+		"node": ">=24"
+	}
+}
