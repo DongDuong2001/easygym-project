@@ -40,17 +40,17 @@
 
 <a class="skip" href="#noi-dung">Tới nội dung chính</a>
 
-<div class="top">
+<aside class="top" aria-label="Thông tin liên hệ">
 	<div class="container row">
 		<p><a href={`tel:${brand.phone}`}>{brand.phone}</a><a href={`mailto:${brand.email}`}>{brand.email}</a></p>
 		<p class="mid">Đăng ký trải nghiệm: <a href="/lien-he#dang-ky"><b>Để lại số điện thoại</b></a></p>
 		<p class="end"><a href={brand.map} target="_blank" rel="noreferrer">Gò Vấp, TP.HCM</a><span>8:00 - 20:00</span></p>
 	</div>
-</div>
+</aside>
 
 <header class="bar">
 	<div class="container row">
-		<button class="icon burger" onclick={() => (menu = !menu)} aria-expanded={menu} aria-controls="menu-chinh" aria-label="Mở menu">
+		<button class="icon burger" onclick={() => (menu = !menu)} aria-expanded={menu} aria-controls="menu-chinh" aria-label={menu ? 'Đóng menu' : 'Mở menu'}>
 			<Icon name={menu ? 'x' : 'menu'} size={24} />
 		</button>
 
@@ -416,6 +416,8 @@
 			right: 0;
 			display: none;
 			flex-direction: column;
+			/* centred overflow puts the first items above the scroll start, out of reach */
+			justify-content: flex-start;
 			gap: 0;
 			padding: 8px var(--gutter) 16px;
 			background: var(--surface);
