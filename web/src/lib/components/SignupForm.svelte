@@ -2,7 +2,7 @@
 	import Icon from './Icon.svelte';
 	import { catalog } from '#lib/catalog.js';
 	import { isPhone } from '#lib/shop.js';
-	import { addLead } from '#lib/store.svelte.js';
+	import { addLead, focusError } from '#lib/store.svelte.js';
 
 	const courses = $derived(catalog().courses);
 
@@ -21,7 +21,8 @@
 	async function submit(e) {
 		e.preventDefault();
 		tried = true;
-		if (!form.name.trim() || !isPhone(form.phone) || sending) return;
+		if (!form.name.trim() || !isPhone(form.phone)) return focusError(e.currentTarget);
+		if (sending) return;
 		sending = true;
 		failed = '';
 		try {
