@@ -171,13 +171,13 @@ ok('quick add + wishlist');
 
 // Cart maths and persistence: 2 x 130k + 1 x 89k = 349k
 await go('/gio-hang');
-assert.match(await page.locator('aside').innerText(), /349\.000đ/);
+assert.match(await page.locator('main aside').innerText(), /349\.000đ/);
 await page.getByRole('button', { name: 'Tăng số lượng' }).first().click();
-assert.match(await page.locator('aside').innerText(), /479\.000đ/);
+assert.match(await page.locator('main aside').innerText(), /479\.000đ/);
 await page.reload({ waitUntil: 'networkidle' });
-assert.match(await page.locator('aside').innerText(), /479\.000đ/, 'cart persists');
+assert.match(await page.locator('main aside').innerText(), /479\.000đ/, 'cart persists');
 await page.getByRole('button', { name: 'Xóa Thạch Jellean' }).click();
-assert.match(await page.locator('aside').innerText(), /390\.000đ/);
+assert.match(await page.locator('main aside').innerText(), /390\.000đ/);
 ok('cart maths, persistence, remove');
 
 // Checkout validates, then places the order and empties the cart
@@ -191,6 +191,7 @@ await page.locator('main').getByLabel('Số điện thoại').fill('123');
 await page.getByLabel('Địa chỉ giao hàng').fill('1 Đường Demo');
 await page.getByRole('button', { name: 'Đặt hàng' }).click();
 assert.match(await page.locator('main').innerText(), /Số điện thoại gồm 10 số/);
+assert.equal(await page.evaluate(() => document.activeElement.getAttribute('aria-describedby')), 'tt-sdt', 'focus moves to the invalid field');
 await page.locator('main').getByLabel('Số điện thoại').fill('0900000000');
 const [orderRes] = await Promise.all([page.waitForResponse('**/api/orders'), page.getByRole('button', { name: 'Đặt hàng' }).click()]);
 assert.equal(orderRes.status(), 201);
@@ -307,6 +308,19 @@ const audit = () => {
 			covered: dock.map((e) => e.textContent.trim().slice(0, 30))
 		};
 };
+
+// Phone menu: the first item must sit inside the scrollable menu (centred overflow once pushed it out of reach)
+{
+	const c = await browser.newContext({ viewport: { width: 375, height: 667 }, locale: 'vi-VN', isMobile: true, hasTouch: true });
+	const m = await c.newPage();
+	await m.goto(base + '/', { waitUntil: 'networkidle' });
+	await m.getByRole('button', { name: 'Mở menu' }).click();
+	const gap = await m.locator('#menu-chinh').evaluate((n) => n.querySelector('a').getBoundingClientRect().top - n.getBoundingClientRect().top);
+	assert.ok(gap >= 0, `first menu item inside the menu: ${gap}px`);
+	assert.ok(await m.getByRole('button', { name: 'Đóng menu' }).isVisible());
+	await c.close();
+	ok('phone menu fully reachable');
+}
 
 let bad = 0;
 const widths = [
