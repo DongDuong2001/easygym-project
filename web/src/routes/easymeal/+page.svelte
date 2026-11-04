@@ -18,6 +18,7 @@
 	<h1 class="heading">easyMEAL</h1>
 	<p class="lead">Ăn sạch, sống dễ cho người bận rộn.</p>
 
+	<h2 class="sr-only">Bài viết easyMEAL</h2>
 	<div class="posts">
 		{#each posts as p (p.slug)}<PostCard post={p} />{/each}
 	</div>
