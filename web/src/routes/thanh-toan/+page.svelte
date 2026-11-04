@@ -2,7 +2,7 @@
 	import Icon from '#lib/components/Icon.svelte';
 	import { catalog } from '#lib/catalog.js';
 	import { formatVND, isPhone, priceCart } from '#lib/shop.js';
-	import { placeOrder, store } from '#lib/store.svelte.js';
+	import { focusError, placeOrder, store } from '#lib/store.svelte.js';
 
 	const products = $derived(catalog().products);
 
@@ -26,7 +26,8 @@
 	async function submit(e) {
 		e.preventDefault();
 		tried = true;
-		if (!form.name.trim() || !isPhone(form.phone) || !form.address.trim() || sending) return;
+		if (!form.name.trim() || !isPhone(form.phone) || !form.address.trim()) return focusError(e.currentTarget);
+		if (sending) return;
 		sending = true;
 		failed = '';
 		try {
