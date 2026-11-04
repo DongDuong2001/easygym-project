@@ -28,6 +28,7 @@
 		{/each}
 	</div>
 
+	<h2 class="sr-only">Danh sách bài viết</h2>
 	<div class="posts">
 		{#each list as p (p.slug)}<PostCard post={p} />{/each}
 	</div>
