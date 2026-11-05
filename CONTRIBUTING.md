@@ -53,17 +53,24 @@ Chạy trước trên máy để khỏi chờ CI, các lệnh nằm ở mục "K
 
 ## Bảo vệ nhánh main
 
-Admin repo bật một lần trong GitHub > Settings > Branches > Add rule cho `main`:
+Luật nằm trong [.github/rulesets/main-protection.json](.github/rulesets/main-protection.json): bắt buộc PR, 4 job CI phải xanh và nhánh phải cập nhật với `main`, comment review phải resolve hết, chỉ cho "Create a merge commit" (squash sẽ gộp nhiều file vào một commit), cấm force-push và xóa `main`. Admin được bypass khi merge PR, chỉ dùng cho PR release của bot. Admin repo áp dụng một lần:
 
-- Require a pull request before merging.
-- Require status checks to pass: `Branch and commit rules`, `Backend (Go)`, `Frontend (SvelteKit)`, `E2E (Playwright)`.
-- Không dùng "Squash merge" (sẽ gộp nhiều file vào một commit). Dùng "Create a merge commit".
+```bash
+gh api -X POST repos/DongDuong2001/easygym-project/rulesets --input .github/rulesets/main-protection.json
+```
+
+Sửa file này thì xóa ruleset cũ trong Settings > Rules > Rulesets rồi chạy lại lệnh trên.
+
+## Issue, PR và kiểm tra API sống
+
+- Mẫu báo lỗi và đề xuất tính năng trong `.github/ISSUE_TEMPLATE/`, mẫu PR trong `.github/pull_request_template.md`.
+- `keep-alive.yml` gọi `/healthz` mỗi sáng 08:00. `/healthz` chạm DB, nên Supabase gói free không tạm dừng project sau 7 ngày không dùng, và job đỏ (GitHub gửi email) khi API hoặc DB chết. Sau khi deploy, thêm secret `HEALTHCHECK_URL` (ví dụ `https://api.easygym.vn/healthz`). Chưa có secret thì job bỏ qua.
 
 ## Release
 
 `release-please.yml` đọc commit trên `main` và giữ sẵn một PR `chore(main): release x.y.z` cập nhật `CHANGELOG.md` (`feat` lên minor, `fix` lên patch, `!` lên major). Merge PR đó để gắn tag `vX.Y.Z` và tạo GitHub release. PR release do bot tạo nên được miễn luật tên nhánh và một file mỗi commit.
 
-Bật một lần: Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests". PR do bot tạo không tự chạy CI, nên nếu `main` yêu cầu status check thì admin merge PR release bằng quyền bypass.
+Bật một lần: Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests". PR do bot tạo không tự chạy CI, nên admin merge PR release bằng quyền bypass của ruleset.
 
 ## Backup database
 
