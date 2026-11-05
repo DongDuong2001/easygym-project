@@ -1,4 +1,4 @@
-# Runs on every pull request and every push to main. Branch protection on main should require both jobs.
+# Runs on every pull request and every push to main. Branch protection on main should require all four jobs.
 name: CI
 
 on:
@@ -49,8 +49,50 @@ jobs:
           done
           exit $fail
 
-  check:
-    name: Lint, test, build, e2e
+  backend:
+    name: Backend (Go)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: backend/go.mod
+          cache-dependency-path: backend/go.sum
+      - name: Format
+        run: test -z "$(gofmt -l .)" || { gofmt -l .; echo "::error::run gofmt -w ."; exit 1; }
+      - name: Vet
+        run: go vet ./...
+      - name: Test
+        run: go test -race ./...
+      - name: Build
+        run: go build ./...
+
+  frontend:
+    name: Frontend (SvelteKit)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - name: Install
+        run: npm ci
+      - name: Test
+        run: npm test
+      - name: Build
+        run: npm run build
+
+  e2e:
+    name: E2E (Playwright)
+    needs: [backend, frontend]
     runs-on: ubuntu-latest
     services:
       db:
@@ -81,19 +123,9 @@ jobs:
           cache: npm
           cache-dependency-path: web/package-lock.json
 
-      - name: Backend format
-        working-directory: backend
-        run: test -z "$(gofmt -l .)" || { gofmt -l .; echo "::error::run gofmt -w ."; exit 1; }
-      - name: Backend vet and test
-        working-directory: backend
-        run: go vet ./... && go test ./...
-
-      - name: Web install
+      - name: Install and build site
         working-directory: web
-        run: npm ci
-      - name: Web test and build
-        working-directory: web
-        run: npm test && npm run build
+        run: npm ci && npm run build
 
       - name: Database migrate and seed
         working-directory: backend
