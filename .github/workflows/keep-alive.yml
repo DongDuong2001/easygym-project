@@ -1,0 +1,26 @@
+# Supabase pauses free projects after 7 days without activity. /healthz pings the DB, so one call a day keeps it awake.
+name: Keep Alive
+
+on:
+  schedule:
+    - cron: '0 1 * * *' # 08:00 Vietnam time
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping API /healthz
+        env:
+          HEALTHCHECK_URL: ${{ secrets.HEALTHCHECK_URL }}
+        run: |
+          if [ -z "$HEALTHCHECK_URL" ]; then
+            echo "::notice::HEALTHCHECK_URL secret not set (no deploy yet), skipping"
+            exit 0
+          fi
+          status=$(curl -s -o /dev/null -w "%{http_code}" --retry 3 --retry-delay 10 "$HEALTHCHECK_URL")
+          echo "HTTP $status from $HEALTHCHECK_URL"
+          # Fail so GitHub emails the owner when the API or DB is down.
+          [ "$status" -eq 200 ] || { echo "::error::API returned $status"; exit 1; }
