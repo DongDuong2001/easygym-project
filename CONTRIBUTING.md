@@ -45,7 +45,9 @@ git commit -m "fix(checkout): focus first invalid field" -- web/src/routes/thanh
 | Job | Bước |
 |---|---|
 | Branch and commit rules | tên nhánh `feat/...`, commit đúng Conventional Commits, mỗi commit một file |
-| Lint, test, build, e2e | `gofmt`, `go vet`, `go test`, `npm test`, `npm run build`, migrate + seed vào Postgres 17 tạm, chạy API và site, `npm run e2e` |
+| Backend (Go) | `gofmt`, `go vet`, `go test -race`, `go build` |
+| Frontend (SvelteKit) | `npm ci`, `npm test`, `npm run build` |
+| E2E (Playwright) | chạy sau khi Backend và Frontend xanh: migrate + seed vào Postgres 17 tạm, chạy API và site, `npm run e2e` |
 
 Chạy trước trên máy để khỏi chờ CI, các lệnh nằm ở mục "Kiểm tra" trong [README](README.md).
 
@@ -54,7 +56,7 @@ Chạy trước trên máy để khỏi chờ CI, các lệnh nằm ở mục "K
 Admin repo bật một lần trong GitHub > Settings > Branches > Add rule cho `main`:
 
 - Require a pull request before merging.
-- Require status checks to pass: `Branch and commit rules`, `Lint, test, build, e2e`.
+- Require status checks to pass: `Branch and commit rules`, `Backend (Go)`, `Frontend (SvelteKit)`, `E2E (Playwright)`.
 - Không dùng "Squash merge" (sẽ gộp nhiều file vào một commit). Dùng "Create a merge commit".
 
 ## Bản quyền
