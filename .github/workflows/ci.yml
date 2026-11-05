@@ -28,6 +28,8 @@ jobs:
           BASE: ${{ github.event.pull_request.base.sha }}
           HEAD: ${{ github.event.pull_request.head.sha }}
         run: |
+          # release-please writes its own one-commit, multi-file release PR (.github/workflows/release-please.yml).
+          [[ "$BRANCH" == release-please--* ]] && exit 0
           fail=0
           if ! [[ "$BRANCH" =~ ^feat/[a-z0-9][a-z0-9-]*$ ]]; then
             echo "::error::Branch '$BRANCH' must look like feat/<task-name> (lowercase, dashes)"
@@ -127,9 +129,18 @@ jobs:
         working-directory: web
         run: npm ci && npm run build
 
-      - name: Database migrate and seed
+      # Every Down section must undo its Up, or a rollback on Supabase fails halfway.
+      - name: Migrations up, down to zero, up again
         working-directory: backend
-        run: go run ./cmd/migrate up && go run ./cmd/seed
+        run: |
+          go build -o bin/migrate ./cmd/migrate
+          bin/migrate up
+          for f in db/migrations/*.sql; do bin/migrate down; done
+          bin/migrate status
+          bin/migrate up
+      - name: Seed
+        working-directory: backend
+        run: go run ./cmd/seed
       - name: Start API and site
         run: |
           (cd backend && go build -o bin/api ./cmd/api && nohup bin/api > ../api.log 2>&1 &)
