@@ -1,0 +1,90 @@
+# Daily encrypted dump of the production database (orders and leads hold customer names and phone numbers).
+# Skips until the PRODUCTION_DATABASE_URL secret exists; after that, missing encryption or storage secrets fail the job.
+name: Database Backup
+
+on:
+  schedule:
+    - cron: '0 19 * * *' # 02:00 Vietnam time
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  backup:
+    name: PostgreSQL backup
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      # Supabase runs Postgres 17 and pg_dump refuses a newer server; Ubuntu 24.04 ships 16, so take 17 from PGDG.
+      - name: Install PostgreSQL 17 client
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install --no-install-recommends -y postgresql-common
+          sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh -y
+          sudo apt-get install --no-install-recommends -y postgresql-client-17
+
+      - name: Dump app schemas
+        shell: bash
+        env:
+          # Session pooler (port 5432) or direct connection: pg_dump does not work through the transaction pooler.
+          DATABASE_URL: ${{ secrets.PRODUCTION_DATABASE_URL }}
+        run: |
+          set -eo pipefail
+          if [ -z "$DATABASE_URL" ]; then
+            echo "::notice::PRODUCTION_DATABASE_URL secret not set (no production DB yet), skipping"
+            exit 0
+          fi
+          mkdir -p backups
+          file="backups/easygym_$(date -u +%Y%m%d_%H%M%S).sql.gz"
+          # Only this app's schemas. Supabase owns public, auth and storage, and a new project already has them.
+          /usr/lib/postgresql/17/bin/pg_dump "$DATABASE_URL" \
+            --schema=catalog --schema=content --schema=leads --schema=orders --schema=platform \
+            --no-owner --no-acl --clean --if-exists | gzip -9 > "$file"
+          size=$(stat -c %s "$file")
+          [ "$size" -ge 1024 ] || { echo "::error::backup is only $size bytes, the dump failed"; exit 1; }
+          gunzip -c "$file" | grep -q 'PostgreSQL database dump complete' || { echo "::error::dump has no completion footer"; exit 1; }
+          echo "Dump OK: $size bytes"
+          echo "BACKUP_RAW_FILE=$file" >> "$GITHUB_ENV"
+
+      - name: Encrypt
+        if: env.BACKUP_RAW_FILE != ''
+        env:
+          GPG_PUBLIC_KEY: ${{ secrets.BACKUP_GPG_PUBLIC_KEY }}
+        run: |
+          if [ -z "$GPG_PUBLIC_KEY" ]; then
+            echo "::error::BACKUP_GPG_PUBLIC_KEY secret is missing. Never store an unencrypted dump with customer data."
+            exit 1
+          fi
+          echo "$GPG_PUBLIC_KEY" | gpg --batch --import
+          recipient=$(gpg --batch --list-keys --with-colons | grep '^pub:' | cut -d: -f5 | head -n1)
+          gpg --batch --yes --trust-model always --encrypt --recipient "$recipient" --output "$BACKUP_RAW_FILE.gpg" "$BACKUP_RAW_FILE"
+          rm -f "$BACKUP_RAW_FILE"
+          echo "SHA256: $(sha256sum "$BACKUP_RAW_FILE.gpg" | cut -d' ' -f1)"
+          echo "BACKUP_FILE=$BACKUP_RAW_FILE.gpg" >> "$GITHUB_ENV"
+          echo "BACKUP_NAME=$(basename "$BACKUP_RAW_FILE.gpg")" >> "$GITHUB_ENV"
+
+      - name: Upload to S3 / Cloudflare R2
+        if: env.BACKUP_FILE != ''
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.BACKUP_STORAGE_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.BACKUP_STORAGE_SECRET_KEY }}
+          AWS_DEFAULT_REGION: ${{ secrets.BACKUP_STORAGE_REGION || 'ap-southeast-1' }}
+          BACKUP_BUCKET: ${{ secrets.BACKUP_STORAGE_BUCKET }}
+          S3_ENDPOINT_URL: ${{ secrets.BACKUP_STORAGE_ENDPOINT }}
+        run: |
+          if [ -z "$AWS_ACCESS_KEY_ID" ] || [ -z "$AWS_SECRET_ACCESS_KEY" ] || [ -z "$BACKUP_BUCKET" ]; then
+            echo "::error::BACKUP_STORAGE_* secrets are not set, the backup is only in the 7-day artifact"
+            exit 1
+          fi
+          aws s3 cp "$BACKUP_FILE" "s3://$BACKUP_BUCKET/backups/$BACKUP_NAME" ${S3_ENDPOINT_URL:+--endpoint-url "$S3_ENDPOINT_URL"}
+
+      - name: Keep as workflow artifact
+        # Also when the upload failed: the artifact is then the only copy.
+        if: ${{ !cancelled() && env.BACKUP_FILE != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.BACKUP_NAME }}
+          path: ${{ env.BACKUP_FILE }}
+          retention-days: 7
+          if-no-files-found: error
