@@ -94,10 +94,18 @@ POST chỉ nhận `Content-Type: application/json`, body tối đa 64 KB, lỗi 
 
 Bảng nằm trong các schema `catalog`, `content`, `leads`, `orders` và bảng version migration nằm trong `platform`. Supabase chỉ mở schema `public` qua REST API, nên anon key không đọc được số điện thoại hay đơn hàng. Đừng thêm các schema này vào "Exposed schemas". Đơn hàng và đăng ký xem được trong Supabase Studio > Table editor.
 
+## Đóng góp và CI
+
+Nhánh `feat/<ten-viec>`, mỗi commit một file, message theo Conventional Commits. CI chạy trên mọi PR và mọi push vào `main`. Chi tiết trong [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Bản quyền
+
+Thuộc về Ông Đạt. Không phải mã nguồn mở, xem [LICENSE](LICENSE).
+
 ## Chưa làm
 
 - Trang admin và đăng nhập (dự kiến dùng Supabase Auth, Go kiểm tra JWT).
 - Giới hạn số lần gửi form theo IP để chống spam.
-- Dockerfile và cấu hình deploy.
+- Dockerfile và cấu hình deploy (CD). CI đã có, deploy chưa.
 - Ảnh và video vẫn tải từ easygym.vn. Trước khi go-live cần chuyển sang Supabase Storage hoặc `web/static/`.
 - `web/src/app.html` còn thẻ `noindex` của bản duyệt. Xóa khi go-live.
