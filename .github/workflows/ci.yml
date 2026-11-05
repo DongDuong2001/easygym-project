@@ -1,0 +1,112 @@
+# Runs on every pull request and every push to main. Branch protection on main should require both jobs.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  conventions:
+    name: Branch and commit rules
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: feat/<task> branch, conventional commits, one file per commit
+        env:
+          BRANCH: ${{ github.head_ref }}
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          fail=0
+          if ! [[ "$BRANCH" =~ ^feat/[a-z0-9][a-z0-9-]*$ ]]; then
+            echo "::error::Branch '$BRANCH' must look like feat/<task-name> (lowercase, dashes)"
+            fail=1
+          fi
+          type='^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\([a-z0-9-]+\))?!?: .+'
+          # Merge commits (e.g. updating the branch from main) are skipped.
+          for sha in $(git rev-list --no-merges "$BASE..$HEAD"); do
+            subject=$(git log -1 --format=%s "$sha")
+            files=$(git diff-tree --no-commit-id --name-only -r "$sha" | wc -l)
+            if ! [[ "$subject" =~ $type ]]; then
+              echo "::error::${sha:0:7} '$subject' is not a conventional commit (type(scope): subject)"
+              fail=1
+            fi
+            if [ "$files" -ne 1 ]; then
+              echo "::error::${sha:0:7} '$subject' changes $files files, a commit must change exactly one"
+              fail=1
+            fi
+          done
+          exit $fail
+
+  check:
+    name: Lint, test, build, e2e
+    runs-on: ubuntu-latest
+    services:
+      db:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_USER: easygym
+          POSTGRES_PASSWORD: easygym
+          POSTGRES_DB: easygym
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U easygym"
+          --health-interval 2s
+          --health-retries 30
+    env:
+      DATABASE_URL: postgres://easygym:easygym@localhost:5432/easygym?sslmode=disable
+      API_URL: http://localhost:8080
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: backend/go.mod
+          cache-dependency-path: backend/go.sum
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Backend format
+        working-directory: backend
+        run: test -z "$(gofmt -l .)" || { gofmt -l .; echo "::error::run gofmt -w ."; exit 1; }
+      - name: Backend vet and test
+        working-directory: backend
+        run: go vet ./... && go test ./...
+
+      - name: Web install
+        working-directory: web
+        run: npm ci
+      - name: Web test and build
+        working-directory: web
+        run: npm test && npm run build
+
+      - name: Database migrate and seed
+        working-directory: backend
+        run: go run ./cmd/migrate up && go run ./cmd/seed
+      - name: Start API and site
+        run: |
+          (cd backend && go build -o bin/api ./cmd/api && nohup bin/api > ../api.log 2>&1 &)
+          (cd web && PORT=3000 ORIGIN=http://localhost:3000 nohup node build > ../web.log 2>&1 &)
+          curl -sf --retry 30 --retry-connrefused --retry-delay 1 http://localhost:8080/healthz
+          curl -sf --retry 30 --retry-connrefused --retry-delay 1 -o /dev/null http://localhost:3000/
+      - name: E2E
+        working-directory: web
+        run: npx playwright install --with-deps chromium && npm run e2e http://localhost:3000
+      - name: Server logs
+        if: failure()
+        run: cat api.log web.log || true
