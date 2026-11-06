@@ -9,6 +9,7 @@ web/.svelte-kit/
 
 # backend
 backend/bin/
+backend/files/
 *.exe
 
 .DS_Store
