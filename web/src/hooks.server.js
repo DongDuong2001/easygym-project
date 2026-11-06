@@ -15,6 +15,7 @@ export async function handle({ event, resolve }) {
 			method: request.method,
 			headers: {
 				'content-type': request.headers.get('content-type') ?? '',
+				authorization: request.headers.get('authorization') ?? '',
 				'x-forwarded-for': event.getClientAddress()
 			},
 			body: hasBody ? await request.arrayBuffer() : undefined
