@@ -3,6 +3,7 @@ package platform
 import (
 	"context"
 	"fmt"
+	"slices"
 	"time"
 
 	"github.com/jackc/pgx/v5"
@@ -27,6 +28,19 @@ func OpenDB(ctx context.Context, url string) (*pgxpool.Pool, error) {
 		return nil, fmt.Errorf("ping database: %w", err)
 	}
 	return pool, nil
+}
+
+// SetStatus moves the row with this code to status, which must be one of allowed.
+// table is a constant the owning module passes (e.g. "orders.orders"), never user input.
+func SetStatus(ctx context.Context, db *pgxpool.Pool, table, code, status string, allowed []string) error {
+	if !slices.Contains(allowed, status) {
+		return ValidationError{Field: "status", Message: "Trạng thái không hợp lệ"}
+	}
+	tag, err := db.Exec(ctx, `update `+table+` set status = $2 where code = $1`, code, status)
+	if err == nil && tag.RowsAffected() == 0 {
+		err = ErrNotFound
+	}
+	return err
 }
 
 // InTx runs fn in a transaction and rolls back if it returns an error.
