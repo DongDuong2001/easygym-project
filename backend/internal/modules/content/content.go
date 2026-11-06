@@ -43,11 +43,15 @@ type Media struct {
 	Videos []Video `json:"videos"`
 }
 
-type Module struct{ db *pgxpool.Pool }
+type Module struct {
+	db   *pgxpool.Pool
+	auth *platform.Auth
+}
 
-func New(db *pgxpool.Pool) *Module { return &Module{db: db} }
+func New(db *pgxpool.Pool, auth *platform.Auth) *Module { return &Module{db: db, auth: auth} }
 
 func (m *Module) Register(mux *http.ServeMux) {
+	m.registerAdmin(mux)
 	mux.HandleFunc("GET /api/posts", func(w http.ResponseWriter, r *http.Request) {
 		p, err := m.Posts(r.Context(), r.URL.Query().Get("cat"))
 		platform.Respond(w, r, p, err)
