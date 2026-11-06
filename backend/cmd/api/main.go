@@ -11,8 +11,10 @@ import (
 	"syscall"
 	"time"
 
+	"easygym/internal/modules/accounts"
 	"easygym/internal/modules/catalog"
 	"easygym/internal/modules/content"
+	"easygym/internal/modules/files"
 	"easygym/internal/modules/leads"
 	"easygym/internal/modules/orders"
 	"easygym/internal/platform"
@@ -39,10 +41,18 @@ func run() error {
 	}
 	defer db.Close()
 
-	// Wiring is the only place modules meet: orders gets the catalog as its Pricer.
-	cat := catalog.New(db)
+	// Wiring is the only place modules meet: orders gets the catalog as its Pricer,
+	// and every module asks accounts (through auth) who is signed in and with which role.
+	auth := &platform.Auth{JWKSURL: cfg.AuthJWKSURL, Issuer: cfg.AuthIssuer, Audience: cfg.AuthAudience}
+	acc := accounts.New(db, auth, cfg.AdminEmails)
+	auth.Roles = acc
+	if cfg.AuthJWKSURL == "" {
+		slog.Warn("AUTH_JWKS_URL is not set: sign-in, accounts and admin routes answer 401")
+	}
+	cat := catalog.New(db, auth)
 	mux := http.NewServeMux()
-	for _, m := range []platform.Module{cat, content.New(db), leads.New(db), orders.New(db, cat)} {
+	for _, m := range []platform.Module{acc, cat, content.New(db, auth), leads.New(db, auth),
+		orders.New(db, cat, auth), files.New(cfg.FilesDir, auth)} {
 		m.Register(mux)
 	}
 	mux.HandleFunc("GET /healthz", func(w http.ResponseWriter, r *http.Request) {
@@ -54,8 +64,9 @@ func run() error {
 	})
 
 	srv := &http.Server{
-		Addr:              cfg.Addr,
-		Handler:           platform.Logging(mux),
+		Addr: cfg.Addr,
+		// 10 orders and 10 sign-ups per IP per 10 minutes: enough for a real customer, not for a spam script.
+		Handler:           platform.Logging(platform.RateLimit(mux, 10, 10*time.Minute, "/api/orders", "/api/leads")),
 		ReadHeaderTimeout: 5 * time.Second,
 		ReadTimeout:       15 * time.Second,
 		WriteTimeout:      30 * time.Second,

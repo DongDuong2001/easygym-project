@@ -44,6 +44,10 @@ func WriteError(w http.ResponseWriter, r *http.Request, err error) {
 		WriteJSON(w, http.StatusUnprocessableEntity, map[string]string{"error": ve.Message, "field": ve.Field})
 	case errors.Is(err, ErrNotFound):
 		WriteJSON(w, http.StatusNotFound, map[string]string{"error": "Không tìm thấy"})
+	case errors.Is(err, ErrUnauthorized):
+		WriteJSON(w, http.StatusUnauthorized, map[string]string{"error": "Vui lòng đăng nhập"})
+	case errors.Is(err, ErrForbidden):
+		WriteJSON(w, http.StatusForbidden, map[string]string{"error": "Tài khoản không có quyền làm việc này"})
 	default:
 		slog.Error("request failed", "method", r.Method, "path", r.URL.Path, "err", err)
 		WriteJSON(w, http.StatusInternalServerError, map[string]string{"error": "Có lỗi xảy ra, vui lòng thử lại"})
@@ -81,6 +85,28 @@ var phoneRe = regexp.MustCompile(`^0\d{9}$`)
 func NormalizePhone(s string) (string, bool) {
 	p := strings.NewReplacer(" ", "", ".", "", "-", "").Replace(s)
 	return p, phoneRe.MatchString(p)
+}
+
+var slugRe = regexp.MustCompile(`^[a-z0-9]+(-[a-z0-9]+)*$`)
+
+// Slug checks a URL slug: lowercase letters, digits and single dashes, at most 120 characters.
+func Slug(field, s string) error {
+	if len(s) > 120 || !slugRe.MatchString(s) {
+		return ValidationError{field, "Đường dẫn chỉ gồm chữ thường không dấu, số và dấu gạch ngang"}
+	}
+	return nil
+}
+
+// ImageURL checks an image address: an https URL or a file uploaded here (/api/files/...).
+func ImageURL(field, s string, required bool) (string, error) {
+	s, err := Text(field, "ảnh", s, required, 500)
+	if err != nil || s == "" {
+		return s, err
+	}
+	if !strings.HasPrefix(s, "https://") && !strings.HasPrefix(s, "/api/files/") {
+		return s, ValidationError{field, "Ảnh phải là đường dẫn https:// hoặc ảnh đã tải lên"}
+	}
+	return s, nil
 }
 
 // Text trims s and checks its length in characters; label is the Vietnamese name shown in the error.

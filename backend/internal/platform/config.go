@@ -11,13 +11,32 @@ import (
 type Config struct {
 	DatabaseURL string
 	Addr        string
+	// Sign-in tokens: JWKS URL, expected issuer and audience. Empty JWKS URL keeps every signed-in route closed.
+	AuthJWKSURL, AuthIssuer, AuthAudience string
+	AdminEmails                           []string // become admins on their first sign-in
+	FilesDir                              string   // uploaded images
 }
 
 func LoadConfig() (Config, error) {
 	loadDotEnv(".env", "../.env")
-	c := Config{DatabaseURL: os.Getenv("DATABASE_URL"), Addr: os.Getenv("API_ADDR")}
+	c := Config{
+		DatabaseURL:  os.Getenv("DATABASE_URL"),
+		Addr:         os.Getenv("API_ADDR"),
+		AuthJWKSURL:  os.Getenv("AUTH_JWKS_URL"),
+		AuthIssuer:   os.Getenv("AUTH_ISSUER"),
+		AuthAudience: os.Getenv("AUTH_AUDIENCE"),
+		FilesDir:     os.Getenv("FILES_DIR"),
+	}
+	for _, e := range strings.Split(os.Getenv("ADMIN_EMAILS"), ",") {
+		if e = strings.ToLower(strings.TrimSpace(e)); e != "" {
+			c.AdminEmails = append(c.AdminEmails, e)
+		}
+	}
 	if c.Addr == "" {
 		c.Addr = ":8080"
+	}
+	if c.FilesDir == "" {
+		c.FilesDir = "files"
 	}
 	if c.DatabaseURL == "" {
 		return c, errors.New("DATABASE_URL is not set (see .env.example)")

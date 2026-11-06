@@ -5,7 +5,9 @@ import (
 	"context"
 	"net/http"
 	"regexp"
+	"time"
 
+	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 
 	"easygym/internal/platform"
@@ -22,11 +24,50 @@ type Input struct {
 	Source string `json:"source"` // page or form it came from
 }
 
-type Module struct{ db *pgxpool.Pool }
+// Statuses a lead moves through on the admin page.
+var Statuses = []string{"new", "contacted", "done", "spam"}
 
-func New(db *pgxpool.Pool) *Module { return &Module{db: db} }
+// Lead is a saved sign-up as the admin page lists it.
+type Lead struct {
+	Input
+	Code      string    `json:"code"`
+	Status    string    `json:"status"`
+	CreatedAt time.Time `json:"createdAt"`
+}
+
+type Module struct {
+	db   *pgxpool.Pool
+	auth *platform.Auth
+}
+
+func New(db *pgxpool.Pool, auth *platform.Auth) *Module { return &Module{db: db, auth: auth} }
 
 func (m *Module) Register(mux *http.ServeMux) {
+	staff := []string{"staff", "admin"}
+	// shortcut: the newest 500 only, no paging; add a cursor when the inbox outgrows that.
+	mux.HandleFunc("GET /api/admin/leads", m.auth.Require(func(w http.ResponseWriter, r *http.Request, _ platform.User) {
+		q := r.URL.Query()
+		rows, _ := m.db.Query(r.Context(), `select code, kind, name, phone, email, course, plan, note, source, status, created_at
+			from leads.leads where ($1 = '' or status = $1) and ($2 = '' or kind = $2)
+			order by created_at desc limit 500`, q.Get("status"), q.Get("kind"))
+		leads, err := pgx.CollectRows(rows, func(row pgx.CollectableRow) (Lead, error) {
+			var l Lead
+			return l, row.Scan(&l.Code, &l.Kind, &l.Name, &l.Phone, &l.Email, &l.Course, &l.Plan, &l.Note, &l.Source, &l.Status, &l.CreatedAt)
+		})
+		platform.Respond(w, r, leads, err)
+	}, staff...))
+	mux.HandleFunc("PATCH /api/admin/leads/{code}", m.auth.Require(func(w http.ResponseWriter, r *http.Request, _ platform.User) {
+		var in struct {
+			Status string `json:"status"`
+		}
+		if err := platform.DecodeJSON(w, r, &in); err != nil {
+			platform.WriteError(w, r, err)
+			return
+		}
+		err := platform.SetStatus(r.Context(), m.db, "leads.leads", r.PathValue("code"), in.Status, Statuses)
+		platform.Respond(w, r, map[string]string{"status": in.Status}, err)
+	}, staff...))
+
 	mux.HandleFunc("POST /api/leads", func(w http.ResponseWriter, r *http.Request) {
 		var in Input
 		if err := platform.DecodeJSON(w, r, &in); err != nil {
