@@ -75,11 +75,15 @@ type FAQGroup struct {
 	Items []QA   `json:"items"`
 }
 
-type Module struct{ db *pgxpool.Pool }
+type Module struct {
+	db   *pgxpool.Pool
+	auth *platform.Auth
+}
 
-func New(db *pgxpool.Pool) *Module { return &Module{db: db} }
+func New(db *pgxpool.Pool, auth *platform.Auth) *Module { return &Module{db: db, auth: auth} }
 
 func (m *Module) Register(mux *http.ServeMux) {
+	m.registerAdmin(mux)
 	mux.HandleFunc("GET /api/catalog", func(w http.ResponseWriter, r *http.Request) {
 		c, err := m.Catalog(r.Context())
 		platform.Respond(w, r, c, err)
